@@ -77,12 +77,22 @@
 				success: function(d) {
 				for (i in d.articles) {
 					if (file == d.articles[i].url){
+						var col = 0;
 						var title = d.articles[i].box;
+						if ($("#"+title).length == 0) {
+							var col = 12;
+						}
+						else if ($("#"+title).length == 1) {
+							var col = 6;
+						}
+						else {
+							var col = 4;
+						}
 						if ($("#"+title).length) {
 		            	$("#"+title).remove();
 						}
 						else {
-		            	$("#Articles").append("<div class='col-4' id='"+title+"'></div>");
+		            	$("#Articles").append("<div class=\"col-"+col+"\" id='"+title+"'></div>");
 		            	$("#"+title).load(file);
 							}
 							}
