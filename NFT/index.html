@@ -79,15 +79,14 @@
 					if (file == d.articles[i].url){
 						var col = 0;
 						var title = d.articles[i].box;
-						if ($("#"+title).length == 0) {
+						if ($("#Articles").children().length == 0) {
 							var col = 12;
-						}
-						else if ($("#"+title).length == 1) {
+						} else if ($("#Articles").children.length == 1) {
 							var col = 6;
-						}
-						else {
+						} else if ($("#Articles").children.length == 2) {
 							var col = 4;
 						}
+						console.log($("#Articles").children().length)
 						if ($("#"+title).length) {
 		            	$("#"+title).remove();
 						}
