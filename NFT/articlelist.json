@@ -1,0 +1,32 @@
+{"articles":[
+    {
+    	"number":"1",
+		"title":"NFTs and Crypto Art: The Sky is not Falling", 
+        "url":"article1.html",
+        "box":"article1_box",
+        "Journal":"http://sterlingcrispin.blogspot.com/",
+        "author":"Unknown",
+        "author description":"..."
+	},
+    {
+        "number":"2",
+        "title":"GME, Doge, Supreme: How Getting Rich Went Full Internet", 
+        "url":"article2.html",
+        "box":"article2_box",
+        "Journal":"https://www.wealthsimple.com/",
+        "author":"Felix Salmon",
+        "author description":"Felix Salmon, the chief financial correspondent at Axios, is an award-winning writer, editor, and podcaster. The host of the weekly Slate Money podcast, he was previously the finance blogger at Roubini Global Economics, Condé Nast Portfolio, and Reuters."
+
+    },
+    {
+        "number":"3",
+        "title":"This is what happens when bitcoin miners take over your town", 
+        "url":"article3.html",
+        "box":"article3_box",
+        "Journal":"Politico",
+        "author":"Paul Roberts",
+        "author description":"Paul Roberts is a journalist in Seattle who writes about technology, business and politics."
+
+    }
+    ]
+}

@@ -1,0 +1,23 @@
+{"articles":[
+    {
+    	"number":"1",
+		"title":"article1", 
+        "url":"article1.html",
+        "box":"article1_box"
+	},
+    {
+        "number":"2",
+        "title":"article2", 
+        "url":"article2.html",
+        "box":"article2_box"
+
+    },
+    {
+        "number":"3",
+        "title":"article3", 
+        "url":"article3.html",
+        "box":"article3_box"
+
+    }
+    ]
+}
