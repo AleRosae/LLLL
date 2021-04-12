@@ -6,13 +6,10 @@
 	font-weight: 1000;
 
 }
-.container img {
-	width: 400px;
 	
 }
 
 img {
 	width: auto; 
 	height: auto;
-	display: none;
 }
