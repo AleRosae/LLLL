@@ -1,0 +1,32 @@
+{"articles":[
+    {
+    	"number":"1",
+		"title":"Scientists Engineer Dreams to Understand the Sleeping Brain", 
+        "url":"article1.html",
+        "box":"article1_box",
+        "Journal":"https://www.the-scientist.com/",
+        "author":"Catherine Offord",
+        "author description":"..."
+	},
+    {
+        "number":"2",
+        "title":"What do our dreams mean?", 
+        "url":"article2.html",
+        "box":"article2_box",
+        "Journal":"https://www.bbc.com/culture",
+        "author":"Cath Pound",
+        "author description":"..."
+
+    },
+    {
+        "number":"3",
+        "title":"What pandemic dreams may come", 
+        "url":"article3.html",
+        "box":"article3_box",
+        "Journal":"https://news.harvard.edu/gazette/",
+        "author":"Colleen Walsh",
+        "author description":"Harvard Staff Writer"
+
+    }
+    ]
+}
