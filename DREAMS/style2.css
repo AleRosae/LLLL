@@ -1,0 +1,13 @@
+.container{
+	font-size: 12px;
+	font: "colibri";
+	background-color: yellow;
+}
+.container h1,h2,h3{
+	font-weight: 1000;
+
+}
+.container img {
+	width: 400px;
+	
+}
