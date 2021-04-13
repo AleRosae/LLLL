@@ -79,21 +79,26 @@
 					if (file == d.articles[i].url){
 						var col = 0;
 						var title = d.articles[i].box;
-						if ($("#Articles").children().length == 0) {
-							var col = 12;
-						} else if ($("#Articles").children.length == 1) {
-							var col = 6;
-						} else if ($("#Articles").children.length == 2) {
-							var col = 4;
-						}
-						console.log($("#Articles").children().length)
 						if ($("#"+title).length) {
 		            	$("#"+title).remove();
 						}
 						else {
-		            	$("#Articles").append("<div class=\"col-"+col+"\" id='"+title+"'></div>");
+		            	$("#Articles").append("<div class=\"col-"+col+" colonne_variabili\" id='"+title+"'></div>");
 		            	$("#"+title).load(file);
 							}
+						if ($("#Articles").children().length == 1) {
+							var col = 12;
+							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili");
+						} else if ($("#Articles").children().length == 2) {
+							var col = 6;
+							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili");
+						} else if ($("#Articles").children().length == 3) {
+							var col = 4;
+							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili");
+						}
+						else if ($("#Articles").children().length > 3) {
+							alert("Max number of documents exceeded");
+						}
 							}
 				}
 				},
