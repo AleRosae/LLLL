@@ -1,12 +1,12 @@
 {"articles":[
     {
     	"number":"1",
-		"title":"NFTs and Crypto Art: The Sky is not Falling", 
+		"title":"NFTs Weren’t Supposed to End Like This", 
         "url":"article1.html",
         "box":"article1_box",
-        "Journal":"http://sterlingcrispin.blogspot.com/",
-        "author":"Unknown",
-        "author description":"..."
+        "Journal":"The Atlantic",
+        "author":"Anil Dash",
+        "author description":"Anil Dash is the CEO of Glitch"
 	},
     {
         "number":"2",
