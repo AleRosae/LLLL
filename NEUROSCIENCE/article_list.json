@@ -1,0 +1,32 @@
+{"articles":[
+    {
+    	"number":"1",
+		"title":"Can Privacy coexist with technology that reads and changes brain activity?", 
+        "url":"Article1_Science_news.html",
+        "box":"article1_box",
+        "Journal":"https://www.sciencenews.org/",
+        "author":"Laura Sanders",
+        "author description":"..."
+	},
+    {
+        "number":"2",
+        "title":"What happens if our mind lives for ever on the internet?", 
+        "url":"Article2_guardian.html",
+        "box":"article2_box",
+        "Journal":"https://www.theguardian.com/international",
+        "author":"Michael Graziano",
+        "author description":"..."
+
+    },
+    {
+        "number":"3",
+        "title":"Deep Neural Networks are helping decipher how brains work", 
+        "url":"Article3_Wired.html",
+        "box":"article3_box",
+        "Journal":"https://www.wired.com/",
+        "author":"Anil Ananthaswamy",
+        "author description":"..."
+
+    }
+    ]
+}
