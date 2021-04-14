@@ -6,16 +6,20 @@
         "box":"article1_box",
         "Journal":"The Atlantic",
         "author":"Anil Dash",
-        "author description":"Anil Dash is the CEO of Glitch"
+        "author description":"Anil Dash is the CEO of Glitch",
+        "original source": "https://www.theatlantic.com/ideas/archive/2021/04/nfts-werent-supposed-end-like/618488/",
+        "date":"April 2, 2021"
 	},
     {
         "number":"2",
         "title":"GME, Doge, Supreme: How Getting Rich Went Full Internet", 
         "url":"article2.html",
         "box":"article2_box",
-        "Journal":"https://www.wealthsimple.com/",
+        "Journal":"WealthSimple",
         "author":"Felix Salmon",
-        "author description":"Felix Salmon, the chief financial correspondent at Axios, is an award-winning writer, editor, and podcaster. The host of the weekly Slate Money podcast, he was previously the finance blogger at Roubini Global Economics, Condé Nast Portfolio, and Reuters."
+        "author description":"Felix Salmon, the chief financial correspondent at Axios, is an award-winning writer, editor, and podcaster. The host of the weekly Slate Money podcast, he was previously the finance blogger at Roubini Global Economics, Condé Nast Portfolio, and Reuters.",
+        "original source": "https://www.wealthsimple.com/en-us/magazine/yolo",
+        "date":"March 6, 2021"
 
     },
     {
@@ -25,7 +29,9 @@
         "box":"article3_box",
         "Journal":"Politico",
         "author":"Paul Roberts",
-        "author description":"Paul Roberts is a journalist in Seattle who writes about technology, business and politics."
+        "author description":"Paul Roberts is a journalist in Seattle who writes about technology, business and politics.",
+        "original source":"https://www.politico.com/magazine/story/2018/03/09/bitcoin-mining-energy-prices-smalltown-feature-217230/",
+        "date":"March/April 2018"
 
     }
     ]
