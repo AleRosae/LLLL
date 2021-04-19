@@ -66,8 +66,11 @@
     line-height: 1;
     font-size: 0.3em;
     text-transform: uppercase;
+    //*background-image: url("imgs/triangolo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;*//
     
-
      }     
 .container blockquote {
 	font-family: 'Gothic A1', sans-serif;    
