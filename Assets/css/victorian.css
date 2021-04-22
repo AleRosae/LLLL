@@ -19,6 +19,7 @@
 .container h1{
 	font-family: 'Merriweather', serif;
 	font-size: 1em;
+    letter-spacing: 1,5px;
 	color: #000000;
     font-weight: 700;
     line-height: 1;
@@ -30,7 +31,8 @@
     font-family: 'Bodoni Moda', serif; 
     color: #000000;
     font-weight: 400;
-    line-height: 0.8;
+    letter-spacing: 1,5px;
+    line-height: 1;
     padding-top: 3px;
     padding-bottom: 4px;
     font-size: 0.5em;
@@ -45,7 +47,7 @@
     font-family: 'Bodoni Moda', serif; 
     color: #000000;
     font-weight: 400;
-    line-height: 0.8;
+    line-height: 1;
     padding-top: 3px;
     padding-bottom: 4px;
     font-size: 0.4em;
@@ -111,18 +113,9 @@
 
 .container ul {
     font-family: 'Bodoni Moda', serif;  
-    color: #000000;
-    font-weight: 500;
+	color: #000000;
+    text-align: justify;
+    font-weight: 150;
     line-height: 1;
-    font-size: 1em;
-    text-decoration: none;
+    font-size: 0.3em;  
     } 
-
-.container li {
-        font-family: 'Bodoni Moda', serif;  
-        color: #752626;
-        font-weight: 500;
-        line-height: 1;
-        font-size: 1em;
-        text-decoration: none;
-        } 
