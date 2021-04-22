@@ -15,4 +15,14 @@
 
 .container .colonne_variabili {
 	height: 1080px;
+	overflow: auto;
+}
+
+.container .colonne_variabili::-webkit-scrollbar {
+  display: none;
+}
+
+.container .colonne_variabili {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

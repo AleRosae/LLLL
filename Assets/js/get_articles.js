@@ -44,13 +44,13 @@
 							}
 						if ($("#Articles").children().length == 1) {
 							var col = 12;
-							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili overflow-auto");
+							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili");
 						} else if ($("#Articles").children().length == 2) {
 							var col = 6;
-							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili overflow-auto");
+							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili");
 						} else if ($("#Articles").children().length == 3) {
 							var col = 4;
-							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili overflow-auto");
+							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili");
 						}
 						else if ($("#Articles").children().length > 3) {
 							alert("Max number of documents exceeded");
