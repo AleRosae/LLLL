@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gothic+A1:wght@400;900&family=Nanum+Gothic&display=swap');
-.container {
+.container .colonne_variabili {
 	background-color: #ce2909;
 	font-size: 60px;
-	max-width: 90%;
 
 }
-.container img {
+.container .colonne_variabili img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-.container h1{
+.container .colonne_variabili figcaption {
+    font-family: 'Gothic A1', sans-serif;    
+    color: #f1f5dc;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .colonne_variabili h1{
 	font-family: 'Dela Gothic One', cursive;    
 	font-size: 1em;
 	color: #f1f5dc;
@@ -27,7 +35,7 @@
     border-right: double 10px;
      }
 
-.container h2 {
+.container .colonne_variabili h2 {
     font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
@@ -43,7 +51,7 @@
     margin-bottom: 25px;
 }
 
-.container h3 {
+.container .colonne_variabili h3 {
     font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
@@ -59,7 +67,7 @@
     margin-bottom: 25px;
      }
 
-.container p {
+.container .colonne_variabili p {
 	font-family: 'Gothic A1', sans-serif;    
 	color: #f1f5dc;
     font-weight: 150;
@@ -72,7 +80,7 @@
     background-size: cover;*//
     
      }     
-.container blockquote {
+.container .colonne_variabili blockquote {
 	font-family: 'Gothic A1', sans-serif;    
 	color: #e6ebd1; /*slightly darker*/
     font-weight: 200;
@@ -85,7 +93,7 @@
     text-transform: uppercase;
 
      }    
-.container a {
+.container .colonne_variabili a {
 	font-family: 'Dela Gothic One', cursive;    
 	color: #f1f5dc;
     font-weight: 500;
@@ -94,4 +102,12 @@
     text-transform: uppercase;
 	text-decoration: none;
      } 
+
+.container .colonne_variabili ul {
+    font-family: 'Gothic A1', sans-serif;    
+    color: #f1f5dc;
+    font-weight: 150 !important;
+    line-height: 1;
+    font-size: 0.3em !important;
+    text-transform: uppercase;
 }

@@ -6,7 +6,18 @@
 			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
 		  	$('link[href="../Assets/css/soviet.css"]').removeAttr('disabled');
 	  });
+		
 		$("#style2").click(function(){
 		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
 		$('link[href="../Assets/css/style2.css"]').removeAttr('disabled');
 		});  
+
+		$("#victorian").click(function(){
+		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+		$('link[href="../Assets/css/victorian.css"]').removeAttr('disabled');
+		}); 
+
+		$("#trashy90").click(function(){
+		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+		$('link[href="../Assets/css/trashy90.css"]').removeAttr('disabled');
+		}); 
