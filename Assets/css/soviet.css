@@ -10,6 +10,15 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.container .colonne_variabili figcaption {
+    font-family: 'Gothic A1', sans-serif;    
+    color: #f1f5dc;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 0.3em;
+    text-transform: uppercase;
+    text-align: center;
+}
 .container .colonne_variabili h1{
 	font-family: 'Dela Gothic One', cursive;    
 	font-size: 1em;
@@ -93,4 +102,12 @@
     text-transform: uppercase;
 	text-decoration: none;
      } 
+
+.container .colonne_variabili ul {
+    font-family: 'Gothic A1', sans-serif;    
+    color: #f1f5dc;
+    font-weight: 150 !important;
+    line-height: 1;
+    font-size: 0.3em !important;
+    text-transform: uppercase;
 }
