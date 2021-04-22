@@ -78,9 +78,10 @@
 }
 
 .container p::first-letter {
-    font-weight: bold;
-    font-size: 2em;
+    font-weight: 100;
+    font-size: 6em;
     color: rgb(255, 80, 203);
+    text-transform: lowercase;
     }
 
 .container p {
