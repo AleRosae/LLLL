@@ -19,5 +19,5 @@
 
 		$("#trashy90").click(function(){
 		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-		$('link[href="../Assets/css/trashy90.css"]').removeAttr('disabled');
+		$('link[href="../Assets/css/trashy90s.css"]').removeAttr('disabled');
 		}); 
