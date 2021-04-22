@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Orelega+One&display=swap');
 
+@font-face {
+    font-family: 'cloister_blacklight';
+    src: url('other_fonts/cloisterblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .container {
     background-image: url("imgs/xixpaper.jpg");
 	background-color: transparent;
@@ -17,13 +24,12 @@
 	margin-right: auto;
 }
 .container h1{
-	font-family: 'Merriweather', serif;
+	font-family: 'cloister_blacklight';
 	font-size: 1em;
     letter-spacing: 1,5px;
 	color: #000000;
     font-weight: 700;
     line-height: 1;
-    text-transform: uppercase;
     text-align: -webkit-center;
     }
 
@@ -70,7 +76,7 @@
     text-transform: uppercase;
     } 
 
-.container p:first-of-type {
+.container #date {
     color: red;
     border-color: #f1f5dc;
     margin-top: 20px;
@@ -79,6 +85,16 @@
     border-bottom: solid 2px;
     text-align: center;
     text-transform: uppercase;
+    }
+
+.container p:first-of-type {
+  
+}
+
+.container p::first-letter {
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(255, 80, 203);
     }
 
 .container p {
