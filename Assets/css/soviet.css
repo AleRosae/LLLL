@@ -45,20 +45,22 @@ margin-top: -10px;
     background-size: 80px 80px;
     border-bottom: solid 10px;
     border-color: #212528;
+    margin-bottom: 20px;
 
 }
 .CoverInfo p {
-	font-family: 'Gothic A1', sans-serif;    
-	color: #212528;
+    font-family: 'Gothic A1', sans-serif;
+    color: #f1f5dc;
     font-weight: 700;
     line-height: 1;
-    font-size: 0.3em;
+    font-size: 0.5em;
     text-transform: uppercase;
-    text-align: justify;
-
-
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display:flex;
 }
-.CoverTitle h1{
+
+
+.CoverTitle h1 {
 	font-family: 'Dela Gothic One', cursive;    
 	font-size: 1em;
 	color: #f1f5dc;
@@ -79,7 +81,7 @@ margin-top: -10px;
     font-family: 'Dela Gothic One', cursive;
     color:  #212528;
     font-weight: 400;
-    line-height: 0.8;
+    line-height: 1;
     padding-top: 3px;
     padding-bottom: 4px;
     font-size: 0.6em;
@@ -89,6 +91,8 @@ margin-top: -10px;
     text-transform: uppercase;
     margin-top: 25px;
     margin-bottom: 25px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+
 }
 
 .ArticleBody h3 {
@@ -111,29 +115,32 @@ margin-top: -10px;
 	font-family: 'Gothic A1', sans-serif;    
 	color: #f1f5dc;
     font-weight: 150;
-    line-height: 1;
-    font-size: 0.4em;
-    text-transform: uppercase;
-
-    //*background-image: url("imgs/triangolo.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;*//
-    
-     }     
-.ArticleBody blockquote {
-	font-family: 'Gothic A1', sans-serif;    
-	color: #e6ebd1; /*slightly darker*/
-    font-weight: 200;
     line-height: 1.2;
     font-size: 0.4em;
-    border-top: dotted 4px;
-    border-bottom: dotted 4px;
-    border-left: dotted 4px;
-    border-right: dotted 4px;
     text-transform: uppercase;
+    text-align: justify;
+    padding-left: 10px;
+    margin-right: -5px;
+    
+     } 
 
-     }    
+.ArticleBody blockquote{
+    transform: skewY(-5deg);
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+ .ArticleBody blockquote p {
+    font-size: 0.8em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'Gothic A1', sans-serif;
+    color: #e6ebd1;
+    font-weight: 200;
+    line-height: 0.8;
+    text-align: center;
+
+
+ }
+
 .ArticleBody a {
 	font-family: 'Dela Gothic One', cursive;    
 	color: #f1f5dc;
@@ -148,7 +155,7 @@ margin-top: -10px;
     font-family: 'Gothic A1', sans-serif;    
     color: #f1f5dc;
     font-weight: 150 !important;
-    line-height: 1;
+    line-height: 1.5;
     font-size: 0.4em !important;
     text-transform: uppercase;
 }
@@ -163,9 +170,10 @@ margin-top: -10px;
 }
 .CoverMain figcaption {
     font-family: 'Gothic A1', sans-serif;    
-    color: #212528;
+    color: #f1f5dc;
     font-weight: 150;
-    line-height: 1;
-    font-size: 0.3em;
+    line-height: 1.2;
+    font-size: 0.4em;
     text-align: center;
+    text-transform: uppercase;
 }
