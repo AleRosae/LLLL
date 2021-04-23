@@ -71,10 +71,11 @@
 .ArticleBody{
     columns: 2;
 }
-.container p::first-letter{
-    font-family: "MedivalDeco";
-    font-weight: bolder;
-    font-size: 1em;
+.container p:first-of-type:first-letter{
+    font-family: "MedievalDeco";
+    font-style: italic;
+    font-weight:normal;
+    font-size: 3em;
     color: rgb(204, 7, 47);
 }
 
@@ -86,12 +87,9 @@
 .container q{
     line-height: 1;
     font-style: oblique;
+    color: rgb(48, 127, 129);
 }
 
-.container:pers{
-    color: crimson;
-    font-weight: bold;
-}
 
 
 
