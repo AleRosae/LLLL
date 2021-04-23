@@ -6,3 +6,12 @@
     font-style: normal;
 }
 
+.container{
+    background-color: cornsilk;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.container h1{
+    font-family: "GroovyModice";
+    color: darkmagenta;
+}
