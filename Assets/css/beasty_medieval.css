@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
+@font-face {
+    font-family: "MedievalDeco";
+    src: url("other_fonts/middleagesdeco_personal_use-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 .container {
     background-image: url('imgs/parch_texture.jpg');
     background-color: transparent;
@@ -42,6 +48,7 @@
     margin-right: auto;
 }
 .container h1{
+    font-family: "MedievalDeco";
     font-weight: bolder;
     font-size: 5em;
     color: rgb(204, 7, 47);
@@ -62,7 +69,7 @@
 }
 
 .container p::first-letter{
-    font-style: italic;
+    font-family: "MedivalDeco";
     font-weight: bolder;
     font-size: 2em;
     color: rgb(204, 7, 47);
