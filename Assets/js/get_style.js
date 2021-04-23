@@ -26,3 +26,8 @@
 			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
 			$('link[href="../Assets/css/beasty_medieval.css"]').removeAttr('disabled');
 			}); 
+
+		$("#groovy70s").click(function(){
+			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+			$('link[href="../Assets/css/groovy70s.css"]').removeAttr('disabled');
+				}); 
