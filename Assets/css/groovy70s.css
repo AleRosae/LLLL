@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+@font-face {
+    font-family: "GroovyModice";
+    src: url("other_fonts/goovy_modice-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+    background-color: cornsilk;
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+.container h1{
+    font-family: "GroovyModice";
+    color: darkmagenta;
+}

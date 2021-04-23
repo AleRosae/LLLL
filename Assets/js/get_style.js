@@ -7,10 +7,17 @@
 		  	$('link[href="../Assets/css/soviet.css"]').removeAttr('disabled');
 	  });
 		
-		$("#style2").click(function(){
+		$("#future").click(function(){
 		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-		$('link[href="../Assets/css/style2.css"]').removeAttr('disabled');
+		$('link[href="../Assets/css/hyperfuture.css"]').removeAttr('disabled');
+		FuturePopUp();
 		});  
+
+		function FuturePopUp() {
+  		var popup = document.getElementById("myPopup");
+  		popup.classList.toggle("show");
+
+  		}
 
 		$("#victorian").click(function(){
 		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
@@ -21,3 +28,13 @@
 		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
 		$('link[href="../Assets/css/trashy90s.css"]').removeAttr('disabled');
 		}); 
+
+		$("#beasty_medieval").click(function(){
+			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+			$('link[href="../Assets/css/beasty_medieval.css"]').removeAttr('disabled');
+			}); 
+
+		$("#groovy70s").click(function(){
+			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+			$('link[href="../Assets/css/groovy70s.css"]').removeAttr('disabled');
+				}); 

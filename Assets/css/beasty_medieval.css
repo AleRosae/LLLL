@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+@font-face {
+    font-family: "MedievalDeco";
+    src: url("other_fonts/middleagesdeco_personal_use-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+.container {
+    background-image: url("imgs/old-paper-background-texture-29.jpg");
+    background-color: transparent;
+    background-repeat:repeat;
+    font-family: "MedievalSharp", cursive;
+    font-size: 90%;
+    font-weight: bolder;
+    background-color: rgb(240, 203, 155);
+    text-align: justify;
+}
+
+.container .colonne_variabili{
+    border-left: solid 5px;
+    border-right: solid 5px;
+    border-color: rgba(119, 74, 5, 0.534);
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container img{
+    max-width: 70%;
+    image-rendering: crisp-edges;
+    display: block;
+    border-radius: 8px;
+    margin: left 5%;;
+    margin: right 10%;;
+    border: 5px solid brown;
+    filter:sepia();
+}
+.container h1{
+    font-family: "MedievalDeco";
+    font-weight: bold;
+    font-size: 5em;
+    color: rgb(204, 7, 47);
+    font-weight: 700;
+    text-align:justify;
+    border-top: solid, 10px;
+    border-bottom: solid, 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container h2{
+    font-family: "MedievalDeco"; 
+    font-weight: 400;
+    color: rgb(33, 31, 153);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.container h3{
+    font-family: "MedievalDeco";
+    font-weight: 200;
+    color: rgb(77, 56, 56);
+    text-align: justify;
+}
+
+.ArticleBody{
+    columns: 2;
+}
+.container p:first-of-type:first-letter{
+    font-family: "MedievalDeco";
+    font-style: italic;
+    font-weight:normal;
+    font-size: 3em;
+    color: rgb(204, 7, 47);
+}
+
+.container p{
+    margin: 0px;
+    color: rgb(77, 56, 56);
+}
+
+.container q{
+    line-height: 1;
+    font-style: oblique;
+    color: rgb(48, 127, 129);
+}
+
+
+
+
