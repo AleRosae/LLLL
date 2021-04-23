@@ -1,3 +1,4 @@
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Orelega+One&display=swap');
@@ -7,8 +8,9 @@
     src: url('other_fonts/cloisterblack-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
+/* container */
 .container {
     background-image: url("imgs/xixpaper.jpg");
 	background-color: transparent;
@@ -16,6 +18,7 @@
 	max-width: 90%;
 }
 
+/* imgs */
 .container img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -23,6 +26,8 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* h1 */
 .container h1{
 	font-family: 'cloister_blacklight';
 	font-size: 1em;

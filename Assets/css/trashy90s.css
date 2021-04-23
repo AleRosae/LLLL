@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
     font-family: 'sardonyxregular';
     src: url('other_fonts/sardonyx-webfont.woff') format('woff');
@@ -6,18 +7,21 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+/* container */
 .container {
     background-color:whitesmoke;
     font-size: 60px;
 	max-width: 90%;
 }
 
+/* imgs */
 .container img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+/* h1 */
 .container h1{
     font-family: 'sardonyxregular';
     font-size: 2em;
@@ -29,7 +33,7 @@
     text-transform: lowercase;
 }
 
-
+/* h2 */
 .container h2 {
     font-family: 'Playfair Display', serif;
     color: #000000;
@@ -41,6 +45,7 @@
     font-size: 0.5em;
    }
 
+ /* h3 */  
 .container h3 {
     font-family: 'Bodoni Moda', serif; 
     color: #000000;
@@ -51,6 +56,7 @@
     font-size: 0.4em;
      }
 
+/* h4 */
  .container h4 {
     font-family: 'Bodoni Moda', serif; 
     color: #000000;
@@ -62,6 +68,7 @@
     text-transform: uppercase;
     } 
 
+/* special for author and date of the article */
 .container #date {
     color: red;
     border-color: #f1f5dc;
