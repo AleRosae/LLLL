@@ -29,32 +29,24 @@
     margin-right: auto;
     
 }
-/*.container{
-    background: linear-gradient(to right, rgba(255,255,255,0) 50%,
-    rgba(255,255,255,1)), url(imgs/parch_texture.jpg);
-    background-color: transparent;
-    background-repeat:repeat;
-    background: linear-gradient();
-    font-family: "MedievalSharp", cursive;
-    font-size: 90%;
-    font-weight: bolder;
-    background-color: rgb(240, 203, 155);
-    text-align: justify;
-}*/
 
 .container img{
+    max-width: 70%;
+    image-rendering: crisp-edges;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 8px;
+    margin: left 5%;;
+    margin: right 10%;;
+    border: 5px solid brown;
+    filter:sepia();
 }
 .container h1{
     font-family: "MedievalDeco";
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 5em;
     color: rgb(204, 7, 47);
-    font-weight: 800;
+    font-weight: 700;
     text-align:justify;
-    border-color: khaki;
     border-top: solid, 10px;
     border-bottom: solid, 2px;
     margin-top: 10px;
@@ -62,16 +54,27 @@
 }
 
 .container h2{
-    font-family: "MedievalSharp", fantasy;
+    font-family: "MedievalDeco"; 
     font-weight: 400;
+    color: rgb(33, 31, 153);
     padding-top: 2px;
     padding-bottom: 2px;
 }
 
+.container h3{
+    font-family: "MedievalDeco";
+    font-weight: 200;
+    color: rgb(77, 56, 56);
+    text-align: justify;
+}
+
+.ArticleBody{
+    columns: 2;
+}
 .container p::first-letter{
     font-family: "MedivalDeco";
     font-weight: bolder;
-    font-size: 2em;
+    font-size: 1em;
     color: rgb(204, 7, 47);
 }
 
