@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.container {
+    background-image: url('imgs/parch_texture.jpg');
+    background-color: transparent;
+    background-repeat:repeat;
+    font-family: "MedievalSharp", cursive;
+    font-size: 90%;
+    font-weight: bolder;
+    background-color: rgb(240, 203, 155);
+    text-align: justify;
+}
+
+.container .colonne_variabili{
+    border-left: solid 5px;
+    border-right: solid 5px;
+    border-color: rgba(119, 74, 5, 0.534);
+}
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/*.container{
+    background: linear-gradient(to right, rgba(255,255,255,0) 50%,
+    rgba(255,255,255,1)), url(imgs/parch_texture.jpg);
+    background-color: transparent;
+    background-repeat:repeat;
+    background: linear-gradient();
+    font-family: "MedievalSharp", cursive;
+    font-size: 90%;
+    font-weight: bolder;
+    background-color: rgb(240, 203, 155);
+    text-align: justify;
+}*/
+
+.container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container h1{
+    font-weight: bolder;
+    font-size: 5em;
+    color: rgb(204, 7, 47);
+    font-weight: 800;
+    text-align:justify;
+    border-color: khaki;
+    border-top: solid, 10px;
+    border-bottom: solid, 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container h2{
+    font-family: "MedievalSharp", fantasy;
+    font-weight: 400;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.container p::first-letter{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2em;
+    color: rgb(204, 7, 47);
+}
+
+.container p{
+    margin: 0px;
+    color: rgb(77, 56, 56);
+}
+
+.container q{
+    line-height: 1;
+    font-style: oblique;
+}
+
+.container:pers{
+    color: crimson;
+    font-weight: bold;
+}
+
+
+
