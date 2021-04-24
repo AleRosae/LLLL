@@ -27,5 +27,6 @@
   scrollbar-width: none;  /* Firefox */
 }
 
-.popup .popuptext {
-  visibility: hidden;}
+#ArticlesHidden {
+	visibility: hidden;
+}
