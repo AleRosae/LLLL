@@ -13,20 +13,60 @@
 	margin-right: auto;
 }
 
-.container .colonne_variabili {
+.colonne_variabili {
 	height: 1080px;
-	overflow: auto;
+	overflow-x:hidden;
 }
 
 .container .colonne_variabili::-webkit-scrollbar {
   display: none;
 }
 
-.container .colonne_variabili {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
+
 
 #ArticlesHidden {
 	visibility: hidden;
+}
+
+
+.single-chart {
+  width: 33%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: sticky;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart .circle {
+  stroke: #ff9f00;
+}
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
 }

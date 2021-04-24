@@ -1,12 +1,12 @@
-const percentLabel = document.querySelector("#percent");
-const originalTitle = document.title;
+$('#Articles').scroll(function() {
+    
+    var currY = $(this).scrollTop();
+    var postHeight = $(this).height();
+	var scrollHeight = $('.colonne_variabili').height();
+    // Current percentual position
+	var scrollPercent = Math.round((currY / (scrollHeight - postHeight)) * 100);
 
-window.addEventListener("scroll", () => {
-  let scrollTop = window.scrollY;
-  let docHeight = document.body.offsetHeight;
-  let winHeight = window.innerHeight;
-  let scrollPercent = scrollTop / (docHeight - winHeight);
-  let scrollPercentRounded = Math.round(scrollPercent * 100);
-  percentLabel.innerHTML = scrollPercentRounded;
-  document.title = `(${scrollPercentRounded}%) ${originalTitle}`;
+    $('.percentage').text(scrollPercent +"%");
+    $(".circle").attr("stroke-dasharray", scrollPercent+", 100")
+    console.log(scrollPercent);
 });
