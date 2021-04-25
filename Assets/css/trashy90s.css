@@ -97,7 +97,7 @@
     }
 
 
-.body p:first-of-type::first-letter {
+.drop-cap p:first-of-type::first-letter {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 50;
     font-size: 10em;
