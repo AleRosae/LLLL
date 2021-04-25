@@ -14,10 +14,14 @@
 		});  
 
 		function FuturePopUp() {
-  		var popup = document.getElementById("myPopup");
-  		popup.classList.toggle("show");
-
-  		}
+		if ($("#popUP").children().length == 0) {
+  			$("#popUP").append("<div class=\"popup\"><div class=\"popuptext\" id=\"myPopup\"><p>Welcome User. It looks like you are visiting this website through a very old device that is no longer fully supported.</p><p>You device has been recognize as: Computer Desktop</p><p>It also looks like you are not logged in with you Internet Identity. In order to make the internet a safer place, we strongy recomend you to log in with that Internet Identity that you Social Network has provided to you. Remember that starting from January 1st 2031 an Internet Identity will be mandatory in order to browse any website on search engines.</p> 	<p>Due to you unsupported device many features of this website are not going to be fully functional. This may include:</p><ul><li>Interactive ads</li><li>Compatibily with foldable devices and multiscreen devices</li><li>Instant Social Media sharing</li><li>Augmented and Virtual Reality</li></ul><p>If you want to still visit this page please <span  onclick=\"FuturePopUp()\">clik here</span></p><p>Thank you.</p></div></div>");
+  			$("#Articles").attr("id", "ArticlesHidden");}
+  		else {
+			$("#popUP").empty();
+			$("#ArticlesHidden").attr("id", "Articles");
+  			}
+  		};
 
 		$("#victorian").click(function(){
 		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');

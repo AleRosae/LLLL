@@ -77,7 +77,7 @@ margin-top: -10px;
     padding: 8px 8px 20px 20px;
      }
 
-.container .colonne_variabili h2 {
+.CoverInfo h2 {
     font-family: 'Dela Gothic One', cursive;
     color:  #212528;
     font-weight: 400;
@@ -95,7 +95,7 @@ margin-top: -10px;
 
 }
 
-.ArticleBody h3 {
+.ArticleBody h3 h4 h5 {
     font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
