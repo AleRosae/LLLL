@@ -13,18 +13,15 @@
 	margin-right: auto;
 }
 
-.row {
-}
-
 .colonne_variabili {
 	height: 1080px;
-	overflow-x:hidden;
+	overflow-x:auto;
 
 }
 
-/*.container .colonne_variabili::-webkit-scrollbar {
+.container .colonne_variabili::-webkit-scrollbar {
   display: none;
-}*/
+}
 
 
 

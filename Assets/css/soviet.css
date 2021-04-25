@@ -95,7 +95,7 @@ margin-top: -10px;
 
 }
 
-.ArticleBody h3 h4 h5 {
+.ArticleBody h3, h4, h5, h6 {
     font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
