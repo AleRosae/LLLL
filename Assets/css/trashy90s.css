@@ -5,7 +5,16 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'ralewaythin';
+    src: url('other_fonts/raleway-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
 
 /* container */
 .container {
@@ -19,6 +28,10 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.container figure #right {
+	float:right;
 }
 
 /* h1 */
@@ -35,6 +48,19 @@
 
 /* h2 */
 .container h2 {
+    font-family: 'ralewaythin'; 
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 0,1px;
+    line-height: 1;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-size: 0,8em;
+    text-align: center;
+     }
+
+ /* h3 */  
+.container h3 {
     font-family: 'Playfair Display', serif;
     color: #000000;
     font-weight: 10;
@@ -44,17 +70,6 @@
     padding-bottom: 4px;
     font-size: 0.5em;
    }
-
- /* h3 */  
-.container h3 {
-    font-family: 'Bodoni Moda', serif; 
-    color: #000000;
-    font-weight: 400;
-    line-height: 1;
-    padding-top: 3px;
-    padding-bottom: 4px;
-    font-size: 0.4em;
-     }
 
 /* h4 */
  .container h4 {
@@ -70,7 +85,7 @@
 
 /* special for author and date of the article */
 .container #date {
-    color: red;
+    color: rgb(62, 197, 69);
     border-color: #f1f5dc;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -80,16 +95,21 @@
     text-transform: uppercase;
     }
 
-.container p:first-of-type {
-.container p::first-letter
-}
-
-.container p::first-letter {
+.container p:first-of-type::first-letter {
     font-weight: 100;
-    font-size: 6em;
-    color: rgb(255, 80, 203);
+    font-size: 8em;
+    color: rgb(241, 24, 24);
     text-transform: lowercase;
     }
+
+/* PROVA 
+.container p.90s::first-letter {
+        font-weight: 100;
+        font-size: 8em;
+        color: rgb(241, 24, 24);
+        text-transform: lowercase;
+        }
+*/
 
 .container p {
 	font-family: 'Bodoni Moda', serif;  
