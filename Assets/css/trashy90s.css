@@ -1,4 +1,8 @@
 /* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+
 @font-face {
     font-family: 'sardonyxregular';
     src: url('other_fonts/sardonyx-webfont.woff') format('woff');
@@ -11,9 +15,6 @@
     font-weight: normal;
     font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
-
 
 
 /* container */
@@ -97,19 +98,16 @@
 
 
 .body p:first-of-type::first-letter {
-font-weight: 100;
-font-size: 8em;
-color: rgb(241, 24, 24);
-text-transform: lowercase;
-}
-
-/* PROVA 
-.container p:first-of-type::first-letter {
-    font-weight: 100;
-    font-size: 8em;
-    color: rgb(241, 24, 24);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 50;
+    font-size: 10em;
+    color: rgb(238, 86, 16);
     text-transform: lowercase;
-    }
+    float: left;
+    position: left: 3px; top:1px;
+    line-height: 0.1;
+    margin: .15em .10em;
+}
 
 /* PROVA 
 .container p.90s::first-letter {
@@ -121,7 +119,7 @@ text-transform: lowercase;
 */
 
 .container p {
-	font-family: 'Bodoni Moda', serif;  
+	font-family: 'Times New Roman';
 	color: #000000;
     text-align: justify;
     font-weight: 150;
