@@ -84,7 +84,7 @@
     } 
 
 /* special for author and date of the article */
-.container #date {
+.info {
     color: rgb(62, 197, 69);
     border-color: #f1f5dc;
     margin-top: 20px;
@@ -95,6 +95,15 @@
     text-transform: uppercase;
     }
 
+
+.body p:first-of-type::first-letter {
+font-weight: 100;
+font-size: 8em;
+color: rgb(241, 24, 24);
+text-transform: lowercase;
+}
+
+/* PROVA 
 .container p:first-of-type::first-letter {
     font-weight: 100;
     font-size: 8em;
