@@ -33,6 +33,9 @@ container img{
     text-align:end;
     font-size: 5em;
     color: rgb(165, 58, 19);
+    border: 10px;
+    margin: 20px;
+    padding-top: 35%;
 }
 
 .container h2{
@@ -52,5 +55,6 @@ container img{
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
-    
+    width: fit-content;
 }
+
