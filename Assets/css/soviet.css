@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gothic+A1:wght@400;900&family=Nanum+Gothic&display=swap');
 
+.colonne_variabili figure {
+    display: none;
+}
 .container::-webkit-scrollbar {
   display: none;
 }
