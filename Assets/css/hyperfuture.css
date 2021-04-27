@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 
 .container::-webkit-scrollbar {
   display: none;
@@ -16,24 +17,22 @@
 }
 
 .CoverMain {
-    background: url("imgs/PC_MUSIC.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 85%;
+    background: radial-gradient(circle, rgba(238,174,219,1) 0%, rgba(148,157,233,1) 100%);
+    opacity: 90%;
     border-radius: 8px;
 }
+
 .CoverTitle h1 {
-
-  font-size: 2rem;
-  color: #5013d1;
-  font-weight: 800;
-  line-height: 1;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  text-transform: capitalize;
-  text-align: -webkit-center;
-  border-radius: 4px;
-  padding: 10px 10px 20px 20px;
-
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 800;
+    line-height: 1;
+    /* text-shadow: -1px 0 transparent, 0 1px transparent, 1px 0 black, 0 -1px black; */
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    letter-spacing: 2px;
+    font-style: bold;
      }
 
 
@@ -42,16 +41,15 @@
 }
 
 .CoverInfo h2 {
-  font-size: 1.5rem;
-  font-style: italic;
-  color: #5013d1;
-  font-weight: 600;
-  line-height: 1;
-  text-align: -webkit-center;
-  border-radius: 4px;
-  padding: 10px 10px 10px 10px;
-  margin-bottom: 10px;
-
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #000000f0;
+    font-weight: 600;
+    line-height: 1;
+    text-align: -webkit-center;
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
 }
 
 .CoverInfo p {
@@ -69,25 +67,27 @@
 .ArticleBody {
   background-color: #ffffff;
 }
-.ArticleBody h3 h4 h5 h6 {
-  font-size: 1.5rem;
-  color: #5013d1;
-  font-weight: 600;
-  line-height: 1;
-  background-color: #fbeaf0;
-  text-align: -webkit-center;
-  border-radius: 4px;
-  padding: 10px 10px 10px 10px;
-     }
+
+.ArticleBody h3, h4, h5, h6 {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
 
 .ArticleBody p {
-    color: black;
-    font-weight: 500;
+    color: #333;
+    font-weight: 600;
     line-height: 2;
     font-size: 1rem;
-    padding: 5px 35px 5px 35px;
+    padding: 5px 25px 5px 25px;
     text-align: justify;
-     } 
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .ArticleBody blockquote{
 
@@ -106,39 +106,46 @@
 
 }
 
-.ArticleBody figcaption {
-    color: #5013d1;
-    font-weight: 500;
-    line-height: 1;
-    font-size: 1.1rem;
-    text-transform: lowercase;
-    display: inline;
-    margin-right: 20px;
-}
-.CoverMain figcaption {
-    color: #5013d1;
-    font-weight: 500;
-    line-height: 1;
-    font-size: 1.1rem;
-    text-transform: lowercase;
-    display: inline;
-    margin-right: 20px;
+
+.ArticleBody::first-letter {
+    font-size: 2rem;
+    color: #212529;
+    margin-right: 5px;
+    text-shadow: 3px 3px #fcebf3;
+    font-weight: 900;
+    position: relative;
 }
 
-/* Popup container */
+.ArticleBody figcaption {
+    color: #333;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1rem;
+    text-align: center;
+}
+.CoverMain figcaption {
+    color: #333;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 1rem;
+    text-align: center;
+}
+
 .popup {
   position: relative;
   display: inline-block;
 }
 
-/* The actual popup (appears on top) */
 .popup .popuptext {
     font-family: 'Raleway', sans-serif;
     width: 100%;
     height: auto;
     border-radius: 20px;
     padding: 30px 50px 30px 50px;
-    background: radial-gradient(rgba(234, 160, 172, 0.30), rgba(224, 120, 117, 0.50));
+    background: url("imgs/PC_MUSIC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 85%;
 }
 
 .popup .popuptext h1 {
@@ -172,14 +179,12 @@
   cursor: pointer;
 }
 
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
 .popup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s
 }
 
-/* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {opacity: 0;}
   to {opacity: 1;}
