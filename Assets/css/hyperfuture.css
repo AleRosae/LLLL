@@ -46,7 +46,7 @@
     color: #000000f0;
     font-weight: 600;
     line-height: 1;
-    text-align: -webkit-center;
+    text-align: center;
     border-radius: 4px;
     padding: 10px 10px 10px 10px;
     margin-bottom: 10px;
@@ -58,10 +58,9 @@
     line-height: 1;
     font-size: 1.1rem;
     text-transform: lowercase;
-    display: inline;
-    margin-right: 20px;
-    margin-bottom: 10px;
-
+    margin-right: 5%;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .ArticleBody {
@@ -99,13 +98,39 @@
  }
 
 .ArticleBody a {
-
+  color: #9c8ded;
+  overflow: hidden;
+  background: linear-gradient(to right, #d8b2e2, #9c8ded 50%, #7176ce 50%);  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
      } 
 
-.ArticleBody ul {
+.ArticleBody a:hover {
+  background-position: 0 100%;
+}
+
+
+.ArticleBody a:visited {
+  color: #b5abe8;
 
 }
 
+.ArticleBody ul {
+    line-height: 3.5;
+    padding: 5px 25px 5px 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 600;
+    list-style: none;
+}
+
+.ArticleBody li {
+  font-size: 1rem;
+}
 
 .ArticleBody::first-letter {
     font-size: 2rem;
@@ -116,6 +141,10 @@
     position: relative;
 }
 
+
+.colonne_variabili figure{
+    margin: revert;
+}
 .ArticleBody figcaption {
     color: #333;
     font-weight: 400;
