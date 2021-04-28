@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .container::-webkit-scrollbar {
   display: none;
@@ -166,14 +167,12 @@
 }
 
 .popup .popuptext {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     height: auto;
     border-radius: 20px;
     padding: 30px 50px 30px 50px;
-    background: url("imgs/PC_MUSIC.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: radial-gradient(circle, rgba(156,165,203,1) 0%, rgba(63,73,98,1) 100%);
     opacity: 85%;
 }
 
@@ -186,26 +185,52 @@
 
 .popup .popuptext p {
     color: #000000;
-    font-weight: 200;
+    font-weight: 300;
     text-align: justify;
     font-size: 1rem;
     margin:auto;
+
 
 }
 .popup .popuptext ul {
   list-style-type: none;
   font-size: 1rem;
+  color: #000000;
+  font-weight: 300;
 }
 .popup .popuptext li {
     margin: auto;
     text-transform: lowercase;
 }
 
+.popup .popuptext li::before{
+    content: "\00BB";
+        }
+
 #ClosePop {
   text-transform: uppercase;
   width: auto;
-  border: outset 1px;
   cursor: pointer;
+  color: #9c8ded;
+  overflow: hidden;
+  background: linear-gradient(to right, #d8b2e2, #9c8ded 50%, #ffffff 50%);  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+  box-shadow: 0 1px 0 #999999;
+}
+
+#ClosePop:hover {
+  background-position: 0 100%;
+}
+
+
+#ClosePop:visited {
+  color: #b5abe8;
+
 }
 
 .popup .show {
