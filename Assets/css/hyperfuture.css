@@ -68,7 +68,37 @@
   background-color: #ffffff;
 }
 
-.ArticleBody h3, h4, h5, h6 {
+.ArticleBody h3 {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.ArticleBody h4 {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.ArticleBody h5 {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.ArticleBody h6 {
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;

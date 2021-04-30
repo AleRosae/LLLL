@@ -4,10 +4,10 @@
 		"title":"NFTs Weren’t Supposed to End Like This", 
         "url":"article1.html",
         "box":"article1_box",
-        "Journal":"The Atlantic",
+        "journal":"The Atlantic",
         "author":"Anil Dash",
-        "author description":"Anil Dash is the CEO of Glitch",
-        "original source": "https://www.theatlantic.com/ideas/archive/2021/04/nfts-werent-supposed-end-like/618488/",
+        "authordescription":"Anil Dash is the CEO of Glitch",
+        "originalsource": "https://www.theatlantic.com/ideas/archive/2021/04/nfts-werent-supposed-end-like/618488/",
         "date":"April 2, 2021"
 	},
     {
@@ -15,10 +15,10 @@
         "title":"The Wealthsimple Explainer: NFTs", 
         "url":"article2.html",
         "box":"article2_box",
-        "Journal":"WealthSimple",
+        "journal":"WealthSimple",
         "author":"Will Leitch",
-        "author description":"is a writer and the founding editor of the Gawker Media former sports blog Deadspin.",
-        "original source": "https://www.wealthsimple.com/en-us/magazine/nft",
+        "authordescription":"is a writer and the founding editor of the Gawker Media former sports blog Deadspin.",
+        "originalsource": "https://www.wealthsimple.com/en-us/magazine/nft",
         "date":"March 17, 2021"
 
     },
@@ -27,10 +27,10 @@
         "title":"This is what happens when bitcoin miners take over your town", 
         "url":"article3.html",
         "box":"article3_box",
-        "Journal":"Politico",
+        "journal":"Politico",
         "author":"Paul Roberts",
-        "author description":"Paul Roberts is a journalist in Seattle who writes about technology, business and politics.",
-        "original source":"https://www.politico.com/magazine/story/2018/03/09/bitcoin-mining-energy-prices-smalltown-feature-217230/",
+        "authordescription":"Paul Roberts is a journalist in Seattle who writes about technology, business and politics.",
+        "originalsource":"https://www.politico.com/magazine/story/2018/03/09/bitcoin-mining-energy-prices-smalltown-feature-217230/",
         "date":"March/April 2018"
 
     }

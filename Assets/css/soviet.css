@@ -98,7 +98,54 @@ margin-top: -10px;
 
 }
 
-.ArticleBody h3, h4, h5, h6 {
+.ArticleBody h3 {
+    font-family: 'Dela Gothic One', cursive;
+    color: #f1f5dc;
+    font-weight: 400;
+    line-height: 0.8;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-size: 0.6em;
+    border-color: #f1f5dc;
+    border-top: solid 8px;
+    border-bottom: solid 8px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
+     }
+     .ArticleBody h4 {
+    font-family: 'Dela Gothic One', cursive;
+    color: #f1f5dc;
+    font-weight: 400;
+    line-height: 0.8;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-size: 0.6em;
+    border-color: #f1f5dc;
+    border-top: solid 8px;
+    border-bottom: solid 8px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
+     }
+
+.ArticleBody h5  {
+    font-family: 'Dela Gothic One', cursive;
+    color: #f1f5dc;
+    font-weight: 400;
+    line-height: 0.8;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-size: 0.6em;
+    border-color: #f1f5dc;
+    border-top: solid 8px;
+    border-bottom: solid 8px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
+     }
+
+     .ArticleBody h6 {
     font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
