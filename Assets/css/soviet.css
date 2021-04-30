@@ -7,20 +7,30 @@
 .container::-webkit-scrollbar {
   display: none;
 }
-.container .colonne_variabili {
+.colonne_variabili {
 	background-color: #ce2909;
-	font-size: 30px;
     border-left: solid 10px;
     border-right: solid 10px;
     border-color: #212528;
 
 }
-.container .colonne_variabili img {
+.colonne_variabili img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.container .col-12{
+    font-size:80px;
+}
+
+ .container .col-6 {
+    font-size:45px;
+}
+
+.container .col-4{
+    font-size:30px;
+}
 
 .CoverMain {
 max-width: 100%;
@@ -41,22 +51,32 @@ margin-top: -10px;
 
 }
 
-.CoverInfo{
-   	background-image: url("imgs/hammer_in_hand.svg");
-    background-position: left 50% top 100%;
-    background-repeat: no-repeat;
-    background-size: 80px 80px;
+.CoverInfo {
     border-bottom: solid 10px;
     border-color: #212528;
     margin-bottom: 20px;
-
 }
+
+.CoverInfo ul {
+    background-image: url("imgs/hammer_in_hand.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 4em 4em;
+    font-size: 0.4em;
+    list-style: none;
+    font-family: 'Gothic A1', sans-serif;
+    color: #f1f5dc;
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-left: 15%;
+}
+
 .CoverInfo p {
     font-family: 'Gothic A1', sans-serif;
     color: #f1f5dc;
     font-weight: 700;
     line-height: 1;
-    font-size: 0.5em;
+    font-size: 0.35em;
     text-transform: uppercase;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     display:flex;
@@ -87,7 +107,7 @@ margin-top: -10px;
     line-height: 1;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 0.6em;
+    font-size: 0.5em;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -166,11 +186,9 @@ margin-top: -10px;
 	color: #f1f5dc;
     font-weight: 150;
     line-height: 1.2;
-    font-size: 0.4em;
+    font-size: 0.35em;
     text-transform: uppercase;
     text-align: justify;
-    padding-left: 10px;
-    margin-right: -5px;
     
      } 
 
