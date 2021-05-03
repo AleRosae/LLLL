@@ -34,9 +34,13 @@
 		function NightMode(){
 			if ($("#nightview").attr("class") == "fas fa-moon") {
 					$("#nightview").attr("class", "far fa-moon");
+					$(".ArticleBody").css("background-color", "#333");
+					$(".ArticleBody").css("color", "#ffffff");
  		}
  			else if ($("#nightview").attr("class") == "far fa-moon") {
  					$("#nightview").attr("class", "fas fa-moon");
+ 					$(".ArticleBody").css("background-color", "#ffffff");
+					$(".ArticleBody").css("color", "#333");
 
  			}
 		};

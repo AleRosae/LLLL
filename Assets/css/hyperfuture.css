@@ -54,7 +54,6 @@
 }
 
 .CoverInfo p {
-    color: black;
     font-weight: 500;
     line-height: 1;
     font-size: 1.1rem;
@@ -66,6 +65,7 @@
 
 .ArticleBody {
   background-color: #ffffff;
+  color: #333;
 }
 
 .ArticleBody h3 {
@@ -109,7 +109,6 @@
 }
 
 .ArticleBody p {
-    color: #333;
     font-weight: 600;
     line-height: 2;
     font-size: 1rem;
@@ -189,6 +188,16 @@
     line-height: 1;
     font-size: 1rem;
     text-align: center;
+}
+
+#nightview {
+    position: relative;
+    float: right;
+    font-size: 2rem;
+    }
+
+  #nightview:hover {
+  cursor: pointer;
 }
 
 .popup {
