@@ -72,11 +72,6 @@
     margin: auto;
     text-transform: capitalize;
 }
-.ArticleBody {
-  background-color: #ffffff;
-  color: #333;
-  border-radius: 8px;
-}
 
 .ArticleBody h3 {
     text-align: left;
@@ -128,14 +123,6 @@
     margin-right: 10%;
 }
 
-.ArticleBody blockquote{
-
-}
- .ArticleBody blockquote p {
-
-
-
- }
 
 .ArticleBody a {
   color: #9c8ded;
@@ -183,7 +170,7 @@
 
 
 .colonne_variabili figure{
-  margin: 0 0 1rem;
+    margin: revert;
 }
 .ArticleBody figcaption {
     color: #333;
@@ -226,4 +213,11 @@
     color: #fff;
     background: radial-gradient(circle, rgba(148,157,233,1) 0%, rgba(238,174,219,1) 100%);
     border-color: #ffffff;
+}
+
+/* Only real difference from normal hteme */
+.ArticleBody {
+  background-color: #333;
+  color: #ffffff;;
+  border-radius: 8px;
 }

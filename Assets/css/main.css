@@ -1,12 +1,16 @@
 .row {
 	max-width: 100%;
 }
+#Articles {
+  --bs-gutter-x: 0;
+}
 .container{
 	font-size: 12px;
 	font: "colibri";
 	max-width: 100%;
 	border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
+  border-radius: .25rem;
+  position: relative;
 }
 .container h1,h2,h3{
 	font-weight: 1000;
@@ -40,11 +44,6 @@
 
 .container .colonne_variabili::-webkit-scrollbar {
   display: none;
-}
-
-
-#ArticlesHidden {
-	visibility: hidden;
 }
 
 
