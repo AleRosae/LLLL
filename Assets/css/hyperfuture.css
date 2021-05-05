@@ -128,14 +128,6 @@
     margin-right: 10%;
 }
 
-.ArticleBody blockquote{
-
-}
- .ArticleBody blockquote p {
-
-
-
- }
 
 .ArticleBody a {
   color: #9c8ded;
@@ -181,6 +173,9 @@
     position: relative;
 }
 
+.ArticleBody p:first-child {
+  text-indent: 10%;
+}
 
 .colonne_variabili figure{
   margin: 0 0 1rem;
