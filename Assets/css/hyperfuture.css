@@ -50,7 +50,7 @@
     line-height: 1;
     text-align: center;
     border-radius: 4px;
-    padding: 10px 10px 10px 10px;
+    padding: 1% 10% 1% 10%;
     margin-bottom: 10px;
 }
 
@@ -66,12 +66,13 @@
 
 .CoverInfo ul {
     line-height: 3;
-    padding: 5px 25px 5px 25px;
+    padding: 0 10% 0 10%;
     font-weight: 600;
     list-style: none;
     margin: auto;
     text-transform: capitalize;
 }
+
 .ArticleBody {
   background-color: #ffffff;
   color: #333;
@@ -128,6 +129,14 @@
     margin-right: 10%;
 }
 
+.ArticleBody blockquote{
+
+}
+ .ArticleBody blockquote p {
+
+
+
+ }
 
 .ArticleBody a {
   color: #9c8ded;
@@ -152,7 +161,6 @@
 }
 
 .ArticleBody ul {
-    line-height: 3.5;
     padding: 5px 25px 5px 25px;
     margin-left: 15%;
     margin-right: 15%;
@@ -162,6 +170,9 @@
 
 .ArticleBody li {
   font-size: 1rem;
+  margin-bottom: 15px;
+  line-height: 2;
+  margin-top: 15px;
 }
 
 .ArticleBody::first-letter {
@@ -173,27 +184,18 @@
     position: relative;
 }
 
-.ArticleBody p:first-child {
-  text-indent: 10%;
-}
 
 .colonne_variabili figure{
   margin: 0 0 1rem;
 }
+
 .ArticleBody figcaption {
     color: #333;
+    margin-right: 5%;
     font-weight: 400;
     line-height: 1;
     font-size: 1rem;
-    text-align: center;
-}
-
-.ArticleBody figcaption p {
-  line-height: 1;
-  font-weight: 400;
-  font-size: 1rem;
-  text-align: center;
-  margin: auto;
+    margin-left: 5%;
 }
 
 .CoverMain figcaption {
@@ -201,7 +203,11 @@
     font-weight: 400;
     line-height: 1;
     font-size: 1rem;
+    margin-left: 5%;
     text-align: center;
+    margin-right: 5%;
+    margin-top: 5px;
+
 }
 
 #nightview {

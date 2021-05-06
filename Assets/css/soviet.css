@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gothic+A1:wght@400;900&family=Nanum+Gothic&display=swap');
 
-.colonne_variabili figure {
-    display: none;
-}
 .container::-webkit-scrollbar {
   display: none;
 }
@@ -13,11 +10,6 @@
     border-right: solid 10px;
     border-color: #212528;
 
-}
-.colonne_variabili img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .container .col-12{
@@ -35,6 +27,10 @@
 .CoverMain {
 max-width: 100%;
 
+}
+
+.CoverMain figure {
+    display: none;
 }
 .CoverTitle {
 	max-width: 100%;
@@ -182,15 +178,15 @@ margin-top: -10px;
      }
 
 .ArticleBody p {
-	font-family: 'Gothic A1', sans-serif;    
-	color: #f1f5dc;
-    font-weight: 150;
-    line-height: 1.2;
-    font-size: 0.35em;
-    text-transform: uppercase;
+    font-family: 'Gothic A1', sans-serif;
+    color: #f1f5dc;
+    font-weight: 300;
+    line-height: 1;
+    font-size: 0.5em;
     text-align: justify;
-    
-     } 
+    font-variant: small-caps;
+    padding: 0px 2px 0px 8px;
+}
 
 .ArticleBody blockquote{
     transform: skewY(-5deg);
@@ -209,6 +205,16 @@ margin-top: -10px;
 
  }
 
+.ArticleBody img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: sepia(0.3);
+    transform: rotate3d(1, 1, 1, -2deg);
+    border: double 8px #f1f5dc;
+}
+
 .ArticleBody a {
 	font-family: 'Dela Gothic One', cursive;    
 	color: #f1f5dc;
@@ -221,20 +227,38 @@ margin-top: -10px;
 
 .ArticleBody ul {
     font-family: 'Gothic A1', sans-serif;    
-    color: #f1f5dc;
+    color: #212528;
     font-weight: 150 !important;
     line-height: 1.5;
-    font-size: 0.4em !important;
-    text-transform: uppercase;
+    font-variant: small-caps;
+    font-size: 0.5em;
+}
+
+.ArticleBody li {
+    list-style: none;
+    position: relative;
+    padding-left: 15px;
+}
+
+.ArticleBody li:before {
+    content: "\25BC \0020";
+    font-size: 10px;
 }
 
 .ArticleBody figcaption {
-    font-family: 'Gothic A1', sans-serif;    
+    font-family: 'Gothic A1', sans-serif;
     color: #f1f5dc;
     font-weight: 150;
     line-height: 1;
-    font-size: 0.3em;
+    font-size: 0.5em;
     text-align: center;
+    transform: rotate3d(1, 1, 1, -2deg);
+    margin-top: 1%;
+    border: double 2px #212528;
+    padding: 1% 5% 1% 5%;
+    font-variant: small-caps;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .CoverMain figcaption {
     font-family: 'Gothic A1', sans-serif;    
