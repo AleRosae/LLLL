@@ -1,56 +1,39 @@
  $(document).ready(function(){
- 		$("#reset").click(function(){
-		  	$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-		  	$("#nightview").attr("class", "");
-
-	  });
-
-		$("#soviet").click(function(){
-			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-		  	$('link[href="../Assets/css/soviet.css"]').removeAttr('disabled');
-		  	$("#nightview").attr("class", "");
-	  });
-		
-		$("#future").click(function(){
-		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-		$('link[href="../Assets/css/hyperfuture.css"]').removeAttr('disabled');
-		$("#nightview").attr("class", "fas fa-moon");
-		});  
-
-
-
-		$("#nightview").click(function(){
-			if ($("#nightview").attr("class") == "fas fa-moon") {
-			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-			$('link[href="../Assets/css/hyperfuturedark.css"]').removeAttr('disabled');
-			$("#nightview").attr("class", "far fa-moon");
- 		}
- 			else if ($("#nightview").attr("class") == "far fa-moon") {
-					$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-					$('link[href="../Assets/css/hyperfuture.css"]').removeAttr('disabled');
-					$("#nightview").attr("class", "fas fa-moon");
-
- 			}
-		});
-
-		$("#victorian").click(function(){
-		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-		$('link[href="../Assets/css/victorian.css"]').removeAttr('disabled');
+ 		$(".styles").click(function(){
+ 			style = this.id;
+ 			switch(style){
+ 				case "reset":
+					  	$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+	  					$("#nightview").attr("class", "");
+	  					break;
+	  			case "soviet":
+	  					$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+					  	$('link[href="../Assets/css/soviet.css"]').removeAttr('disabled');
+					  	$("#nightview").attr("class", "");
+					  	break;
+				case "future":
+						$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+						$('link[href="../Assets/css/hyperfuture.css"]').removeAttr('disabled');
+						$("#nightview").attr("class", "fas fa-moon");
+						break;
+				case "victorian":
+						$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+						$('link[href="../Assets/css/victorian.css"]').removeAttr('disabled');
+						break;
+				case "trashy90":
+						$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+						$('link[href="../Assets/css/trashy90s.css"]').removeAttr('disabled');
+						break;
+				case "beasty_medieval":
+						$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+						$('link[href="../Assets/css/beasty_medieval.css"]').removeAttr('disabled');
+						break;
+				case "groovy70s":
+						$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+						$('link[href="../Assets/css/groovy70s.css"]').removeAttr('disabled');
+						break;
+				default: 
+						console.log("ti prego non comparire");
+ 					}
 		}); 
-
-		$("#trashy90").click(function(){
-		$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-		$('link[href="../Assets/css/trashy90s.css"]').removeAttr('disabled');
-		}); 
-
-		$("#beasty_medieval").click(function(){
-			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-			$('link[href="../Assets/css/beasty_medieval.css"]').removeAttr('disabled');
-			}); 
-
-		$("#groovy70s").click(function(){
-			$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
-			$('link[href="../Assets/css/groovy70s.css"]').removeAttr('disabled');
-				}); 
-
 });
