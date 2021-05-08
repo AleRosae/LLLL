@@ -38,8 +38,11 @@
      }
 
 
-.CoverInfo{
-
+.author {
+    background-image: url("imgs/speaker.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2em;
 }
 
 .CoverInfo h2 {
