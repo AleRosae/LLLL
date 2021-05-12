@@ -48,6 +48,7 @@ container img{
 
 .container h3{
     font-family: "Newsense";
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     color: RGB(96, 61, 127);
@@ -75,4 +76,24 @@ img {
     border-style:double;
   }
 
-  
+
+.Op-box{
+    border: solid 8px;
+    border-style: groove;
+    border-color: green purple;
+    border-radius: 10%;
+    position:static;
+    font-family:'Poppins', sans-serif;
+    margin: 2em 1em 1em 5em;
+    padding: 1em;
+}
+
+.Op-box:first-of-type::first-line{
+    font-size: 1em;
+    font-family: "Newsense";
+    color: purple;
+}
+
+.container a{
+    color: RGB(208, 79, 44);
+}
