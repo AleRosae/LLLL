@@ -97,3 +97,8 @@ img {
 .container a{
     color: RGB(208, 79, 44);
 }
+
+.container figcaption{
+    font-style: oblique;
+    font-size: 0.8em;
+}
