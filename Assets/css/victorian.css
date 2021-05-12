@@ -140,3 +140,7 @@
     line-height: 1;
     font-size: 0.3em;  
     } 
+
+.ArticleBody{
+        columns: 3;
+    }
