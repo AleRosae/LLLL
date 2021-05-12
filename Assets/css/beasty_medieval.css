@@ -24,20 +24,13 @@
 }
 
 .container img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.container img{
     max-width: 70%;
     image-rendering: crisp-edges;
     display: block;
     border-radius: 8px;
     margin: left 5%;;
     margin: right 10%;;
-    border: 5px solid brown;
+    border: 5px solid rgb(136, 48, 48);
     filter:sepia();
 }
 .container h1{
@@ -71,7 +64,7 @@
 .ArticleBody{
     columns: 2;
 }
-.container p:first-of-type:first-letter{
+.container div:first-of-type:first-letter{
     font-family: "MedievalDeco";
     font-style: italic;
     font-weight:normal;
@@ -79,6 +72,12 @@
     color: rgb(204, 7, 47);
 }
 
+.par:first-of-type::first-letter{
+    font-family: "MedievalDeco";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 3em;
+}
 .container p{
     margin: 0px;
     color: rgb(77, 56, 56);
@@ -90,6 +89,14 @@
     color: rgb(48, 127, 129);
 }
 
+.Op-box{
+    border: solid black;
+    border-radius: 10%;
+    position:static;
+    font-family:"MedievalSharp", cursive;
+    margin: 2em 1em 1em 5em;
+    padding: 1em;
+}
 
 
 

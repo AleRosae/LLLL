@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 @font-face {
     font-family: "Newsense";
     src: url("other_fonts/newsense-webfont.woff") format("woff");
@@ -18,9 +16,10 @@
 }
 
 .container .colonne_variabili{
-    border: solid 20px;
-    border-color: green #80B0A4 #d9ac36 #d04f2c;
+    border-left: solid 30px;
+    border-color: #d9ac36 #d04f2c;
     border-style: groove;
+    margin:7px;
 }
 
 container img{
@@ -37,6 +36,7 @@ container img{
     border: 10px;
     margin: 20px;
     padding-top: 35%;
+    text-shadow: -1px 0 #0c0000, 0 1px #1a0101, 1px 0 #0f0101, 0 -1px #130101;
 }
 
 .container h2{
@@ -44,6 +44,14 @@ container img{
     color: green;
     font-weight:300;
     text-align: end;
+}
+
+.container h3{
+    font-family: "Newsense";
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: RGB(96, 61, 127);
 }
 
 .container p{
@@ -67,3 +75,25 @@ img {
     border-radius: 15px 50px 30px;
     border-style:double;
   }
+
+
+.Op-box{
+    border: solid 8px;
+    border-style: groove;
+    border-color: green purple;
+    border-radius: 10%;
+    position:static;
+    font-family:'Poppins', sans-serif;
+    margin: 2em 1em 1em 5em;
+    padding: 1em;
+}
+
+.Op-box:first-of-type::first-line{
+    font-size: 1em;
+    font-family: "Newsense";
+    color: purple;
+}
+
+.container a{
+    color: RGB(208, 79, 44);
+}
