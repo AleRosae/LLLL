@@ -1,17 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
 @font-face {
-    font-family: "GroovyModice";
-    src: url("other_fonts/goovy_modice-webfont.woff") format("woff");
+    font-family: "Newsense";
+    src: url("other_fonts/newsense-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 .container{
-    background-color: cornsilk;
-    font-family: 'Goudy Bookletter 1911', serif;
+    background-repeat: repeat;
+    background-size: contain;
+    font-size: 90%;
+    font-weight: normal;
+    text-align: justify;
+    background-color: RGB(255, 204, 154); 
+}
+
+.container .colonne_variabili{
+    border-left: solid 30px;
+    border-color: #d9ac36 #d04f2c;
+    border-style: groove;
+    margin:7px;
+}
+
+container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container h1{
-    font-family: "GroovyModice";
-    color: darkmagenta;
+    font-family: "Newsense";
+    text-align:end;
+    font-size: 5em;
+    color: #d04f2c;
+    border: 10px;
+    margin: 20px;
+    padding-top: 35%;
+    text-shadow: -1px 0 #0c0000, 0 1px #1a0101, 1px 0 #0f0101, 0 -1px #130101;
+}
+
+.container h2{
+    font-family: "Newsense";
+    color: green;
+    font-weight:300;
+    text-align: end;
+}
+
+.container h3{
+    font-family: "Newsense";
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: RGB(96, 61, 127);
+}
+
+.container p{
+    font-family:'Poppins', sans-serif;;
+    font-size: 1.5em;
+    text-align:justify;
+    color: #431e15;
+}
+
+.ArticleHead{
+    background: url("imgs/seventies_background_pat\ \(1\).svg");
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: fit-content;
+}
+
+img {
+    text-align:center;
+    border: 10px solid RGB(114, 154, 79);
+    border-radius: 15px 50px 30px;
+    border-style:double;
+  }
+
+
+.Op-box{
+    border: solid 8px;
+    border-style: groove;
+    border-color: green purple;
+    border-radius: 10%;
+    position:static;
+    font-family:'Poppins', sans-serif;
+    margin: 2em 1em 1em 5em;
+    padding: 1em;
+}
+
+.Op-box:first-of-type::first-line{
+    font-size: 1em;
+    font-family: "Newsense";
+    color: purple;
+}
+
+.container a{
+    color: RGB(208, 79, 44);
 }

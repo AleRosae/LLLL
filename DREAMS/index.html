@@ -7,6 +7,9 @@
 	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/style2.css" disabled=true>
 	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/victorian.css" disabled=true>
 	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/trashy90s.css" disabled=true>
+	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/soviet.css" disabled=true>
+	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/hyperfuture.css" disabled=true>
+	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/hyperfuturedark.css" disabled=true>
 
 </head>
 <header id="header">
@@ -27,18 +30,139 @@
 				</header>
 <body>
 	<h1>Dreams</h1>
-	<div >
-	<ul id="articlebox"></ul>
+
+	<div class="meta row">
+		<div class="col-3" id="articlebox">
+			<div class="card">
+				  <div class="card-header">
+				    NFTs Issue
+				  </div>
+			  <ul class="list-group list-group-flush" id="articlescheckbox">
+			  </ul>
+			</div>
+		</div>	
+		<div class="col-3" id="infobox1">
+			<div class="card" >
+				  <div class="card-body">
+				    <h5 class="card-title"></h5>
+				    <h6 class="card-subtitle mb-2 text-muted"></h6>
+				    <div class="card-text">
+				    	<p id="author"></p>
+				    	<p id="authordescr"></p>
+				    	<p id="date"></p>
+				    	<p id="source"></p>
+				    	<p id="journal"></p>
+				    </div>
+				  </div>
+				</div>
+		</div>
+		<div class="col-3" id="infobox2">
+			<div class="card">
+				  <div class="card-body">
+				    <h5 class="card-title"></h5>
+				    <h6 class="card-subtitle mb-2 text-muted"></h6>
+				    <div class="card-text">
+				    	<p id="author"></p>
+				    	<p id="authordescr"></p>
+				    	<p id="date"></p>
+				    	<p id="source"></p>
+				    	<p id="journal"></p>
+				    </div>
+				  </div>
+				</div>
+		</div>	
+			<div class="col-3" id="infobox3">
+		<div class="card" >
+			  <div class="card-body">
+			    <h5 class="card-title"></h5>
+			    <h6 class="card-subtitle mb-2 text-muted"></h6>
+				    <div class="card-text">
+				    	<p id="author"></p>
+				    	<p id="authordescr"></p>
+				    	<p id="date"></p>
+				    	<p id="source"></p>
+				    	<p id="journal"></p>
+				    </div>
+
+			  </div>
+			</div>
+	</div>	
 	</div>
 	<div id="stylebox">
-	<ul><il><button id="style1" class="styles">Get style 1</button></il>
-		<il><button id="style2" class="styles">Get style 2</button></il>
+	<ul><il><button id="soviet" class="styles">Get style Soviet</button></il>
+		<il><button id="future" class="styles" data-bs-toggle="modal" data-bs-target="#modalfuture">Get style Future</button></il>
 		<il><button id="victorian" class="styles">Get victorian</button></il>
 		<il><button id="trashy90" class="styles">Get trashy 90s</button></il>
 		<il><button id="reset" class="styles">reset</button></il></ul>
 	</div>
 
-<div class="container">
+<div class="main row">
+    <div class="side col-2">
+		<div class="card">
+		  	<div class="card-header">
+			    Cose
+			  </div>
+			  <ul class="list-group list-group-flush" id="articlescheckbox">
+	  	        <li><div class="form-check">
+				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+				  <label class="form-check-label" for="defaultCheck1">
+				    	Default checkbox
+				  </label>
+				</div></li>
+				<li><div class="form-check">
+					  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+					  <label class="form-check-label" for="defaultCheck2">
+					    Another checkbox
+					  </label>
+					</div></li>
+			  </ul>
+			</div>
+				<div class="card">
+				  	<div class="card-header">
+					    Più cose
+					  </div>
+					  <ul class="list-group list-group-flush" id="articlescheckbox">
+			  	        <li><div class="form-check">
+						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <label class="form-check-label" for="defaultCheck1">
+						    	Default checkbox
+						  </label>
+						</div></li>
+						<li><div class="form-check">
+							  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+							  <label class="form-check-label" for="defaultCheck2">
+							    Another checkbox
+							  </label>
+							</div></li>
+					  </ul>
+					</div>
+	</div>
+    <div class="container col-10">
+
+<div class="modal fade" id="modalfuture" tabindex="-1" aria-labelledby="modalfutureLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalfutureLabel">Welcome User</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+			<p>It looks like you are visiting this website through a very old device that is no longer fully supported. This may happen in case you are using a desktop computer or an old laptop.</p>
+					<p>Due to you unsupported device many features of this website are not going to be fully functional. This may include:</p><ul><li>Interactive ads</li><li>Compatibily with foldable devices and multiscreen devices</li><li>Instant Social Media sharing</li><li>Augmented and Virtual Reality</li></ul>
+			<p>The following page can be bought as a Non-Fungible token for about 432 Ethereum. If you are willing to procede, please insert your Digital Wallet in the following form.</p>
+				<div class="mb-3">
+            		<label for="recipient-name" class="col-form-label">Put the univocal code of your Digital Wallet:</label>
+            		<input type="text" class="form-control" id="recipient-name">
+         		 </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="buybutton">Buy this issue</button>
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="okbutton">Just let me read the issue</button>
+      </div>
+    </div>
+  </div>
+</div>
+    	<span id="nightview"></span>
   <div class="row" id="Articles">
   </div>
 </div>
@@ -47,3 +171,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" src="../Assets/js/get_articles.js"></script>
 <script type="text/javascript" src="../Assets/js/get_style.js"></script>
+<script type="text/javascript" src="../Assets/js/additionalhyperfuture.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>

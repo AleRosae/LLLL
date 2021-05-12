@@ -17,8 +17,16 @@
               });
 
         function addArticles(obj) {
-            for (i in obj.articles) {
-            	$("#articlebox").append("<il><a href='#' id='"+obj.articles[i].title+ "' onclick=\"load('"+obj.articles[i].url+"')\"><button>" +obj.articles[i].title +"</button></a></il>");
+            for (i in obj.articles) { 
+            	$("#articlescheckbox").append("<li><div class=\"form-check\"><input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\""+obj.articles[i].title+"\" onclick=\"load('"+obj.articles[i].url+"')\"><label class=\"form-check-label\" for=\""+obj.articles[i].title+"\">"+obj.articles[i].title+"</label></div>");
+            	$("#infobox"+obj.articles[i].number+" h5").text(obj.articles[i].title);
+            	$("#infobox"+obj.articles[i].number+" #author").text("Author: "+obj.articles[i].author);
+	           	$("#infobox"+obj.articles[i].number+" #authordescr").text("Author description: "+obj.articles[i].authordescription);
+	           	$("#infobox"+obj.articles[i].number+" #date").text("Date of publication: "+obj.articles[i].date);
+	           	$("#infobox"+obj.articles[i].number+" #source").append("Original source: \<a href=\""+obj.articles[i].originalsource+"\"\>Link\</a\>");
+	           	$("#infobox"+obj.articles[i].number+" #journal").text("Journal: "+obj.articles[i].journal);			
+
+
           }
           	
    }

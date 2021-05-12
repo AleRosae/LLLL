@@ -11,9 +11,7 @@
   font-family: 'Raleway', sans-serif;
   padding-left:0px;
   padding-right: 0px;
-  aspect-ratio: 18 / 9;
 }
-
 .colonne_variabili img {
   display: block;
   margin-left: auto;
@@ -40,11 +38,8 @@
      }
 
 
-.author {
-    background-image: url("imgs/speaker.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 2em;
+.CoverInfo{
+
 }
 
 .CoverInfo h2 {
@@ -232,4 +227,25 @@
     color: #fff;
     background: radial-gradient(circle, rgba(148,157,233,1) 0%, rgba(238,174,219,1) 100%);
     border-color: #ffffff;
+}
+
+/* Only real difference from normal hteme */
+.ArticleBody {
+background: rgb(52,54,78);
+background: linear-gradient(0deg, rgba(52,54,78,1) 0%, rgba(33,30,46,1) 21%);
+  color: #ffffff;;
+  border-radius: 8px;
+}
+
+#nightview {
+  color: white;
+}
+
+.colonne_variabili {
+background: rgb(52,54,78);
+background: linear-gradient(0deg, rgba(52,54,78,1) 0%, rgba(33,30,46,1) 21%);
+}
+
+.ArticleBody figcaption {
+    color: #fff;
 }
