@@ -11,7 +11,9 @@
   font-family: 'Raleway', sans-serif;
   padding-left:0px;
   padding-right: 0px;
+  aspect-ratio: 18 / 9;
 }
+
 .colonne_variabili img {
   display: block;
   margin-left: auto;

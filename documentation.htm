@@ -1,81 +1,195 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet"  href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css"/>
 	<link rel="stylesheet" href="Assets/css/main.css" type="text/css">
 	<title></title>
 </head>
-<body>
-<div class="row">
-<div class="p-3 bg-white" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-      
-      <span class="fs-5 fw-semibold">Table of contents</span>
-    </a>
-    <ul class="list-unstyled ps-0">
-    	<li class="mb-1">
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-          The framework
-        </button>
-      </li>
-      <li class="border-top my-3"></li>
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
-          The themes
-        </button>
-        <div class="collapse show" id="home-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark rounded">Before 1800</a></li>
-            <li><a href="#" class="link-dark rounded">XIX Century</a></li>
-            <li><a href="#1920" class="link-dark rounded">First half of XX Century</a></li>
-            <li><a href="#" class="link-dark rounded">Second half of XX Century</a></li>
-            <li><a href="#" class="link-dark rounded">Late XX Century - start of XXI Century</a></li>	
-            <li><a href="#2030" class="link-dark rounded">2030</a></li>	
-          </ul>
+
+<header id="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">The issues</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownmenuissues">
+              <li><a class="dropdown-item" href="NFT/">Blockchain &amp; Capitalism</a></li>
+              <li><a class="dropdown-item" href="DREAMS/">Dreams</a></li>
+              <li><a class="dropdown-item" href="NEUROSCIENCE/">Neurosciences</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modaldisclaimer">Disclaimer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="documentation.htm" tabindex="-1" aria-disabled="true">Documentation</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+        </header>
+
+<body data-spy="scroll" data-target="#toc">
+<div class="container">
+    <div class="row">
+<div class="col-sm-3">
+          <nav id="toc" data-toggle="toc" class="sticky-top">
+          </nav>
         </div>
-      </li>
-
-      <li class="border-top my-3"></li>
-
-        <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-          The team
-        </button>
-      </li>
-      <li class="border-top my-3"></li>
-    </ul>
-  </div>
 	<div class="col-9">
-		<h2 id="1920">1920s - The industrial revolution is here!</h2>
-		<h3>Background</h3>
+    <h2>The framework</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac malesuada nunc, non consectetur elit. Maecenas vitae orci eget urna elementum maximus quis et tellus. Nulla auctor urna ut velit dictum porttitor. Nam mattis hendrerit justo. Nulla ut sodales ipsum, vel venenatis arcu. Pellentesque vel ligula eget massa ultricies vulputate eget vel lacus. Nunc felis ligula, tempus quis enim eu, feugiat porta lacus. Praesent gravida urna sit amet ante cursus vulputate.
 
+Praesent tempus volutpat ante at facilisis. Donec eu lorem non sem sollicitudin congue. Cras suscipit scelerisque tortor, sed fermentum augue rhoncus sit amet. Duis sagittis mattis eros, at pellentesque leo elementum nec. Nam tellus diam, rutrum sed blandit eget, egestas sit amet sapien. Duis sollicitudin in mauris vel aliquet. Ut auctor massa eu nibh pretium faucibus. Morbi et nibh eleifend, maximus erat non, ultrices mauris.
+
+Quisque scelerisque mi quis nibh molestie, vel vestibulum nulla vulputate. Nam pharetra rhoncus tellus, eget consectetur nisl pretium id. Duis ac est eu nisl dapibus elementum. Proin commodo magna ac vehicula ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc molestie pulvinar ex sed gravida. Vivamus pharetra pretium lorem sit amet placerat. Fusce sagittis eget augue vitae gravida.</p>
+    <h2>The themes</h2>
+		<h3 id="1920">1920s - The industrial revolution is here!</h3>
+		<h4 data-toc-skip>Background</h4>
 			<p>Costructivsm was an artistic and architectural movement that started in Russia at the beginning of the XX century. The term Construction Art was first used as a derisive term by Kazimir Malevich to describe the work of Alexander Rodchenko in 1917, but Constructivism as theory and practice was derived later at the Institute of Artistic Culture (INKhUK) in Moscow around 1920s. Constructivist architecture and art had a great effect on modern art movements of the 20th century, influencing major trends such as the Bauhaus and De Stijl movements. Its influence was widespread, with major effects upon architecture, sculpture, graphic design, industrial design, theatre, film, dance, fashion and, to some extent, music.</p>
 			<p>With its abstract and austere philosophy, constructivist art aimed to reflect modern industrial society and urban space] The movement rejected decorative stylization in favour of the industrial assemblage of materials, trying to recreate what the industrial field could be translated in art. It goes without any saying that Costructvism is deeply interrelated with the societal and political context of the soviet regime of that time.  Constructivists were in favour of art for propaganda and social purposes, and were associated with Soviet socialism, the Bolsheviks and the Russian avant-garde.</p>
-		<h3>The layout</h3>
+		<h4 data-toc-skip>The layout</h4>
 			<p>Most of the costructivism works were aimed at creating artworks and posters that somehow spread the message of the soviet propaganda. For this reason, some abstracting and reworking were required in order to adapt this style in the context of a typographical style for articles. The first thing that should capture the reader eyes is the main title: printed with an bold and large font, taking most of the main cover page should really give the feeling of a shout-out statement. For this reason, we have large font size for the title (rigorously in uppercase letters), while the ratio between the font size of the title and the font size of the main text is not less than an half (i.e. 0,5em). In order to reproduce the feeling of a poster, the whole text of the main body has been rendered in small caps. </p>
 			<p>Secondary, no fancy images are allowed in the cover page! This is the industrial revolution after all. The fancy and capitalistic images that usually cover the non-socialistic magazines have been replaced with a stylised artwork that represents the industrial work. This is not only an aesthetical element, but it is also a very symbolic element: art is not more than something that can be industrially created. The rest of the images (along with their captions) were slightly rotated (3° of inclination) to have a more “printed” feeling.</p>
 			<p>In order to recreate the feeling of a soviet poster, sharp and bold black lines have been drawn to “frame” the whole content and to divide the main sections of the article i.e. to separate the cover and the article body and to subdivide the hierarchy of the text (h3, h4, h5 and h6). The main title is cantered with a significant padding both to the right and to the left, while the text has an asymmetric padding more consistent to the right than to the left (see sources). Additional focused was put for blockquotes boxes, which are again slightly rotated to the left and for lists, which uses a small triangle to indicate an unordered list. No order is allowed! An eventually ordered list would be automatically rendered as an unordered one because it would not fit the rationale of the time. </p>
-		<h3>The colours</h3> 
+		<h4 data-toc-skip>The colours</h4> 
 			<p>Three main colours were used: red (#ce2909), black (#212528) and white (#f1f5dc). Red is probably the most important one, both for its huge impact on the screen and for its obvious political meaning. I have decided to play with the double contrast of white on red and black on red. This should recreate the feeling of the posters of that time (cf. sources). </p>
-		<h3>Sources</h3>
+<div class="row">
+    <div class="col-4">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Red</h5>
+    <h6 class="card-subtitle mb-2 text-muted">#ce2909</h6>
+    <div class="palette" id="sovietred"></div>
+  </div>
+</div>
+    </div>   
+         <div class="col-4">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Black</h5>
+    <h6 class="card-subtitle mb-2 text-muted">#212528</h6>
+    <div class="palette" id="sovietblack"></div>
+  </div>
+</div>
+    </div> 
+
+        <div class="col-4">
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">White</h5>
+    <h6 class="card-subtitle mb-2 text-muted">#f1f5dc</h6>
+    <div class="palette" id="sovietwhite"></div>
+  </div>
+</div>
+    </div> 
+</div>
+
+		<h4 data-toc-skip>Sources</h4>
+
+<!-- Images used to open the lightbox -->
+<div class="row gallery" >
+  <div class="column">
+    <img src="../Assets/imgs/soviet1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../Assets/imgs/soviet6.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../Assets/imgs/soviet3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="../Assets/imgs/soviet4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+      <div class="column">
+    <img src="../Assets/imgs/soviet5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+        <div class="column">
+    <img src="../Assets/imgs/soviet2.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modalgallery">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="../Assets/imgs/soviet1.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="../Assets/imgs/soviet6.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="../Assets/imgs/soviet3.jpg" style="width:90%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="../Assets/imgs/soviet4.jpg" style="width:90%">
+    </div>
+        <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="../Assets/imgs/soviet5.jpg" style="width:90%">
+    </div>
+            <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="../Assets/imgs/soviet2.png" style="width:90%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+</div>
+</div>
+
 		<ul>
 			<li>http://guity-novin.blogspot.com/2012/04/modern-newspaper-magazine-layouts.html https://en.wikipedia.org/wiki/Constructivism_(art)</li>
 			<li>https://www.theartstory.org/movement/constructivism/</li>
 		</ul>
 
-		<h2 id="2030">2030 – The future now</h2>
-			<h3>Background</h3>
+		<h3 id="2030">2030 – The future now</h3>
+			<h4 data-toc-skip>Background</h4>
 				<p>The current year is 2030. The COVID-19 pandemics is just a bad memory in people’s mind. Despite many efforts, the world is still having huge impact on the ecological climate of the planet Earth, humans still heavily rely on carbon fossil and a true green revolution has not yet happened. Statal entities like national governments are slowly but certainly declining due to the impact of breakthrough in the blockchain technologies that allow citizen to exchange money and stipulating contracts without third parties’ approval. Asian countries are now leaders in most of the pivotal fields of currently economy and Chinese is becoming the first spoken language for business and scientific research. For the everyday life of a normal citizen, the world of a 2030 human being is pretty similar to the one of a 2021’s one. So how web technology evolved in the meantime?</p>
 				<p>The 2010s where undoubtedly the era of the smartphone as a every-day device for almost all the possible tasks. Despite being basically subclassed on the daily usage, desktop computers and notebook were still fundamental for many tasks, primarily due the screen size and the presence of mouse/keyboard for input. At the beginning of the 2020s, the development of foldable devices started to take place and brought some important new features for their users. First of all, it allowed to create hybrid devices that could be used as normal smartphones in their folded mode and as proper notebook in their un-folded mode. The advantages of such interoperability basically declared the death of computers as we have known them.</p>
 				<p>Secondary, the traditional economy as we know it has been drastically changed by the advent of the blockchain technology and the rise of the cryptocurrency. People are now able to buy most of their goods, both outside and inside the internet, using a wide range of different crypto currencies such as Bitcoin, Ethereum and so on. They have their own crypto-wallet which can be used to rapidly exchange traditional currency (e.g. euros, dollars, etc.) with any kind of cryptocurrency and also to perform exchange between the latter. When browsing a particular item on the internet, they can decide to by the relative Non-Fungible Token (NFT) i.e. a sort of virtual copy of that resource that has a unique identifier. This has been an incredibly useful resource for online magazines that were struggling for funds.</p>
-			<h3>The layout</h3>
-				<p>In the context that was briefly laid out above, the layout of a web page should follow some minimalistic but fundamental rules. First of all, the text should be put at the very centre of the page in order to allow total readability of a user that is browsing thought a device in what is now refer to as “portrait mode”. This means an aspect ratio of 18/9 or 19.5/9 that exploit the vertical dimension in order to scroll the content. For this reason the text is put with a padding of [inserire padding]. Secondary, each line is separated by a wide blank space i.e. a line height of [inserire line height]. This creates a very minimalist and clear visual that enhances readability.</p>
-				<p>There is also a sharp distinction between the cover page, which includes title, subtitle, description and a cover image, and the actual body of the text. The first letter of the article is showcased by increase its size, a trick that is commonly used in most of current journals and which I believe will stick around for a while in the future. Except for that, there is no need for further decorations: the cover page has a minimalistic gradient background that gives a fresh-looking style to the page, but all the focus in on the text. For this reason, the choice of a good font that is clear, elegant and at the same time easy to ready, is crucial. My choice was on [inserire font], for its being already used in many important magazines and for its minimalistic aspect. </p>
-			<h3>The colours</h3>
+			<h4 data-toc-skip>The layout</h4>
+				<p>In the context that was briefly laid out above, the layout of a web page should follow some minimalistic but fundamental rules. First of all, the text should be put at the very centre of the page in order to allow total readability of a user that is browsing thought a device in what is now refer to as “portrait mode”. This means an aspect ratio of 18/9 or 19.5/9  that exploit the vertical dimension in order to scroll the content; for sake of simplicity I choose an aspect ratio of 18 / 9 through the properti aspect-ratio: <\ratio>\;. For this reason the text is put with a padding of [inserire padding]. Secondary, each line is separated by a wide blank space i.e. a line height of [inserire line height]. This creates a very minimalist and clear visual that enhances readability.</p>
+				<p>There is also a sharp distinction between the cover page, which includes title, subtitle, description and a cover image, and the actual body of the text. The first letter of the article is showcased by increase its size, a trick that is commonly used in most of current journals and which I believe will stick around for a while in the future. Except for that, there is no need for further decorations: the cover page has a minimalistic gradient background that gives a fresh-looking style to the page, but all the focus in on the text. For this reason, the choice of a good font that is clear, elegant and at the same time easy to ready, is crucial. My choice was on Raleway, for its being already used in many important magazines and for its minimalistic aspect. </p>
+			<h4 data-toc-skip>The colours</h4>
 				<p>For what it concerns the colour choice, I followed the line of simplicity: the text is plain black while the background is plain white. For the cover page a gradient looked like the best choice in order to preseverve a minimalistic aspect but also to give an aesthetically pleasant look. As it was mentioned above, the idea is to enhance as much as possible readability without distracting the reader. The only proper decoration that was developed it is related to anchors. They are displayed without underling or any other decorations, but when inactive they are [inserire colore link], remind the colour of the cover page. When hoovered the anchors display a linear gradient change on the horizontal axes, giving the feeling of something “getting started”. </p>
-			<h3>Sources</h3>
+			<h4 data-toc-skip>Sources</h4>
+    <h2>The team</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac malesuada nunc, non consectetur elit. Maecenas vitae orci eget urna elementum maximus quis et tellus. Nulla auctor urna ut velit dictum porttitor. Nam mattis hendrerit justo. Nulla ut sodales ipsum, vel venenatis arcu. Pellentesque vel ligula eget massa ultricies vulputate eget vel lacus. Nunc felis ligula, tempus quis enim eu, feugiat porta lacus. Praesent gravida urna sit amet ante cursus vulputate.
 
+Praesent tempus volutpat ante at facilisis. Donec eu lorem non sem sollicitudin congue. Cras suscipit scelerisque tortor, sed fermentum augue rhoncus sit amet. Duis sagittis mattis eros, at pellentesque leo elementum nec. Nam tellus diam, rutrum sed blandit eget, egestas sit amet sapien. Duis sollicitudin in mauris vel aliquet. Ut auctor massa eu nibh pretium faucibus. Morbi et nibh eleifend, maximus erat non, ultrices mauris.
+
+Quisque scelerisque mi quis nibh molestie, vel vestibulum nulla vulputate. Nam pharetra rhoncus tellus, eget consectetur nisl pretium id. Duis ac est eu nisl dapibus elementum. Proin commodo magna ac vehicula ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc molestie pulvinar ex sed gravida. Vivamus pharetra pretium lorem sit amet placerat. Fusce sagittis eget augue vitae gravida.</p>
 	</div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+<script src="Assets/js/modalimgs.js"></script>
 </body>
 </html>
