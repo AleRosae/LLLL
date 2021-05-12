@@ -155,6 +155,7 @@ nav[data-toggle=toc] .nav>li>a {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Position the "next button" to the right */
@@ -225,4 +226,26 @@ background-color: #ce2909;
 }
 #sovietblack {
   background-color: #212528
+}
+
+#futureviolet {
+  background-color: #3B244E;
+}
+#futureblue {
+  background-color: #357EA2;
+}
+
+#futureice {
+  background-color: #D5E5F0;
+}
+
+#futurepink {
+  background-color: #ceb0e4;
+}
+
+#firstgradient {
+  background-image: radial-gradient(circle, #ceb0e4, #c5c0ee, #c2cef1, #c8dbf1, #d5e5f0);
+}
+#secondgradient {
+  background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
 }
