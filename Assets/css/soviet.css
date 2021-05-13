@@ -94,6 +94,7 @@ margin-top: -10px;
     border-left: double 10px;
     border-right: double 10px;
     padding: 8px 8px 20px 20px;
+    word-wrap: break-word;
      }
 
 .CoverInfo h2 {
