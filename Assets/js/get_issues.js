@@ -3,7 +3,7 @@
 	function main(){
 		      $.ajax({
 		      method:"GET",
-              url : 'filelist.json', 
+              url : '../Assets/json/filelist.json', 
               dataType : 'json', 
               cache : false, 
               success : function(data) {
@@ -16,7 +16,7 @@
 
             function createIssues(obj) {
                 for (i in obj.issues) {
-                    $("#dropdownmenuissues").append("<li><a class='dropdown-item' href='" + obj.issues[i].pageLink  + obj.issues[i].topic + "</a></li>");
+                    $("#dropdownmenuissues").append("<li><a class='dropdown-item' href=\"" + obj.issues[i].pageLink + "\">" + obj.issues[i].topic+"</a></li>");
                     $("#IssuesBox").append("<div class=\"col-4\" id=\"issue"+obj.issues[i].issue+"\"></div>");
                     $("#issue"+obj.issues[i].issue).append("<div class=\"card\" style=\"width: 18rem;\" id=\"card"+obj.issues[i].issue+"\"></div>");
                     $("#card"+obj.issues[i].issue).append("<img src=\""+obj.issues[i].img+"\" class=\"card-img-top\" alt=\"...\">");   
