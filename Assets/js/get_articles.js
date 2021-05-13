@@ -10,6 +10,7 @@
               success : function(data) {
                 console.log(data);
                 addArticles(data);
+                addIssueDetails(data);
                 },
               error: function(){
               	alert("error:no data available")
@@ -18,7 +19,7 @@
 
         function addArticles(obj) {
             for (i in obj.articles) { 
-            	$("#articlescheckbox").append("<li><div class=\"form-check\"><input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\""+obj.articles[i].title+"\" onclick=\"load('"+obj.articles[i].url+"')\"><label class=\"form-check-label\" for=\""+obj.articles[i].title+"\">"+obj.articles[i].title+"</label></div>");
+            	$("#infobox"+obj.articles[i].number+" h5").attr('onclick', 'load(\"'+obj.articles[i].url+'\")');
             	$("#infobox"+obj.articles[i].number+" h5").text(obj.articles[i].title);
             	$("#infobox"+obj.articles[i].number+" #author").text("Author: "+obj.articles[i].author);
 	           	$("#infobox"+obj.articles[i].number+" #authordescr").text("Author description: "+obj.articles[i].authordescription);
@@ -30,6 +31,19 @@
           }
           	
    }
+
+        function addIssueDetails(obj) {
+            for (i in obj.issue) { 
+            	$("#issuedetails #issue-header").text(obj.issue[i].topic+" issue details");
+            	$("#issuedetails #issue-theme").text("Theme: "+obj.issue[i].description);
+            	$("#issuedetails #issue-keywords").text("Keywords: "+obj.issue[i].keywords);
+            	$("#issuedetails #issue-editor").text("Editor: "+obj.issue[i].editor);
+
+          }
+          	
+   }
+
+
  }
 
           	
