@@ -250,3 +250,15 @@ background-color: #ce2909;
 #secondgradient {
   background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
 }
+
+#medievalred{
+  background-color: #cc072f;
+}
+
+#medievalblue{
+  background-color: #231f99;
+}
+
+#parchmentwhite{
+  background-color: #ede4c9;
+}
