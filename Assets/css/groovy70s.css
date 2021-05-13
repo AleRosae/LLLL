@@ -9,34 +9,44 @@
 .container{
     background-repeat: repeat;
     background-size: contain;
-    font-size: 90%;
+    font-size: 80%;
     font-weight: normal;
     text-align: justify;
     background-color: RGB(255, 204, 154); 
 }
 
+/*.container .col-12{
+    font-size:80px;
+}
+
+ .container .col-6 {
+    font-size:45px;
+}
+
+.container .col-4{
+    font-size:30px;
+}*/
 .container .colonne_variabili{
     border-left: solid 30px;
     border-color: #d9ac36 #d04f2c;
     border-style: groove;
-    margin:7px;
 }
 
 container img{
     display: block;
-    margin-left: auto;
+    margin-left:auto;
     margin-right: auto;
 }
 
 .container h1{
     font-family: "Newsense";
-    text-align:end;
     font-size: 5em;
+    text-align:end;
     color: #d04f2c;
     border: 10px;
     margin: 20px;
     padding-top: 35%;
-    text-shadow: -1px 0 #0c0000, 0 1px #1a0101, 1px 0 #0f0101, 0 -1px #130101;
+    text-shadow: -1px 0 #0c0000, 0 1px #1a0101, 1px 0 #0f0101, 0 -1px #130101; /*this makes the borders black*/
 }
 
 .container h2{
@@ -48,7 +58,7 @@ container img{
 
 .container h3{
     font-family: "Newsense";
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
     text-align: center;
     color: RGB(96, 61, 127);
@@ -56,9 +66,9 @@ container img{
 
 .container p{
     font-family:'Poppins', sans-serif;;
-    font-size: 1.5em;
     text-align:justify;
     color: #431e15;
+    font-size: 1.5em;
 }
 
 .ArticleHead{
@@ -82,7 +92,7 @@ img {
     border-style: groove;
     border-color: green purple;
     border-radius: 10%;
-    position:static;
+    text-align: end;
     font-family:'Poppins', sans-serif;
     margin: 2em 1em 1em 5em;
     padding: 1em;
@@ -99,6 +109,8 @@ img {
 }
 
 .container figcaption{
+    font-family: monospace;
     font-style: oblique;
-    font-size: 0.8em;
+    font-size: 0.6em;
+    text-align: center;
 }

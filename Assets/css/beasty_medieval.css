@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 
 @font-face {
-    font-family: 'animal_capsregular';
-    src: url('animalcaps-gb41-webfont.woff2') format('woff2'),
-         url('animalcaps-gb41-webfont.woff') format('woff');
+    font-family: "Decorated_letters";
+    src: url("other_fonts/zamolxisornament-dxrv-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -43,7 +41,7 @@
     filter:sepia();
 }
 .container h1{
-    font-family: 'animal_capsregular';
+    font-family: 'MedievalDeco';
     font-weight: normal;
     font-size: 5em;
     color: rgb(204, 7, 47);
@@ -116,4 +114,3 @@
     text-align: center;
     font-style: italic;
 }
-
