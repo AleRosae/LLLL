@@ -3,7 +3,7 @@
 	function main(){
 		      $.ajax({
 		      method:"GET",
-              url : '../Assets/json/filelist.json', 
+              url : 'filelist.json', 
               dataType : 'json', 
               cache : false, 
               success : function(data) {

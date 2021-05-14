@@ -153,13 +153,14 @@
 }
 
 .ArticleBody blockquote{
-
+  margin-left: 5%;
+  margin-right: 5%;
 }
- .ArticleBody blockquote p {
 
+.ArticleBody blockquote::before {
+  content: "\""
+}
 
-
- }
 
 .ArticleBody a {
   color: #9c8ded;
@@ -214,6 +215,8 @@
     margin-bottom: .5em;
     line-height: 1;
     border-radius: .25em !important;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -226,7 +229,7 @@
     margin-right: 11%;
     font-weight: 400;
     line-height: 1;
-    font-size: 1em;
+    font-size: 0.6em;
     margin-left: 11%;
     text-align: justify;
 }
@@ -235,7 +238,7 @@
     color: #333;
     font-weight: 400;
     line-height: 1;
-    font-size: 1em;
+    font-size: 0.6em;
     margin-left: 5%;
     text-align: center;
     margin-right: 5%;

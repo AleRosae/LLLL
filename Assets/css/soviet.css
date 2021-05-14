@@ -206,13 +206,12 @@ margin-top: -10px;
 
  }
 
-.ArticleBody img {
+.ArticleBody figure img {
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     filter: sepia(0.3);
-    transform: rotate3d(1, 1, 1, -2deg);
     border: double 8px #f1f5dc;
 }
 
@@ -253,9 +252,8 @@ margin-top: -10px;
     line-height: 1;
     font-size: 0.5em;
     text-align: center;
-    transform: rotate3d(1, 1, 1, -2deg);
     margin-top: 1%;
-    border: double 2px #212528;
+    border: double 4px #212528;
     padding: 1% 5% 1% 5%;
     font-variant: small-caps;
     margin-left: 10%;
