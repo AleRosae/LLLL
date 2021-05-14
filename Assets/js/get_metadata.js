@@ -1,7 +1,6 @@
 $(document).ready(function () {
     $(".callmetadata").click(function () {
         var meta = this.id;
-        alert(meta);
         $(".infobox .card-text").empty();
 
         var lista_nomi1 = [];
