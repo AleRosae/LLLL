@@ -1,7 +1,9 @@
 $(document).ready(function () {
     $(".callmetadata").click(function () {
         var meta = this.id;
-        $(".infobox .card-text").empty();
+        if($("#"+meta).attr("active")=="0"){
+            $("#"+meta).attr("active", "1");
+            $(".infobox .card-text").empty();
 
         var lista_nomi1 = [];
         var lista_nomi2 = [];
@@ -38,6 +40,10 @@ $(document).ready(function () {
         for (i in lista_nomi3) {
             $("#elencoNomi3").append("<li>" + lista_nomi3[i] + "</li>");
         }
-
+    }
+    else{
+        $("#"+meta).attr("active", "0");
+        $(".infobox .card-text").empty();
+    }   
     });
 });
