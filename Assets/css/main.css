@@ -48,10 +48,19 @@
   display: none;
 }
 
+#issuedetails > .card > .card-body {
+  height: 300px;
+  overflow-y: scroll;
+}
+
 .metadatibox > .card > .card-body {
   height: 300px;
   overflow-y: scroll;
   
+}
+
+#issuedetails > .card > .card-body::-webkit-scrollbar {
+  display: none;
 }
 
 .metadatibox > .card > .card-body::-webkit-scrollbar {
