@@ -75,14 +75,9 @@
 						} else if ($("#Articles").children().length == 3) {
 							var col = 4;
 							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili");
-							switch(title){
-								case "article1_box":
-									$("#article1_box").attr("class","col-"+col+" colonne_variabili order-first");
-									break;
-								case "article3_box":
-									$("#article3_box").attr("class","col-"+col+" colonne_variabili order-last");
-									break;
-							}
+							$("#article1_box").attr("class","col-"+col+" colonne_variabili order-first");
+							$("#article3_box").attr("class","col-"+col+" colonne_variabili order-last");
+
 						}
 						else if ($("#Articles").children().length > 3) {
 							alert("Max number of documents exceeded");
