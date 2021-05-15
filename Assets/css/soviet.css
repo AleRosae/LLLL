@@ -1,5 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Gothic+A1:wght@400;900&family=Nanum+Gothic&display=swap');
+@font-face {
+    font-family: 'konstruktorregular';
+    src: url('other_fonts/konstruktor-qzzrq-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'red_octoberlight';
+    src: url('other_fonts/redoctoberlight-3nd6-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'red_october_stencilregular';
+    src: url('other_fonts/redoctoberstencil-2dnl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+    font-family: 'konstruktorregular';
+    background-color: #344c47;
+
+}
+
+.card {
+    border-radius: 0;
+    border-top: double 10px;    
+    border-bottom: double 10px;
+    border-left: double 10px;
+    border-right: double 10px;
+    background-color: #f1f5dc;
+}
 
 .container::-webkit-scrollbar {
   display: none;
@@ -13,15 +54,19 @@
 }
 
 .container .col-12{
+    font-family: 'red_octoberlight';
     font-size:75px;
 }
 
  .container .col-6 {
+    font-family: 'red_octoberlight';
     font-size:45px;
 }
 
 .container .col-4{
-    font-size:30px;
+    font-family: 'red_octoberlight';
+    font-size:40px;
+
 }
 
 .CoverMain {
@@ -60,7 +105,6 @@ margin-top: -10px;
     background-size: 4em 4em;
     font-size: 0.4em;
     list-style: none;
-    font-family: 'Gothic A1', sans-serif;
     color: #f1f5dc;
     text-transform: uppercase;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -68,7 +112,6 @@ margin-top: -10px;
 }
 
 .CoverInfo p {
-    font-family: 'Gothic A1', sans-serif;
     color: #f1f5dc;
     font-weight: 700;
     line-height: 1;
@@ -80,7 +123,7 @@ margin-top: -10px;
 
 
 .CoverTitle h1 {
-	font-family: 'Dela Gothic One', cursive;    
+    font-family: 'red_october_stencilregular';
 	font-size: 1em;
 	color: #f1f5dc;
     font-weight: 700;
@@ -98,7 +141,6 @@ margin-top: -10px;
      }
 
 .CoverInfo h2 {
-    font-family: 'Dela Gothic One', cursive;
     color:  #212528;
     font-weight: 400;
     line-height: 1;
@@ -116,7 +158,6 @@ margin-top: -10px;
 }
 
 .ArticleBody h3 {
-    font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
     line-height: 0.8;
@@ -131,7 +172,6 @@ margin-top: -10px;
     margin-bottom: 25px;
      }
      .ArticleBody h4 {
-    font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
     line-height: 0.8;
@@ -147,7 +187,6 @@ margin-top: -10px;
      }
 
 .ArticleBody h5  {
-    font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
     line-height: 0.8;
@@ -163,7 +202,6 @@ margin-top: -10px;
      }
 
      .ArticleBody h6 {
-    font-family: 'Dela Gothic One', cursive;
     color: #f1f5dc;
     font-weight: 400;
     line-height: 0.8;
@@ -179,7 +217,6 @@ margin-top: -10px;
      }
 
 .ArticleBody p {
-    font-family: 'Gothic A1', sans-serif;
     color: #f1f5dc;
     font-weight: 300;
     line-height: 1;
@@ -197,7 +234,6 @@ margin-top: -10px;
  .ArticleBody blockquote p {
     font-size: 0.8em;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-family: 'Gothic A1', sans-serif;
     color: #e6ebd1;
     font-weight: 200;
     line-height: 0.8;
@@ -216,7 +252,6 @@ margin-top: -10px;
 }
 
 .ArticleBody a {
-	font-family: 'Dela Gothic One', cursive;    
 	color: #f1f5dc;
     font-weight: 500;
     line-height: 1;
@@ -226,7 +261,6 @@ margin-top: -10px;
      } 
 
 .ArticleBody ul {
-    font-family: 'Gothic A1', sans-serif;    
     color: #212528;
     font-weight: 150 !important;
     line-height: 1.5;
@@ -246,7 +280,6 @@ margin-top: -10px;
 }
 
 .ArticleBody figcaption {
-    font-family: 'Gothic A1', sans-serif;
     color: #f1f5dc;
     font-weight: 150;
     line-height: 1;
@@ -260,7 +293,6 @@ margin-top: -10px;
     margin-right: 10%;
 }
 .CoverMain figcaption {
-    font-family: 'Gothic A1', sans-serif;    
     color: #f1f5dc;
     font-weight: 150;
     line-height: 1.2;
