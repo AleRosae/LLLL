@@ -4,13 +4,14 @@
 #Articles {
   --bs-gutter-x: 0;
 }
-.container{
+.main > .container{
 	font-size: 12px;
 	font: "colibri";
 	max-width: 100%;
 	border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   position: relative;
+  padding: 0 0 0 0;
 }
 .container h1,h2,h3{
 	font-weight: 1000;
@@ -47,7 +48,15 @@
   display: none;
 }
 
+.metadatibox > .card > .card-body {
+  height: 300px;
+  overflow-y: scroll;
+  
+}
 
+.metadatibox > .card > .card-body::-webkit-scrollbar {
+  display: none;
+}
 
 nav[data-toggle="toc"] {
   top: 10%;

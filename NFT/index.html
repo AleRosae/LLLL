@@ -51,7 +51,6 @@
 			<div class="card">
 				  <div id="issue-header" class="card-header">
 				  </div>
-			<div class="card" >
 				  <div class="card-body">
 				    <h5 class="card-title"></h5>
 				    <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -63,12 +62,11 @@
 				    	<ul class="list-group list-group-flush" id="articlescheckbox">
 			  			</ul>
 				    </div>
-				  </div>
 				</div>
 			</div>
 		</div>	
-		<div class="col-3" id="infobox1">
-			<div class="card" >
+		<div class="col-3 metadatibox" id="infobox1">
+			<div class="card infobox" >
 				  <div class="card-body">
 				    <h5 class="card-title"></h5>
 				    <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -82,8 +80,8 @@
 				  </div>
 				</div>
 		</div>
-		<div class="col-3" id="infobox2">
-			<div class="card">
+		<div class="col-3 metadatibox" id="infobox2">
+			<div class="card infobox">
 				  <div class="card-body">
 				    <h5 class="card-title"></h5>
 				    <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -97,8 +95,8 @@
 				  </div>
 				</div>
 		</div>	
-			<div class="col-3" id="infobox3">
-		<div class="card" >
+			<div class="col-3 metadatibox" id="infobox3">
+		<div class="card infobox" >
 			  <div class="card-body">
 			    <h5 class="card-title"></h5>
 			    <h6 class="card-subtitle mb-2 text-muted"></h6>
@@ -117,22 +115,22 @@
 
 
 <div class="main row">
-    <div class="side col-2">
+    <div class="side col-3">
 		<div class="card">
 		  	<div class="card-header">
 			    Cose
 			  </div>
 			  <ul class="list-group list-group-flush" id="articlescheckbox">
 	  	        <li><div class="form-check">
-				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+				  <input class="form-check-input callmetadata" type="checkbox" active="0" value="" id="deafultmetadata">
 				  <label class="form-check-label" for="defaultCheck1">
-				    	Default checkbox
+				    	Articles metadata
 				  </label>
 				</div></li>
 				<li><div class="form-check">
-					  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+					  <input class="form-check-input callmetadata" active="0" type="checkbox" value="" id="company">
 					  <label class="form-check-label" for="defaultCheck2">
-					    Another checkbox
+					    company
 					  </label>
 					</div></li>
 			  </ul>
@@ -143,9 +141,9 @@
 					  </div>
 					  <ul class="list-group list-group-flush" id="articlescheckbox">
 			  	        <li><div class="form-check">
-						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <input class="form-check-input callmetadata" active="0"type="checkbox" value="" id="pers">
 						  <label class="form-check-label" for="defaultCheck1">
-						    	Default checkbox
+						    	People
 						  </label>
 						</div></li>
 						<li><div class="form-check">
@@ -157,7 +155,7 @@
 					  </ul>
 					</div>
 	</div>
-    <div class="container col-10">
+    <div class="container col-9">
 
 <div class="modal fade" id="modalfuture" tabindex="-1" aria-labelledby="modalfutureLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -198,4 +196,4 @@
 <script type="text/javascript" src="../Assets/js/get_articles.js"></script>
 <script type="text/javascript" src="../Assets/js/get_style.js"></script>
 <script type="text/javascript" src="../Assets/js/additionalhyperfuture.js"></script>
-
+<script type="text/javascript" src="../Assets/js/get_metadata.js"></script>

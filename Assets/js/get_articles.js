@@ -31,7 +31,7 @@
 
 
           }
-          	
+       	
    }
 
         function addIssueDetails(obj) {
@@ -48,7 +48,7 @@
 
  }
 
-          	
+//*this function gets the json with all the articles of the issues and load them when the user clicks on each checkbox. The code is suppoed to workdinamycally: it checks the number of columns and adjust the size using the bootstrap classes (i.e. col-4, 6 and 12). It also manages to put the right articlesunder the right cardbox with its own metadata//*
 		function load(file) {
 			$.ajax({
 				method: 'GET',
@@ -75,6 +75,14 @@
 						} else if ($("#Articles").children().length == 3) {
 							var col = 4;
 							$(".colonne_variabili").attr("class","col-"+col+" colonne_variabili");
+							switch(title){
+								case "article1_box":
+									$("#article1_box").attr("class","col-"+col+" colonne_variabili order-first");
+									break;
+								case "article3_box":
+									$("#article3_box").attr("class","col-"+col+" colonne_variabili order-last");
+									break;
+							}
 						}
 						else if ($("#Articles").children().length > 3) {
 							alert("Max number of documents exceeded");
