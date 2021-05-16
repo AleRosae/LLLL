@@ -19,7 +19,7 @@
 
         function addArticles(obj) {
             for (i in obj.articles) { 
-            	$("#infobox"+obj.articles[i].number+" .card-header").text(obj.articles[i].title);
+            	$("#infobox"+obj.articles[i].number+" .card-title").text(obj.articles[i].title);
             	$("#infobox"+obj.articles[i].number+" #author").text("Author: "+obj.articles[i].author);
 	           	$("#infobox"+obj.articles[i].number+" #authordescr").text("Author description: "+obj.articles[i].authordescription);
 	           	$("#infobox"+obj.articles[i].number+" #date").text("Date of publication: "+obj.articles[i].date);

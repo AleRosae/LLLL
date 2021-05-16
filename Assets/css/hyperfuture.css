@@ -1,8 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+
+}
+
+.card {
+    border-radius: 10px;
+    border:solid 2px;
+    background-color: #dee2e6;
+    font-weight: 300;
+    color: #000000;
+}
+
+.card > .card-header {
+    color: #fff;
+    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+    border-color: #ffffff;
+    border-radius: inherit;
+}
+
+.form-check-input:focus {
+    border-color: #212528;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(53,126,162,.25);
+}
+
+
+.form-check-input:checked {
+    background-color: #ceb0e4;
+    border-color: #bbb;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0.25;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+
+.card a {
+  color: #9c8ded;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+     } 
+
+.card a:hover {
+  background-position: 0 100%;
+}
+
+
+.card a:visited {
+  color: #b5abe8;
+
+}
 
 .container::-webkit-scrollbar {
   display: none;
