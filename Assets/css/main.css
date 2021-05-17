@@ -47,16 +47,32 @@
 .container .colonne_variabili::-webkit-scrollbar {
   display: none;
 }
+.meta {
+  margin-bottom: 1vh;
+}
 
 #issuedetails > .card > .card-body {
-  height: 300px;
+  height: 25vh;
   overflow-y: scroll;
 }
 
+#issuedetails > .card >.card-header {
+ height: 7vh;
+
+}
+
+.metadatibox > .card >.card-header {
+ height: 7vh;
+
+}
 .metadatibox > .card > .card-body {
-  height: 300px;
+  height: 25vh;
   overflow-y: scroll;
   
+}
+
+.metadatibox > .card .card-title {
+  text-align: center;
 }
 
 #issuedetails > .card > .card-body::-webkit-scrollbar {

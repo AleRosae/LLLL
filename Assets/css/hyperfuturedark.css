@@ -4,6 +4,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #fff;
+
+}
+
+.card {
+    border-radius: 10px;
+    border:solid 2px;
+    background-color: #dee2e6;
+    font-weight: 300;
+    color: #000000;
+}
+
+.card > .card-header {
+    color: #fff;
+    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+    border-color: #ffffff;
+    border-radius: inherit;
+}
+
+.form-check-input:focus {
+    border-color: #212528;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(53,126,162,.25);
+}
+
+
+.form-check-input:checked {
+    background-color: #ceb0e4;
+    border-color: #bbb;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0.25;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+
+.card a {
+  color: #9c8ded;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+     } 
+
+.card a:hover {
+  background-position: 0 100%;
+}
+
+
+.card a:visited {
+  color: #b5abe8;
+
+}
+
 .container::-webkit-scrollbar {
   display: none;
 }
@@ -12,7 +77,19 @@
   padding-left:0px;
   padding-right: 0px;
 }
-.colonne_variabili img {
+.container > .row > .col-12{
+    font-size:28px;
+}
+
+ .container > .row > .col-6 {
+    font-size:24px;
+}
+
+.container > .row > .col-4{
+    font-size:22px;
+}
+
+.CoverMain img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -24,7 +101,7 @@
 }
 
 .CoverTitle h1 {
-    font-size: 2.5rem;
+    font-size: 2em;
     color: white;
     font-weight: 800;
     line-height: 1;
@@ -37,12 +114,15 @@
      }
 
 
-.CoverInfo{
-
+.author {
+    background-image: url("imgs/speaker.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1em;
 }
 
 .CoverInfo h2 {
-    font-size: 1.2rem;
+    font-size: 1em;
     font-style: italic;
     color: #000000f0;
     font-weight: 600;
@@ -56,7 +136,7 @@
 .CoverInfo p {
     font-weight: 500;
     line-height: 1;
-    font-size: 1.1rem;
+    font-size: 0.7em;
     text-transform: lowercase;
     margin-right: 5%;
     margin-bottom: 15px;
@@ -64,7 +144,8 @@
 }
 
 .CoverInfo ul {
-    line-height: 3;
+    line-height: 2;
+    font-size: 0.6em;
     padding: 0 10% 0 10%;
     font-weight: 600;
     list-style: none;
@@ -79,30 +160,36 @@
 }
 
 .ArticleBody h3 {
+    font-weight: 700;
+    font-size: 1.8em;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-top: 5%;
     margin-bottom: 0;
     padding: 5px 25px 5px 25px;
 }
 
 .ArticleBody h4 {
+    font-weight: 600;
+    font-size: 1,6em;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-top: 5%;
     margin-bottom: 0;
     padding: 5px 25px 5px 25px;
 }
 
 .ArticleBody h5 {
+    font-weight: 600;
+    font-size: 1,4em;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-top: 5%;
     margin-bottom: 0;
     padding: 5px 25px 5px 25px;
@@ -110,9 +197,11 @@
 
 .ArticleBody h6 {
     text-align: left;
+    font-weight: 500;
+    font-size: 1.2em;
     margin-left: 10%;
     margin-right: 10%;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-top: 5%;
     margin-bottom: 0;
     padding: 5px 25px 5px 25px;
@@ -121,7 +210,7 @@
 .ArticleBody p {
     font-weight: 600;
     line-height: 2;
-    font-size: 1rem;
+    font-size: 0.7em;
     padding: 5px 25px 5px 25px;
     text-align: justify;
     margin-left: 10%;
@@ -129,18 +218,20 @@
 }
 
 .ArticleBody blockquote{
-
+  margin-left: 5%;
+  margin-right: 5%;
 }
- .ArticleBody blockquote p {
 
+.ArticleBody blockquote::before {
+  content: "\""
+}
 
-
- }
 
 .ArticleBody a {
   color: #9c8ded;
   overflow: hidden;
-  background: linear-gradient(to right, #d8b2e2, #9c8ded 50%, #7176ce 50%);  background-clip: text;
+  background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 200% 100%;
@@ -176,32 +267,42 @@
 
 .ArticleBody::first-letter {
     font-size: 2rem;
-    color: #212529;
+    color: #f9fafb;
     margin-right: 5px;
-    text-shadow: 3px 3px #fcebf3;
-    font-weight: 900;
+      font-weight: 900;
     position: relative;
 }
 
 
-.colonne_variabili figure{
-  margin: 0 0 1rem;
+.ArticleBody figure{
+    margin: 0 0 1em;
+    margin-bottom: .5em;
+    line-height: 1;
+    border-radius: .25em !important;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+
+.ArticleBody figure > img {
+    border-radius: .25rem!important;
+}
+
+
 .ArticleBody figcaption {
-    color: #333;
-    margin-right: 5%;
+    margin-right: 11%;
     font-weight: 400;
     line-height: 1;
-    font-size: 1rem;
-    margin-left: 5%;
+    font-size: 0.6em;
+    margin-left: 11%;
+    text-align: justify;
 }
 
 .CoverMain figcaption {
     color: #333;
     font-weight: 400;
     line-height: 1;
-    font-size: 1rem;
+    font-size: 0.6em;
     margin-left: 5%;
     text-align: center;
     margin-right: 5%;
@@ -222,12 +323,43 @@
   cursor: pointer;
 }
 
-.container .btn-primary {
+.modal-footer > .btn-primary {
     color: #fff;
-    background: radial-gradient(circle, rgba(148,157,233,1) 0%, rgba(238,174,219,1) 100%);
+    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
     border-color: #ffffff;
 }
 
+.modal-header > h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-style: small-caps;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 10px 5px 10px;
+}
+
+.modal-body > p {
+    font-weight: 400;
+    line-height: 1,5;
+    font-size: 1em;
+    padding: 5px 10px 5px 10px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ .modal-body > .mb-3 > label {
+    font-weight: 400;
+    line-height: 1,5;
+    font-size: 1em;
+    padding: 5px 10px 5px 10px;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+ }
 /* Only real difference from normal hteme */
 .ArticleBody {
 background: rgb(52,54,78);
@@ -248,3 +380,22 @@ background: linear-gradient(0deg, rgba(52,54,78,1) 0%, rgba(33,30,46,1) 21%);
 .ArticleBody figcaption {
     color: #fff;
 }
+.card {
+font-weight: 600;
+background: rgb(52,54,78);
+background: linear-gradient(0deg, rgba(52,54,78,1) 0%, rgba(33,30,46,1) 21%);
+color: #fff;
+}
+
+body {
+  background-image: radial-gradient(circle, #919191, #8b8b8b, #858586, #7f8080, #797a7a);
+}
+
+.card a {
+  background-image: linear-gradient(to right, #674186, #6e6ab3, #95a9cd, #a6c1d8, #508aa6);
+}
+
+.ArticleBody a {
+  background-image: linear-gradient(to right, #674186, #6e6ab3, #95a9cd, #a6c1d8, #508aa6);
+}
+
