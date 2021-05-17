@@ -14,7 +14,7 @@
 .container {
     background-image: url("imgs/xixpaper.jpg");
 	background-color: transparent;
-    font-size: 60px;
+    font-size: 80px;
 	max-width: 90%;
 }
 
@@ -25,12 +25,13 @@
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+    border-top: #000000;
 }
 
 /* h1 */
 .container h1{
 	font-family: 'cloister_blacklight';
-	font-size: 1em;
+	font-size: 5em;
     letter-spacing: 1,5px;
 	color: #000000;
     font-weight: 700;
@@ -111,7 +112,7 @@
     text-align: justify;
     font-weight: 150;
     line-height: 1;
-    font-size: 0.3em;  
+    font-size: 1;  
     }  
 
 .container blockquote {
