@@ -34,7 +34,7 @@
 
         function addIssueDetails(obj) {
             for (i in obj.issue) { 
-            	$("#issuedetails #issue-header").text(obj.issue[i].topic+" issue details");
+            	$("#issuedetails .card-header .card-title").text(obj.issue[i].topic+" issue details");
             	$("#issuedetails #issue-theme").text("Theme: "+obj.issue[i].description);
             	$("#issuedetails #issue-keywords").text("Keywords: "+obj.issue[i].keywords);
             	$("#issuedetails #issue-editor").text("Editor: "+obj.issue[i].editor);

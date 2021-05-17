@@ -51,23 +51,9 @@
       </div>
       <div class="col-9">
         <h2>The framework</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac malesuada nunc, non consectetur
-          elit. Maecenas vitae orci eget urna elementum maximus quis et tellus. Nulla auctor urna ut velit dictum
-          porttitor. Nam mattis hendrerit justo. Nulla ut sodales ipsum, vel venenatis arcu. Pellentesque vel ligula
-          eget massa ultricies vulputate eget vel lacus. Nunc felis ligula, tempus quis enim eu, feugiat porta lacus.
-          Praesent gravida urna sit amet ante cursus vulputate.
-
-          Praesent tempus volutpat ante at facilisis. Donec eu lorem non sem sollicitudin congue. Cras suscipit
-          scelerisque tortor, sed fermentum augue rhoncus sit amet. Duis sagittis mattis eros, at pellentesque leo
-          elementum nec. Nam tellus diam, rutrum sed blandit eget, egestas sit amet sapien. Duis sollicitudin in mauris
-          vel aliquet. Ut auctor massa eu nibh pretium faucibus. Morbi et nibh eleifend, maximus erat non, ultrices
-          mauris.
-
-          Quisque scelerisque mi quis nibh molestie, vel vestibulum nulla vulputate. Nam pharetra rhoncus tellus, eget
-          consectetur nisl pretium id. Duis ac est eu nisl dapibus elementum. Proin commodo magna ac vehicula ultrices.
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc molestie
-          pulvinar ex sed gravida. Vivamus pharetra pretium lorem sit amet placerat. Fusce sagittis eget augue vitae
-          gravida.</p>
+        <p>This website allows users to read issues containing three different articles and perform some interesting operations on them. The two main scopes of the site are the following: displaying articles of a certain issue with different styles and layouts each heavily influenced by real typographic movements, and to perform cross analysis of textual metadata. </p>
+        <p>In order to achieve these two results, Ajax has been implemented. I have created a main Ajax structure using jQuery that automatically and dynamically creates paths for the available issues. Inside each issue the user can decide to read independently each article. Dependent on the number of articles displayed (with a maximum of three per issue), the main container changes size accordingly (always allowing for independent scrolling). The Ajax here is used to retrieve information about each article from a .json file which contains plenty of information. </p>
+        <p>Metadata are also display automatically with jQuery. In the same .json file there are various metadata that we believe are interesting for the readers, and the script is able to retrieve them and put them in their relative position. Then it is also possible to retrieve and display metadata information regarding the actual text of the articles. By clicking on different checkbox on the left sidebar, users can retrieve information from the text, for instance asking the system who has been mentioned in the article. For doing so, a mix of JavaScript and HTMK markup has been implemented. </p>
         <h2>The themes</h2>
         <h3 id="1920">1920s - The industrial revolution is here!</h3>
         <h4 data-toc-skip>Background</h4>

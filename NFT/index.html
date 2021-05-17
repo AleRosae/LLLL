@@ -12,7 +12,7 @@
 
 </head>
 <header id="header">
-	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 	  <div class="container-fluid">
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
@@ -31,9 +31,9 @@
 	          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modaldisclaimer">Disclaimer</a>
 	        </li>
 	        <li class="nav-item">
-	          <a class="nav-link" href="../documentation.htm" tabindex="-1" aria-disabled="true">Documentation</a>
+	          <a class="nav-link" href="documentation.htm" tabindex="-1" aria-disabled="true">Documentation</a>
 	        </li>
-	       	<li class="nav-item"><button id="soviet" class="styles">Get style Soviet</button></li>
+	        <li class="nav-item"><button id="soviet" class="styles">Get style Soviet</button></li>
 			<li class="nav-item"><button id="future" class="styles" data-bs-toggle="modal" data-bs-target="#modalfuture">Get style Future</button></li>
 			<li class="nav-item"><button id="beasty_medieval" class="styles">Get beasty_medieval</button></li>
 			<li class="nav-item"><button id="groovy70s" class="styles">Get groovy70s</button></li>
@@ -44,17 +44,18 @@
 	</nav>
 	</header>
 <body>
-	<h1>NFT</h1>
-
 	<div class="meta row">
 		<div class="col-3" id="issuedetails">
 			<div class="card">
-				  <div id="issue-header" class="card-header">
-				  </div>
+				<div  class="card-header">
+					    <div class="row align-items-center">
+                        	<div class="col-md-12">
+                           	 	<h5 class="card-title"></h5>
+                        	</div>
+                        </div>
+                    </div>
 				  <div class="card-body">
-				    <h5 class="card-title"></h5>
-				    <h6 class="card-subtitle mb-2 text-muted"></h6>
-				    <div class="card-text">
+					    <div class="card-text">
 				    	<p>Articles in this issue:</p>
 				    	<ul class="list-group list-group-flush" id="articlescheckbox">
 			  			</ul>
@@ -216,3 +217,4 @@
 <script type="text/javascript" src="../Assets/js/get_style.js"></script>
 <script type="text/javascript" src="../Assets/js/additionalhyperfuture.js"></script>
 <script type="text/javascript" src="../Assets/js/get_metadata.js"></script>
+<script src="../Assets/js/get_issues.js"></script>

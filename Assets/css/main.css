@@ -57,14 +57,26 @@
 }
 
 #issuedetails > .card >.card-header {
- height: 7vh;
+ height: 8vh;
+ font-size: 1em;
 
 }
 
+#issuedetails > .card >.card-header h5 {
+ height: 8vh;
+ font-size: 1.1em;
+
+}
 .metadatibox > .card >.card-header {
- height: 7vh;
-
+ height: 8vh;
 }
+
+.metadatibox > .card >.card-header h5 {
+ font-size: 1em;
+}
+
+
+
 .metadatibox > .card > .card-body {
   height: 25vh;
   overflow-y: scroll;
