@@ -7,23 +7,24 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    background-color: #fff;
+    background-color: #E3F0FF;
 
 }
 
 .card {
     border-radius: 10px;
     border:solid 2px;
-    background-color: #dee2e6;
+    background-color: #fff;
     font-weight: 300;
     color: #000000;
+    border-color: #bbb;
+
 }
 
 .card > .card-header {
-    color: #fff;
-    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
-    border-color: #ffffff;
-    border-radius: inherit;
+    color: inherit;
+    background-color: #f3f3f3;
+    border-color: #000000;
 }
 
 .form-check-input:focus {
