@@ -1,32 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300&family=Poppins:wght@300&display=swap');
 @font-face {
     font-family: "Newsense";
     src: url("other_fonts/newsense-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@font-face {
+    font-family: "Colombia";
+    src: url(other_fonts/colombia-rp0dv-webfont.woff) format("woff");
+}
+@font-face {
+    font-family: "RetroChips";
+    src: url(other_fonts/retrochips-1gnre-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
 
+    color: #684e51;
+    background-image: linear-gradient(to left bottom, #f6aa92, #f4a68d, #f3a389, #f19f84, #ef9c7f, #ef997c, #ee9779, #ee9476, #ef9174, #f08f73, #f08c71, #f18970);
+}
+
+
+.container-fluid > .row > .col-8{
+    background-color: #e4b241;
+}
+
+.main > .IssueBox{
+    border: solid 3px pink;
+    padding: 0 0 0 0;
+    background-color: #708e96;
+}
+
+.main > .IssueBox > .col-4{
+    font-family: "Retrochips";
+    border: solid blue;
+}
+
+#theteam{
+    background-color: RGB(255, 204, 154);
+}
+
+#theteam > .col-4{
+    border:solid 1.5px red;
+}
+
+.container-fluid h1{
+    font-family: "Newsense";
+    font-size: 5em;
+    font-weight: 800;
+    text-align: end;
+}
+
+.container-fluid h2{
+    font-family: "Newsense";
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.container-fluid h3{
+    font-family: "Newsense";
+    text-align:justify;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container-fluid h4{
+    font-family: "Newsense";
+}
+
+.container-fluid h5{
+    font-family: "Newsense";
+}
+.container-fluid h6{
+    font-family: "Newsense";
+}
+
+.container-fluid p{
+    font-family: "Colombia";
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card{
+    color:RGB(208, 79, 44);
+    font-family:"Colombia";
+    font-weight: bold;
+}
+
+.card > .card-header{
+    background-color: burlywood;
+}
+
+.form-check-input:focus{
+    border-color: chocolate;
+}
+
+.form-check-input:checked{
+    background-color: cornflowerblue;
+}
+
+.form-check-input[type=checkbox]{
+    border-radius: 0;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.container .col-12{
+    font-size: 20px;
+}
+
+.container .col-6{
+    font-size: 13px;
+}
+
+.container .col-4{
+    font-size: 10px;
+}
 .container{
     background-repeat: repeat;
     background-size: contain;
-    font-size: 80%;
+    /*font-size: 80%;*/
     font-weight: normal;
     text-align: justify;
     background-color: RGB(255, 204, 154); 
 }
 
-/*.container .col-12{
-    font-size:80px;
-}
-
- .container .col-6 {
-    font-size:13px;
-}
-
-wordwrap: breakword; da mettere in h1 
-.container .col-4{
-    font size:10px; 
-}*/
 .container .colonne_variabili{
     border-left: solid 30px;
     border-color: #d9ac36 #d04f2c;
@@ -40,8 +141,9 @@ container img{
 }
 
 .container h1{
+    word-wrap: break-word;
     font-family: "Newsense";
-    font-size: 5em;
+    font-size: 3.5em;
     text-align:end;
     color: #d04f2c;
     border: 10px;
@@ -51,25 +153,28 @@ container img{
 }
 
 .container h2{
+    word-wrap: break-word;
     font-family: "Newsense";
     color: green;
     font-weight:300;
     text-align: end;
+    padding: 5%;
 }
 
 .container h3{
     font-family: "Newsense";
-    font-size: 1.7em;
+    /*font-size: 1.7em;*/
     font-weight: bold;
     text-align: center;
     color: RGB(96, 61, 127);
 }
 
 .container p{
-    font-family:'Poppins', sans-serif;;
+    font-family:"Poppins" sans-serif;
+    font-weight: normal;
     text-align:justify;
     color: #431e15;
-    font-size: 1.5em;
+    padding: 2mm;
 }
 
 .ArticleHead{
@@ -109,9 +214,18 @@ img {
     color: RGB(208, 79, 44);
 }
 
+.container li{
+    font-family:'Poppins', sans-serif;;
+    text-align:justify;
+    font-size: small;
+    margin: auto;
+    color: #431e15;
+    padding: 2mm;
+}
+
 .container figcaption{
     font-family: monospace;
-    font-style: oblique;
-    font-size: 0.6em;
+    font-style:normal;
+    font-size: 0.8em;
     text-align: center;
 }
