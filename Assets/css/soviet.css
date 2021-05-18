@@ -157,6 +157,25 @@ body {
     padding: 0px 2px 0px 8px;
 }
 
+footer {
+        background-color: #f1f5dc;
+        color: rgb(33 37 40);
+}
+
+footer .col-3 {
+    border: solid 6px #212528;
+}
+
+
+.p-3 {
+    background-color: rgb(33 37 40);
+    color: #f1f5dc;
+}
+
+.p-3 a {
+    color: #f1f5dc;
+}
+
 
 .card {
     border-radius: 0;

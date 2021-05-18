@@ -11,6 +11,112 @@ body {
 
 }
 
+.container-fluid > .row > .col-8 {
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69); 
+box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
+}
+
+.container-fluid h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: white;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 40px 10px 40px 10px;
+    letter-spacing: 2px;
+    font-style: bold;
+    background-image: radial-gradient(circle, #ceb0e4, #c5c0ee, #c2cef1, #c8dbf1, #d5e5f0);
+    border-radius: 8px;
+     }
+
+.container-fluid h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+    color: #000000f0;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    border-radius: 4px;
+    padding: 1% 10% 1% 10%;
+    margin-bottom: 10px;
+}
+.container-fluid h3 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.container-fluid h4 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.container-fluid  h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.container-fluid h6 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.3em;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+   }
+
+.container-fluid > .row > .col-8 {
+    background-color: #ffffff;
+    border: solid 1px #212528;
+    border-radius: 8px;
+}
+
+.container-fluid p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    font-size: 1em;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: justify;
+    padding: 5px 25px 5px 25px;
+
+}
+
+
 .card {
     border-radius: 10px;
     border:solid 2px;
@@ -18,6 +124,8 @@ body {
     font-weight: 300;
     color: #000000;
     border-color: #bbb;
+    -webkit-box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69); 
+box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 
 }
 
@@ -47,6 +155,45 @@ body {
   display: none;
 }
 
+footer {
+    margin-top: 1em;
+    background-color: white;
+}
+
+footer .col-3 {
+    text-align: justify;
+
+}
+
+footer h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    font-size: 1em;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+    padding: 5px 25px 5px 25px;
+}
+
+
+footer .p-3{
+    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+    color: white;
+}
 
 .card a {
   color: #9c8ded;
@@ -60,6 +207,11 @@ body {
   transition: background-position 275ms ease;
   text-decoration: none;
      } 
+.card button {
+    color: #fff;
+    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+    border-color: #ffffff;
+}
 
 .card a:hover {
   background-position: 0 100%;
@@ -342,6 +494,10 @@ body {
   cursor: pointer;
 }
 
+.modal {
+    color:#bbb;
+}
+
 .modal-footer > .btn-primary {
     color: #fff;
     background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
@@ -349,9 +505,10 @@ body {
 }
 
 .modal-header > h5 {
+    color:#000000;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
@@ -362,15 +519,17 @@ body {
 }
 
 .modal-body > p {
+    color:#000000;
     font-weight: 400;
-    line-height: 1,5;
-    font-size: 1em;
+    line-height: 2;
+    font-size: 1.2em;
     padding: 5px 10px 5px 10px;
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
 }
  .modal-body > .mb-3 > label {
+    color:#000000;
     font-weight: 400;
     line-height: 1,5;
     font-size: 1em;
