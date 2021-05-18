@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700;900&family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
 
 @font-face {
     font-family: 'cloister_blacklight';
@@ -10,22 +11,27 @@
     font-style: normal;
 }
 
+
 /* container */
 .container {
     background-image: url("imgs/xixpaper.jpg");
 	background-color: transparent;
-    font-size: 80px;
+    font-size: 100px;
 	max-width: 90%;
 }
 
 /* imgs */
 .container img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(95%) sepia(80%) brightness(60%) opacity(60%);
+    filter: grayscale(95%) sepia(80%) brightness(60%) opacity(60%) ;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-    border-top: #000000;
+    border-color: #000000;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
 }
 
 /* h1 */
@@ -36,33 +42,38 @@
 	color: #000000;
     font-weight: 700;
     line-height: 1;
-    text-align: -webkit-center;
+    text-align: center;
     }
 
 .container h2 {
     font-family: 'Bodoni Moda', serif; 
-    color: #000000;
-    font-weight: 400;
+	color: #000000;
+    font-weight: bold;
+    font-size: 20px;
     letter-spacing: 1,5px;
     line-height: 1;
-    padding-top: 3px;
-    padding-bottom: 4px;
-    font-size: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    }
+/* ALTERNATIVE 
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 18px;
     border-color: #f1f5dc;
-    border-top: solid 4px;
-    border-bottom: solid 4px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+*/
 
 .container h3 {
     font-family: 'Bodoni Moda', serif; 
     color: #000000;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 1;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 0.4em;
+    font-size: 16px;
     border-color: #f1f5dc;
     border-top: solid 2px;
     border-bottom: solid 2px;
@@ -74,24 +85,40 @@
  .container h4 {
     font-family: 'Bodoni Moda', serif; 
     color: #000000;
-    font-weight: 400;
+    font-weight: bold;
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 0.3em;
+    font-size: 16px;
     text-transform: uppercase;
     } 
 
+.container h6 {
+        font-family: 'Bodoni Moda', serif; 
+        color: #000000;
+        font-weight: bold;
+        line-height: 0.8;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 9px;
+        text-transform: uppercase;
+        } 
+
 .info {
-    color: red;
+    color: #000000;
+    letter-spacing: 1,5px;
+    line-height: 1;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    font-size: 5px;
     border-color: #f1f5dc;
-    margin-top: 20px;
-    margin-bottom: 20px;
     border-top: solid 2px;
     border-bottom: solid 2px;
+    margin-top: 3px;
+    margin-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
-    }
+}
 
 .body p:first-of-type::first-letter {
     font-weight: bold;
@@ -107,7 +134,7 @@
     }
 
 .container p {
-	font-family: 'Bodoni Moda', serif;  
+	font-family: 'Bodoni Moda', serif;
 	color: #000000;
     text-align: justify;
     font-weight: 150;
@@ -143,5 +170,9 @@
     } 
 
 .ArticleBody{
-        columns: 3;
+        columns: 4;
+        margin-top: 12px;
+    margin-right:  12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
     }
