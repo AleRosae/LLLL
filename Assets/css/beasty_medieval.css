@@ -13,7 +13,90 @@
     font-weight: normal;
     font-style: normal;
 }
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container .col-12{
+    font-size: 15px;
+}
+
+.container .col-6{
+    font-size: 13px;
+}
+
+.container .col-4{
+    font-size: 10px;
+}
+
+body{
+    color: black;
+    background-image:  url("imgs/old-paper-background-texture-29.jpg");
+    background-color: transparent;
+    background-repeat:repeat;
+}
+
+.container-fluid > .row > .col-8{
+    background-color: transparent;
+    background-repeat:repeat;
+}
+
+.container-fluid > .row > .col-2{
+    background-image: url("imgs/old-paper-background-texture-29.jpg");
+    background-color: transparent;
+    background-repeat:repeat;
+}
+
+.main #IssueBox{
+    background-color: blue;
+}
+.main h3{
+    font-family: "MedievalDeco";
+    color:rgb(204, 7, 47) ;
+}
+
+.container-fluid h1{
+    font-family: "MedievalDeco";
+    color:rgb(204, 7, 47);
+    font-weight:normal;
+}
+
+.container-fluid h2{
+    font-family: "MedievalDeco";
+    color:rgb(33, 31, 153);
+    font-weight: normal;
+}
+
+.container-fluid h3{
+    font-family: "MedievalDeco";
+    color:rgb(204, 7, 47);
+    font-weight: 300;
+}
+
+.container-fluid h4{
+    font-family: "MedievalDeco";
+    color:rgb(204, 7, 47);
+    font-weight: 300;
+}
+.container-fluid h5{
+    font-family: "MedievalDeco";
+    color:rgb(204, 7, 47);
+    font-weight: 300;
+}
+.container-fluid h6{
+    font-family: "MedievalDeco";
+    color: rgb(33, 31, 153);
+    font-weight: 300;
+
+}
+.container-fluid p{
+    font-family: "MedievalSharp";
+    color: rgb(77, 56, 56);
+    font-weight: 400;
+}
+
+
 .container {
+    
     background-image: url("imgs/old-paper-background-texture-29.jpg");
     background-color: transparent;
     background-repeat:repeat;
@@ -35,7 +118,7 @@
     image-rendering: crisp-edges;
     display: block;
     border-radius: 8px;
-    margin: left 5%;;
+    margin: left 5%;
     margin: right 10%;;
     border: 5px solid rgb(136, 48, 48);
     filter:sepia();
@@ -43,14 +126,16 @@
 .container h1{
     font-family: 'MedievalDeco';
     font-weight: normal;
+    word-wrap: break-word;
     font-size: 5em;
     color: rgb(204, 7, 47);
     font-weight: 700;
     text-align:justify;
     border-top: solid, 10px;
     border-bottom: solid, 2px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+    padding:2%;
 }
 
 .container h2{
@@ -59,10 +144,13 @@
     color: rgb(33, 31, 153);
     padding-top: 2px;
     padding-bottom: 2px;
+    word-wrap: break-word;
+    padding:1%;
 }
 
 .container h3{
     font-family: "MedievalDeco";
+    word-wrap: break-word;
     font-weight: 200;
     color: rgb(77, 56, 56);
     text-align: justify;
@@ -88,6 +176,7 @@
 .container p{
     margin: 0px;
     color: rgb(77, 56, 56);
+    padding: 4px;
 }
 
 .container q{

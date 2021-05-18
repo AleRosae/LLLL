@@ -9,33 +9,36 @@
     font-family: "Colombia";
     src: url(other_fonts/colombia-rp0dv-webfont.woff) format("woff");
 }
-@font-face {
-    font-family: "RetroChips";
-    src: url(other_fonts/retrochips-1gnre-webfont.woff) format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-body{
 
+body{
     color: #684e51;
-    background-image: linear-gradient(to left bottom, #f6aa92, #f4a68d, #f3a389, #f19f84, #ef9c7f, #ef997c, #ee9779, #ee9476, #ef9174, #f08f73, #f08c71, #f18970);
+    background-image:linear-gradient(to left bottom, #f6aa92, #f4a68d, #f3a389, #f19f84, #ef9c7f, #ef997c, #ee9779, #ee9476, #ef9174, #f08f73, #f08c71, #f18970);;;
 }
 
 
 .container-fluid > .row > .col-8{
     background-color: #e4b241;
+    fill-opacity: inherit;
 }
 
-.main > .IssueBox{
-    border: solid 3px pink;
+.container-fluid > .row > .col-2{
+    background-image: linear-gradient(to left bottom, #f6aa92, #f4a68d, #f3a389, #f19f84, #ef9c7f, #ef997c, #ee9779, #ee9476, #ef9174, #f08f73, #f08c71, #f18970);;
+}
+
+.main >h3{
+    border-bottom:  solid green;
+    border-width: thick;
+}
+/*perché questa cosa non esce ?!?!?!*/
+.main > #IssueBox{
+    border: solid 3px rgb(211, 124, 139);
     padding: 0 0 0 0;
-    background-color: #708e96;
+    background-color: #974705;
     border-radius: 5px;
 }
 
-.main > .IssueBox > .col-4{
-    font-family: "Retrochips";
-    border: solid blue;
+#IssueBox{
+    background-color: khaki;
 }
 
 #theteam{
@@ -72,6 +75,7 @@ body{
     text-align:center;
     font-size: 1.5em;
     font-weight: bold;
+    padding: 3%;
 }
 
 .container-fluid h4{
