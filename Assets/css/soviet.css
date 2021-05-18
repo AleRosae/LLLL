@@ -157,6 +157,25 @@ body {
     padding: 0px 2px 0px 8px;
 }
 
+footer {
+        background-color: #f1f5dc;
+        color: rgb(33 37 40);
+}
+
+footer .col-3 {
+    border: solid 6px #212528;
+}
+
+
+.p-3 {
+    background-color: rgb(33 37 40);
+    color: #f1f5dc;
+}
+
+.p-3 a {
+    color: #f1f5dc;
+}
+
 
 .card {
     border-radius: 0;
@@ -444,18 +463,10 @@ margin-top: -10px;
     transform: skewY(-5deg);
     margin-bottom: 50px;
     margin-top: 30px;
+    font-size: 0.6em;
+    color: #f1f5dc;
 }
 
- .ArticleBody blockquote p {
-    font-size: 0.8em;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    color: #e6ebd1;
-    font-weight: 200;
-    line-height: 0.8;
-    text-align: center;
-
-
- }
 
 .ArticleBody figure img {
     width: 80%;
@@ -472,7 +483,7 @@ margin-top: -10px;
     line-height: 1;
     font-size: 0.8em;
     text-transform: uppercase;
-	text-decoration: none;
+	text-decoration: underline;
      } 
 
 .ArticleBody ul {
