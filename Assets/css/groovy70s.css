@@ -30,6 +30,7 @@ body{
     border: solid 3px pink;
     padding: 0 0 0 0;
     background-color: #708e96;
+    border-radius: 5px;
 }
 
 .main > .IssueBox > .col-4{
@@ -38,42 +39,53 @@ body{
 }
 
 #theteam{
-    background-color: RGB(255, 204, 154);
+    background-color: #accaa0;
 }
 
 #theteam > .col-4{
-    border:solid 1.5px red;
+    border:thick;
+    border-style: groove;
+    border-color: seagreen #7ca6aa;
 }
 
 .container-fluid h1{
     font-family: "Newsense";
+    color: RGB(208, 79, 44);
+    text-shadow: -1px 0 #0c0000, 0 1px #1a0101, 1px 0 #0f0101, 0 -1px #130101;
     font-size: 5em;
     font-weight: 800;
     text-align: end;
+    padding-top: 5px;
 }
 
 .container-fluid h2{
     font-family: "Newsense";
+    color: seagreen;
+    text-align: end;
     font-size: 1.5em;
     font-weight: 600;
 }
 
 .container-fluid h3{
     font-family: "Newsense";
-    text-align:justify;
+    color: seagreen;
+    text-align:center;
     font-size: 1.5em;
     font-weight: bold;
 }
 
 .container-fluid h4{
     font-family: "Newsense";
+    font-weight: bold;
 }
 
 .container-fluid h5{
     font-family: "Newsense";
+    font-weight: bold;
 }
 .container-fluid h6{
     font-family: "Newsense";
+    font-weight: bold;
 }
 
 .container-fluid p{
@@ -86,10 +98,13 @@ body{
     color:RGB(208, 79, 44);
     font-family:"Colombia";
     font-weight: bold;
+    background-color:#accaa0; 
+    text-align: end;
+    padding: 5%;
 }
 
 .card > .card-header{
-    background-color: burlywood;
+    background-color: #e4b241;
 }
 
 .form-check-input:focus{
