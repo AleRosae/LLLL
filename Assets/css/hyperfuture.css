@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
 
 
 body {
@@ -103,6 +103,7 @@ body {
 }
 
 .CoverTitle h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     color: white;
     font-weight: 800;
@@ -124,6 +125,7 @@ body {
 }
 
 .CoverInfo h2 {
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-style: italic;
     color: #000000f0;
@@ -162,8 +164,10 @@ body {
 }
 
 .ArticleBody h3 {
-    font-weight: 700;
-    font-size: 1.8em;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.7em;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -174,8 +178,10 @@ body {
 }
 
 .ArticleBody h4 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 1,6em;
+    font-size: 1,5em;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -186,6 +192,7 @@ body {
 }
 
 .ArticleBody h5 {
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1,4em;
     text-align: left;
@@ -198,9 +205,11 @@ body {
 }
 
 .ArticleBody h6 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-left: 10%;
     margin-right: 10%;
     text-transform: capitalize;
@@ -225,8 +234,15 @@ body {
 }
 
 .ArticleBody blockquote::before {
-  content: "\""
+    content: "\"";
+    font-family: 'Catamaran', sans-serif;
+    font-size: 4em;
+    height: 1em;
+    overflow: hidden;
+    display: inline-block;
 }
+
+
 
 
 .ArticleBody a {
