@@ -277,6 +277,9 @@ background-color: #ce2909;
 #sovietblack {
   background-color: #212528
 }
+#sovietgreen {
+  background-color: #344c47;
+}
 
 #futureviolet {
   background-color: #3B244E;
@@ -300,6 +303,9 @@ background-color: #ce2909;
   background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
 }
 
+#thirdgradient{
+      background: linear-gradient(0deg, rgba(52,54,78,1) 0%, rgba(33,30,46,1) 21%);
+}
 #medievalred{
   background-color: #cc072f;
 }
