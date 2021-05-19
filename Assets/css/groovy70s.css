@@ -12,17 +12,22 @@
 
 body{
     color: #684e51;
-    background-image:linear-gradient(to left bottom, #f6aa92, #f4a68d, #f3a389, #f19f84, #ef9c7f, #ef997c, #ee9779, #ee9476, #ef9174, #f08f73, #f08c71, #f18970);;;
+    background-color:#e4b241;
+    
 }
 
 
 .container-fluid > .row > .col-8{
     background-color: #e4b241;
     fill-opacity: inherit;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .container-fluid > .row > .col-2{
-    background-image: linear-gradient(to left bottom, #f6aa92, #f4a68d, #f3a389, #f19f84, #ef9c7f, #ef997c, #ee9779, #ee9476, #ef9174, #f08f73, #f08c71, #f18970);;
+    background-image: url("imgs/seamlessback.jpg");
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .main >h3{
@@ -30,7 +35,7 @@ body{
     border-width: thick;
 }
 /*perché questa cosa non esce ?!?!?!*/
-.main > #IssueBox{
+.main > #IssueBox .col-4{
     border: solid 3px rgb(211, 124, 139);
     padding: 0 0 0 0;
     background-color: #974705;
@@ -189,8 +194,9 @@ container img{
 }
 
 .container p{
-    font-family:"Poppins" sans-serif;
-    font-weight: normal;
+    font-family:"Colombia";
+    font-size: 1.5em;
+    font-weight: bold;
     text-align:justify;
     color: #431e15;
     padding: 2mm;

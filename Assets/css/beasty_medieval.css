@@ -109,12 +109,6 @@ button{
     font-weight: 400;
 }
 
-#theteam{
-    border-left: solid 5px;
-    border-right: solid 5px;
-    border-color: rgba(119, 74, 5, 0.534);
-}
-
 /*card nella pagina della issue*/
 .card{
     background-image: url("imgs/old-paper-background-texture-29.jpg") ;
@@ -134,6 +128,8 @@ button{
 
 .card > .card-body{
     background-image: url("imgs/old-paper-background-texture-29.jpg");
+    align-items: flex-start;
+    flex-wrap: wrap;
     font-family: "MedievalDeco";
     font-weight: 300;
 }
@@ -153,6 +149,8 @@ footer{
 
 footer .col-3{
     font-family: "MedievalSharp", cursive;
+    background-image: url("imgs/old-paper-background-texture-29.jpg");
+    border: solid 5px rgba(119, 74, 5, 0.534);
 }
 
 .col-3:first-of-type::first-letter{
