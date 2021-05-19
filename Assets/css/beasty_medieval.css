@@ -20,14 +20,8 @@ body{
     background-image:  url("imgs/old-paper-background-texture-29.jpg");
     background-color: transparent;
     background-repeat:repeat;
-    
-}
-
-.row{
-    position: relative;
-    /*align-items: flex-start;
-    flex-wrap: wrap;*/
-
+    font-family: "MedievalSharp", cursive;
+    font-weight: 300;
 }
 
 button{
@@ -35,8 +29,9 @@ button{
     font-family: "MedievalSharp", cursive;
     font-weight: bold;
     border-radius: 10%;
-    border: solid 5px #b9962e;
+    border: solid 4px #b9962e;
 }
+
 
 .container-fluid > .row > .col-8{
     background-color: transparent;
@@ -46,12 +41,19 @@ button{
 .container-fluid > .row > .col-2{
     background-image: url("imgs/beasts.jpg");
     background-position:center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     padding: 15px;
+    
+}
+
+.col-3{
+    background-image: url("imgs/side_pic_2.jpg");
+    background-position: center;
+    background-repeat: repeat;
 }
 
 /*main è dove trovo le issues*/ 
-.main #IssueBox{
+.main #IssueBox .col-4{
     background-color: blue;
 }
 .main h3{
@@ -115,7 +117,7 @@ button{
 
 /*card nella pagina della issue*/
 .card{
-    background-color:inherit ;
+    background-image: url("imgs/old-paper-background-texture-29.jpg") ;
     border: solid 5px rgba(119, 74, 5, 0.534); 
     padding: 3px;
     padding-top: 5px;
@@ -125,13 +127,13 @@ button{
     font-family: "MedievalSharp", cursive;
 }
 .card > .card-header{
-    background-color:inherit ;
+    background-image: url("imgs/old-paper-background-texture-29.jpg");
     font-family: "MedievalDeco";
     font-weight: 300;
 }
 
 .card > .card-body{
-    background-color: inherit;
+    background-image: url("imgs/old-paper-background-texture-29.jpg");
     font-family: "MedievalDeco";
     font-weight: 300;
 }
@@ -150,7 +152,11 @@ footer{
 }
 
 footer .col-3{
-    border: solid 5px rgba(119, 74, 5, 0.534);
+    font-family: "MedievalSharp", cursive;
+}
+
+.col-3:first-of-type::first-letter{
+    font-family: "MedievalSharp", cursive;
 }
 
 .p-3{
@@ -246,7 +252,7 @@ footer .col-3{
 .ArticleBody{
     columns: 2;
 }
-.container div:first-of-type:first-letter{
+.ArticleBody div:first-of-type:first-letter{
     font-family: "MedievalDeco";
     font-style: italic;
     font-weight:normal;
