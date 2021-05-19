@@ -30,6 +30,14 @@ body{
 
 }
 
+button{
+    background-color: rgba(204, 7, 46, 0.726);
+    font-family: "MedievalSharp", cursive;
+    font-weight: bold;
+    border-radius: 10%;
+    border: solid 5px #b9962e;
+}
+
 .container-fluid > .row > .col-8{
     background-color: transparent;
     background-repeat:repeat;
