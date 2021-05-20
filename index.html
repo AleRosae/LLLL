@@ -6,17 +6,19 @@
 	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/soviet.css" disabled=true>
 	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/hyperfuture.css" disabled=true>
 	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/hyperfuturedark.css" disabled=true>
+	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/victorian.css" disabled=true>
+	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/trashy90s.css" disabled=true>
 	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/groovy70s.css" disabled=true>
 	<link rel="stylesheet alternative" type="text/css" href="../Assets/css/beasty_medieval.css" disabled=true>
 </head>
 <header id="header">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	  <div class="container-fluid">
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+	      <ul class="navbar-nav mr-auto">
 	        <li class="nav-item">
 	          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
 	        </li>
@@ -31,11 +33,15 @@
 	        <li class="nav-item">
 	          <a class="nav-link" href="documentation.htm" tabindex="-1" aria-disabled="true">Documentation</a>
 	        </li>
-	        <li class="nav-item"><button id="soviet" class="styles">Get style Soviet</button></li>
-			<li class="nav-item"><button id="future" class="styles" data-bs-toggle="modal" data-bs-target="#modalfuture">Get style Future</button></li>
-			<li class="nav-item"><button id="beasty_medieval" class="styles">Get beasty_medieval</button></li>
-			<li class="nav-item"><button id="groovy70s" class="styles">Get groovy70s</button></li>
-			<li class="nav-item"><button id="reset" class="styles">reset</button></li>
+</ul>
+<ul class="navbar-nav ms-auto">
+	        <li class="nav-item"><span id="beasty_medieval" class="styles hvr-bounce-in" title="Get Medieval style"><img class="icone" src="../Assets/imgs/medieval_glasses.svg"></span></li>
+	       	<il><span id="victorian" class="styles hvr-bounce-in" title="Get Victoria style"><img class="icone" src="../Assets/imgs/victorian_glasses.svg"></span></il>
+	        <li class="nav-item"><span id="soviet" class="styles  hvr-bounce-in" title="Get Soviet style"><img class="icone" src="../Assets/imgs/soviet_glasses.png"></span></li>
+			<li class="nav-item"><span id="groovy70s" class="styles hvr-bounce-in" title="Get 70s style"><img class="icone" src="../Assets/imgs/70s_glasses.svg"></span></li>
+			<il><span id="trashy90" class="styles hvr-bounce-in" title="Get 90s style"><img class="icone" src="../Assets/imgs/90s_glasses.svg"></span></il>
+			<li class="nav-item"><span id="future" class="styles hvr-bounce-in" data-bs-toggle="modal" data-bs-target="#modalfuture" title="Get Future style"><img class="icone" src="../Assets/imgs/future_glasses.svg"></span></li>
+			<li class="nav-item"><span id="reset" class="styles hvr-icon-spin" title="Reset styling"><img class="icone hvr-icon" src="../Assets/imgs/refreshing.svg"></span></li>
 	      </ul>
 	    </div>
 	  </div>
