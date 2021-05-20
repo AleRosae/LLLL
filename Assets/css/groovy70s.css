@@ -13,9 +13,19 @@
 body{
     color: #684e51;
     background-color:#e4b241;
-    
+    font-family: "Newsense";
+    font-weight: 400;
 }
 
+button{
+    font-family: "Colombia";
+    font-weight: bold;
+    color: darkmagenta;
+    border: solid blue green ;
+    border-style: double;
+    border-radius:15px 50px 30px;
+    background-color:rgba(168, 164, 164, 0.836);
+}
 
 .container-fluid > .row > .col-8{
     background-color: #e4b241;
@@ -113,15 +123,36 @@ body{
 }
 
 .card > .card-header{
-    background-color: #e4b241;
+    background-color: inherit;
+    font-family: "Newsense";
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.card > .card-body{
+    font-family: "Colombia";
+    font-weight: bold;
+    font-size: 1em;
+    color: #431e15;
+}
+
+.card a{
+    font-family: "Colombia";
+    color: rgb(25, 31, 117);
+}
+
+.form-check-label{
+    font-size: 1em;
+    font-weight: bold;
+    color: #431e15;
 }
 
 .form-check-input:focus{
-    border-color: chocolate;
+    border-color: rgb(25, 117, 40);
 }
 
 .form-check-input:checked{
-    background-color: cornflowerblue;
+    background-color: rgb(128, 53, 128);
 }
 
 .form-check-input[type=checkbox]{
