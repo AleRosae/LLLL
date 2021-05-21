@@ -16,7 +16,7 @@
                 load("article3.html")
                 },
               error: function(){
-              	alert("error:no data available")
+              	alert("error:no articles available")
               }
               });
 

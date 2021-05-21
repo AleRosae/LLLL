@@ -10,7 +10,7 @@
                 createIssues(data);
                 },
               error: function(){
-              	alert("error: no data available")
+              	alert("error: no issue available")
               }
               });
 

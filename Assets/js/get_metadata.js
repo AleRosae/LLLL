@@ -15,7 +15,7 @@ $(document).ready(function () {
                 addArticles(data);
                 },
               error: function(){
-                alert("error:no data available")
+                alert("error:no metadata available")
               }
               });
 
