@@ -1,93 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
-
-* {
-  font-family: 'Newsreader', serif;
-}
-
-.card h4 {
-  text-align: center
-}
-.card p {
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-
-.CoverTitle h1 {
-    font-size: 3em;
-    text-align: center;
-    font-style: bold;
-     }
-
-.CoverInfo h2 {
-    font-size: 1.5em;
-}
-
-.CoverInfo ul {
-    font-size: 1em;
-    list-style: none;
-}
-
-.ArticleBody h3 {
-    font-size: 2em;
-}
-
-.ArticleBody h4 {
-    font-size: 2em;
-}
-
-.ArticleBody h5 {
-    font-size: 1.8em;
-
-}
-
-.ArticleBody h6 {
-    font-size: 1.6em;
-}
-
-.ArticleBody p {
-    font-size: 1.2em;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.card-title {
-  font-weight: 800;
-}
-
-
-h1 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 600;
-}
-
-h2 {
-  font-size: 3rem;
-  text-align: center;
-}
-
-h3 {
-  font-size: 2rem;
-  margin-top: 1vh;
-}
-
-h4 {
-  font-size: 2rem;
-}
-h5 {
-  font-size: 1.6rem;
-}
-h6 {
-  font-size: 1.4rem;
-}
-
-p {
-    text-align: justify;
-    font-size: 1rem;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 
 #stylesglasses{
   margin-right: 3vh;
@@ -112,28 +22,28 @@ nav .container-fluid a[href~="index.html"]{
 }
 
 .row {
-	max-width: 100%;
+  max-width: 100%;
 }
 #Articles {
   --bs-gutter-x: 0;
 }
 .main > .container{
-	font-size: 12px;
-	font: "colibri";
-	max-width: 100%;
-	border: 1px solid rgba(0,0,0,.125);
+  font-size: 12px;
+  font: "colibri";
+  max-width: 100%;
+  border: 1px solid rgba(0,0,0,.125);
   border-radius: .25rem;
   position: relative;
   padding: 0 0 0 0;
 }
 .container h1,h2,h3{
-	font-weight: 1000;
+  font-weight: 1000;
 
 }
 .container img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   object-fit: scale-down;
 }
 
@@ -142,20 +52,20 @@ nav .container-fluid a[href~="index.html"]{
     max-height: 30vh;
 }
 .container > #Articles > .col-12 {
-	padding: 0 0 0 0;
+  padding: 0 0 0 0;
 
 }
 .container > #Articles > .col-6 {
-	height: 1080px;
-	overflow-x:auto;
-	padding: 0 0 0 0;
+  height: 1080px;
+  overflow-x:auto;
+  padding: 0 0 0 0;
 
 }
 
 .container > #Articles > .col-4 {
-	height: 1080px;
-	overflow-y:auto;
-	padding: 0 0 0 0;
+  height: 1080px;
+  overflow-y:auto;
+  padding: 0 0 0 0;
   overflow-x: hidden;
 
 }
