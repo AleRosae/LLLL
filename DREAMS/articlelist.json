@@ -6,7 +6,7 @@
         "box":"article1_box",
         "journal":"https://www.the-scientist.com/",
         "author":"Catherine Offord",
-        "author description":"After undergraduate research with spiders at the University of Oxford and graduate research with ants at Princeton University, Catherine left arthropods and academia to become a science writer. She has worked in various guises at The Scientist, starting as an intern in early 2016 before becoming a correspondent. As senior editor, she now writes articles for the online and print publications, and edits the magazine’s Notebook, Careers, and Bio Business sections.",
+        "authordescription":"After undergraduate research with spiders at the University of Oxford and graduate research with ants at Princeton University, Catherine left arthropods and academia to become a science writer. She has worked in various guises at The Scientist, starting as an intern in early 2016 before becoming a correspondent. As senior editor, she now writes articles for the online and print publications, and edits the magazine’s Notebook, Careers, and Bio Business sections.",
         "originalsource": "https://www.the-scientist.com/features/scientists-engineer-dreams-to-understand-the-sleeping-brain-68170#:~:text=We%20treat%20studying%20dreams%20as,brain%20are%20doing%20during%20sleep.&text=Dream%20researchers%20who%20spoke%20with,interact%20with%20their%20study%20participants.",
         "date":"December 1, 2020"
 	},
@@ -17,7 +17,7 @@
         "box":"article2_box",
         "journal":"https://www.bbc.com/culture",
         "author":"Cath Pound",
-        "author description":"none",
+        "authordescription":"none",
         "originalsource": "https://www.bbc.com/culture/article/20200512-what-do-our-dreams-mean",
         "date":"May 13, 2020"
 
@@ -29,7 +29,7 @@
         "box":"article3_box",
         "journal":"https://news.harvard.edu/gazette/",
         "author":"Colleen Walsh",
-        "author description":"Harvard Staff Writer",
+        "authordescription":"Harvard Staff Writer",
         "originalsource": "https://news.harvard.edu/gazette/story/2020/05/harvard-researcher-says-dreams-indicative-of-virus-fears/",
         "date":"May 14, 2020"
 
