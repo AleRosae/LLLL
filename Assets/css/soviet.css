@@ -526,3 +526,8 @@ margin-top: -10px;
     text-align: center;
     text-transform: uppercase;
 }
+
+.card-group h5 {
+    color: #212528;
+    border: 0;
+}

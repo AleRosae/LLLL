@@ -482,12 +482,9 @@ footer .p-3{
 }
 
 #nightview {
-    top: 2%;
-    left: 1%;
-    position: absolute;
-    float: right;
-    font-size: 2rem;
+    font-size: 3rem;
     z-index: 1;
+    padding-right: 40vh;
 }
 
   #nightview:hover {
@@ -537,4 +534,8 @@ footer .p-3{
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
+ }
+
+ #IssuesBox a {
+        -webkit-text-fill-color: #f9fafb;
  }
