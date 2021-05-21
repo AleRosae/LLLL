@@ -8,6 +8,7 @@
 	  					break;
 	  			case "soviet":
 	  					$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
+	  					$('link[rel="stylesheet alternative"]').attr('disabled', 'true');
 					  	$('link[href="../Assets/css/soviet.css"]').removeAttr('disabled');
 					  	$("#nightview").attr("class", "");
 					  	break;
