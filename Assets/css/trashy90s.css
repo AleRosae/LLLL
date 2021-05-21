@@ -16,6 +16,48 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'libre_bodonibold';
+    src: url('other_fonts/librebodoni-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'libre_bodonibold_italic';
+    src: url('other_fonts/librebodoni-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'libre_bodoniitalic';
+    src: url('other_fonts/librebodoni-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'libre_bodoniregular';
+    src: url('other_fonts/librebodoni-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 
 /* container */
 .container {
@@ -132,10 +174,10 @@
 */
 
 .container p {
-	font-family: 'Times New Roman';
+	font-family: 'libre_bodoniregular';
 	color: #000000;
     text-align: justify;
-    font-weight: 150;
+    font-weight: normal;
     line-height: 1;
     font-size: 16px  
     }     
