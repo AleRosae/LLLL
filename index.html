@@ -34,6 +34,9 @@
 	          <a class="nav-link" href="documentation.htm" tabindex="-1" aria-disabled="true">Documentation</a>
 	        </li>
 </ul>
+</div>
+</div>
+<div class="contained ms-auto" id="stylesglasses">
 <ul class="navbar-nav ms-auto">
 	        <li class="nav-item"><span id="beasty_medieval" class="styles hvr-bounce-in" title="Get Medieval style"><img class="icone" src="../Assets/imgs/medieval_glasses.svg"></span></li>
 	       	<il><span id="victorian" class="styles hvr-bounce-in" title="Get Victoria style"><img class="icone" src="../Assets/imgs/victorian_glasses.svg"></span></il>
@@ -44,7 +47,6 @@
 			<li class="nav-item"><span id="reset" class="styles hvr-icon-spin" title="Reset styling"><img class="icone hvr-icon" src="../Assets/imgs/refreshing.svg"></span></li>
 	      </ul>
 	    </div>
-	  </div>
 	</nav>
 </header>
 
@@ -62,13 +64,14 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet maximus nisi, sed varius orci tincidunt id. Vestibulum vel sapien in quam euismod efficitur. Vestibulum ac sollicitudin massa, in sodales leo. Cras venenatis tincidunt magna vitae dignissim. Proin et mattis nulla, at ornare diam. In a est eget leo porttitor rutrum. Phasellus facilisis sem id ligula aliquam ultricies. Proin massa urna, ultrices non orci vitae, consequat eleifend neque. Ut molestie, dui vitae dapibus aliquam, lectus arcu consequat quam, et sodales ex lacus vel urna. Aenean sed sapien vel diam placerat interdum. Proin imperdiet enim at urna tincidunt, ac mattis ligula scelerisque.</p>
                         <h3>What can I do here?</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet maximus nisi, sed varius orci tincidunt id. Vestibulum vel sapien in quam euismod efficitur. Vestibulum ac sollicitudin massa, in sodales leo. Cras venenatis tincidunt magna vitae dignissim. Proin et mattis nulla, at ornare diam. In a est eget leo porttitor rutrum. Phasellus facilisis sem id ligula aliquam ultricies. Proin massa urna, ultrices non orci vitae, consequat eleifend neque. Ut molestie, dui vitae dapibus aliquam, lectus arcu consequat quam, et sodales ex lacus vel urna. Aenean sed sapien vel diam placerat interdum. Proin imperdiet enim at urna tincidunt, ac mattis ligula scelerisque.</p>
-        </div>
+
+	<div class="main" id="mainissuebox">
+		<h3>Here you can explore our newest issues</h3>
+		<div id="IssuesBox" class="card-group"></div>
+	</div>
+	        </div>
         <div class="col-2">
         </div>
-	<div class="main">
-		<h3>Here you can explore our newest issues</h3>
-		<div id="IssuesBox" class="row"></div>
-	</div>
 	</div>
         <div class="row">
         <div class="col-2">
@@ -78,10 +81,21 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet maximus nisi, sed varius orci tincidunt id. Vestibulum vel sapien in quam euismod efficitur. Vestibulum ac sollicitudin massa, in sodales leo. Cras venenatis tincidunt magna vitae dignissim. Proin et mattis nulla, at ornare diam. In a est eget leo porttitor rutrum. Phasellus facilisis sem id ligula aliquam ultricies. Proin massa urna, ultrices non orci vitae, consequat eleifend neque. Ut molestie, dui vitae dapibus aliquam, lectus arcu consequat quam, et sodales ex lacus vel urna. Aenean sed sapien vel diam placerat interdum. Proin imperdiet enim at urna tincidunt, ac mattis ligula scelerisque.</p>
             <h3>The team</h3>
                         
-        <div class="row" id="theteam">
-								<div class="col-4 col-12-narrower" >
+        <div class="card-group" id="theteam">
+        							  <div class="card">
+									  <img src="Assets/imgs/ale.jpg" alt="" style="width:100%">
+									  <h4>Alessandro Rosa</h4>
+									  <p class="card_text">I hold a bachelor's and a MD degree in philosophy, both obtained at the University of Bologna. I am currently enrolled in the DHDK program and I am interested in data mining and in natural language processing.</p>
+									  <p class="card_text">I was responsible for the development of the project's website, the metadata standard and alignment and for some specific parts of the knowledge representation section.</p>
+									  <br>
+									  <a class="icon alt github" href="https://github.com/AleRosae"><i class="fab fa-github"></i></a>
+									  <a class="icon alt twitter" href="#"><i class="fab fa-twitter"></i></a>
+									  <a class="icon alt linkedin" href="https://www.linkedin.com/in/alessandro-rosa-99a43a1aa/"><i class="fab fa-linkedin"></i></a>
+									  <a class="icon alt facebook" href="#"><i class="fab fa-facebook"></i></a>
+									  <p><button class="btn btn-secondary">Contact</button></p>
+									</div>
 									<div class="card">
-									  <img src="images/img/vale2.jpg" alt="" style="width:100%">
+									  <img src="Assets/imgs/vale2.jpg" alt="" style="width:100%">
 									  <h4>Valentina Cozzi</h4>
 									  <p class="card_text">I hold a bachelor’s degree in DAMS – Drama, Art and Music and I am currently attending the international master’s degree DHDK. I am interested in web technologies, the legal aspects of CH and the strategical and business-oriented approach of cultural industries. </p>
 									  <p class="card_text">I was responsible for the conceptual model and its graphical representation, parts of the data description and some specific parts of the RDF production and visualization.</p>
@@ -89,12 +103,10 @@
 									  <a class="icon alt twitter" href=""><i class="fab fa-twitter"></i></a>
 									  <a class="icon alt linkedin" href="#"><i class="fab fa-linkedin"></i></a>
 									  <a class="icon alt facebook" href="#"><i class="fab fa-facebook"></i></a>
-									  <p><button class="small button">Contact</button></p>
+									  <p><button class="btn btn-secondary">Contact</button></p>
 									</div>
-								</div>
-								<div class="col-4 col-12-narrower">
 									<div class="card">
-									  <img src="images/img/Susanna.jpg" alt="" style="width:100%">
+									  <img src="Assets/imgs/Susanna.jpg" alt="" style="width:100%">
 									  <h4>Susanna Pinotti</h4>
 									  <p class="card_text">I hold a bachelor's degree in Foreign Languages and cultures, and I'm currently attending DHDK. I am interested in computational linguistics, NLP and data science. </p>
 									<br>
@@ -104,23 +116,8 @@
 									  <a class="icon alt twitter" href="#"><i class="fab fa-twitter"></i></a>
 									  <a class="icon alt linkedin" href="#"><i class="fab fa-linkedin"></i></a>
 									  <a class="icon alt facebook" href="#"><i class="fab fa-facebook"></i></a>
-									  <p><button class="small button">Contact</button></p>
+									  <p><button class="btn btn-secondary">Contact</button></p>
 									</div>
-								</div>
-								<div class="col-4 col-12-narrower">
-									<div class="card">
-									  <img src="images/img/ale.jpg" alt="" style="width:100%">
-									  <h4>Alessandro Rosa</h4>
-									  <p class="card_text">I hold a bachelor's and a MD degree in philosophy, both obtained at the University of Bologna. I am currently enrolled in the DHDK program and I am interested in data mining and in natural language processing.</p>
-									  <p class="card_text">I was responsible for the development of the project's website, the metadata standard and alignment and for some specific parts of the knowledge representation section.</p>
-									  <br>
-									  <a class="icon alt github" href="https://github.com/AleRosae"><i class="fab fa-github"></i></a>
-									  <a class="icon alt twitter" href="#"><i class="fab fa-twitter"></i></a>
-									  <a class="icon alt linkedin" href="https://www.linkedin.com/in/alessandro-rosa-99a43a1aa/"><i class="fab fa-linkedin"></i></a>
-									  <a class="icon alt facebook" href="#"><i class="fab fa-facebook"></i></a>
-									  <p><button class="small button">Contact</button></p>
-									</div>
-								</div>
 							</div>
         </div>
         <div class="col-2">
@@ -163,38 +160,36 @@
 
 
 </body>
-<footer class="text-center text-lg-start">
+<footer class="bg-light text-center text-lg-start">
   <div class="container p-4">
     <div class="row">
-      <div class="col-3">
-        <h5>The website</h5>
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Footer text</h5>
 
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-          voluptatem veniam, est atque cumque eum delectus sint!
+          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+          aliquam voluptatem veniam, est atque cumque eum delectus sint!
         </p>
       </div>
-        <div class="col-6">
-        </div>
-        
-      <div class="col-3">
-        <h5 class="">The project</h5>
+
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Footer text</h5>
+
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-          voluptatem veniam, est atque cumque eum delectus sint!
+          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+          aliquam voluptatem veniam, est atque cumque eum delectus sint!
         </p>
       </div>
     </div>
   </div>
 
-  <div class="text-center p-3">
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
     © 2021 Copyright:
-    Alessandro Rosa,
-	Susanna Pinotti,
-	Valentina Cozzi
+    <a class="text-dark" href="https://mdbootstrap.com/">Alessandro Rosa, Valentina Cozzi, Susanna Pinotti</a>
   </div>
+
 </footer>
 
 </html>

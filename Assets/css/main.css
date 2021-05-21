@@ -1,3 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
+
+* {
+  font-family: 'Newsreader', serif;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-top: 1vh;
+}
+
+h4 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1.6rem;
+}
+h6 {
+  font-size: 1.4rem;
+}
+
+p {
+    text-align: justify;
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#stylesglasses{
+  margin-right: 3vh;
+}
+
+nav {
+  border-bottom: 4px solid black;
+}
+
+nav > .container-fluid {
+  font-size: 1.3rem;
+}
+nav .container-fluid a[href~="index.html"]{
+  font-weight: 1000;
+}
+
+.navbar{
+      background-color: #f2f2f2 !important;
+}
+.container-header {
+  border-bottom: 4px solid;  
+}
+
 .row {
 	max-width: 100%;
 }
@@ -45,6 +106,13 @@
 	padding: 0 0 0 0;
   overflow-x: hidden;
 
+}
+
+#mainissuebox{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  padding-top: 2%;
 }
 
 .container .colonne_variabili::-webkit-scrollbar {
@@ -364,4 +432,73 @@ background-color: #ce2909;
   transform: scale(1.2);
   -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+footer {
+  border-top: 1px solid;
+}
+
+.card h4 {
+  text-align: center
+}
+.card p {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+.CoverTitle h1 {
+    font-size: 3em;
+    text-align: center;
+    font-style: bold;
+     }
+
+.CoverInfo h2 {
+    font-size: 1.5em;
+}
+
+.CoverInfo ul {
+    font-size: 1em;
+    list-style: none;
+}
+
+.ArticleBody h3 {
+    font-size: 2em;
+}
+
+.ArticleBody h4 {
+    font-size: 2em;
+}
+
+.ArticleBody h5 {
+    font-size: 1.8em;
+
+}
+
+.ArticleBody h6 {
+    font-size: 1.6em;
+}
+
+.ArticleBody p {
+    font-size: 1.2em;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-title {
+  font-weight: 800;
+}
+
+.col-8 {
+  border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.col-9 {
+  border-right: 2px solid;
+  border-left: 2px solid;
+}
+
+#toc{
+  border-bottom: 0;
 }
