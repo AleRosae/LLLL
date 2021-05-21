@@ -314,12 +314,9 @@ body {
 }
 
 #nightview {
-    top: 2%;
-    left: 1%;
-    position: absolute;
-    float: right;
-    font-size: 2rem;
+    font-size: 3rem;
     z-index: 1;
+    padding-right: 40vh;
 }
 
   #nightview:hover {
