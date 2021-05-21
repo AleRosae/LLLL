@@ -28,5 +28,14 @@
         "author description":"Anil Ananthaswamy is a journalist and author. He is a 2019-20 MIT Knight Science Journalism fellow."
 
     }
+    ], 
+    "issue":[
+    {
+        "topic":"Neuroscience and Technology", 
+        "description":"Is neuroscience on the verge of a break-through thanks to new technologies ?",
+        "editor": "Susanna Pinotti",
+        "keywords":["Brain", "Artificial Intelligence", " Future", " Conciousness uploading", " Mind", " Privacy", " Behaviour"]
+    }
     ]
+    
 }
