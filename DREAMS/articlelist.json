@@ -34,5 +34,13 @@
         "date":"May 14, 2020"
 
     }
-    ]
+    ],
+    "issue":[
+        {
+            "topic":"Dreams", 
+            "description":"How the digital economy is going to be influenced by the rise of Non-Fungible Tokens?",
+            "editor": "Valentina Cozzi",
+            "keywords":["Dream", " Dreaming", " Sleep", " REM", " Scientists"]
+        }
+        ]
 }
