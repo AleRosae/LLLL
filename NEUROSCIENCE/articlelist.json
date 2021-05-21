@@ -6,7 +6,7 @@
         "box":"article1_box",
         "Journal":"https://www.sciencenews.org/",
         "author":"Laura Sanders",
-        "author description":"..."
+        "author description":"Laura Sanders reports on neuroscience for Science News. She earned her Ph.D. in molecular biology from the University of Southern California in Los Angeles."
 	},
     {
         "number":"2",
@@ -15,7 +15,7 @@
         "box":"article2_box",
         "Journal":"https://www.theguardian.com/international",
         "author":"Michael Graziano",
-        "author description":"..."
+        "author description":"Michael SA Graziano is a professor of psychology and neuroscience at Princeton University"
 
     },
     {
@@ -23,9 +23,9 @@
         "title":"Deep Neural Networks are helping decipher how brains work", 
         "url":"Article3_Wired.html",
         "box":"article3_box",
-        "Journal":"https://www.wired.com/",
+        "Journal":"https://www.quantamagazine.org/deep-neural-networks-help-to-explain-living-brains-20201028/",
         "author":"Anil Ananthaswamy",
-        "author description":"..."
+        "author description":"Anil Ananthaswamy is a journalist and author. He is a 2019-20 MIT Knight Science Journalism fellow."
 
     }
     ]

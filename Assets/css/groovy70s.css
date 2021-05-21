@@ -9,33 +9,51 @@
     font-family: "Colombia";
     src: url(other_fonts/colombia-rp0dv-webfont.woff) format("woff");
 }
-@font-face {
-    font-family: "RetroChips";
-    src: url(other_fonts/retrochips-1gnre-webfont.woff) format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
+
 body{
-
     color: #684e51;
-    background-image: linear-gradient(to left bottom, #f6aa92, #f4a68d, #f3a389, #f19f84, #ef9c7f, #ef997c, #ee9779, #ee9476, #ef9174, #f08f73, #f08c71, #f18970);
+    background-color:#e4b241;
+    font-family: "Newsense";
+    font-weight: 400;
 }
 
+button{
+    font-family: "Colombia";
+    font-weight: bold;
+    color: darkmagenta;
+    border: solid blue green ;
+    border-style: double;
+    border-radius:15px 50px 30px;
+    background-color:rgba(168, 164, 164, 0.836);
+}
 
 .container-fluid > .row > .col-8{
     background-color: #e4b241;
+    fill-opacity: inherit;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-.main > .IssueBox{
-    border: solid 3px pink;
+.container-fluid > .row > .col-2{
+    background-image: url("imgs/seamlessback.jpg");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.main >h3{
+    border-bottom:  solid green;
+    border-width: thick;
+}
+/*perché questa cosa non esce ?!?!?!*/
+.main > #IssueBox .col-4{
+    border: solid 3px rgb(211, 124, 139);
     padding: 0 0 0 0;
-    background-color: #708e96;
+    background-color: #974705;
     border-radius: 5px;
 }
 
-.main > .IssueBox > .col-4{
-    font-family: "Retrochips";
-    border: solid blue;
+#IssueBox{
+    background-color: khaki;
 }
 
 #theteam{
@@ -72,6 +90,7 @@ body{
     text-align:center;
     font-size: 1.5em;
     font-weight: bold;
+    padding: 3%;
 }
 
 .container-fluid h4{
@@ -104,15 +123,36 @@ body{
 }
 
 .card > .card-header{
-    background-color: #e4b241;
+    background-color: inherit;
+    font-family: "Newsense";
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.card > .card-body{
+    font-family: "Colombia";
+    font-weight: bold;
+    font-size: 1em;
+    color: #431e15;
+}
+
+.card a{
+    font-family: "Colombia";
+    color: rgb(25, 31, 117);
+}
+
+.form-check-label{
+    font-size: 1em;
+    font-weight: bold;
+    color: #431e15;
 }
 
 .form-check-input:focus{
-    border-color: chocolate;
+    border-color: rgb(25, 117, 40);
 }
 
 .form-check-input:checked{
-    background-color: cornflowerblue;
+    background-color: rgb(128, 53, 128);
 }
 
 .form-check-input[type=checkbox]{
@@ -185,8 +225,9 @@ container img{
 }
 
 .container p{
-    font-family:"Poppins" sans-serif;
-    font-weight: normal;
+    font-family:"Colombia";
+    font-size: 1.5em;
+    font-weight: bold;
     text-align:justify;
     color: #431e15;
     padding: 2mm;

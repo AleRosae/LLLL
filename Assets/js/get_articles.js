@@ -11,6 +11,9 @@
                 console.log(data);
                 addArticles(data);
                 addIssueDetails(data);
+                load("article1.html");
+                load("article2.html")
+                load("article3.html")
                 },
               error: function(){
               	alert("error:no data available")
@@ -25,7 +28,7 @@
 	           	$("#infobox"+obj.articles[i].number+" #date").text("Date of publication: "+obj.articles[i].date);
 	           	$("#infobox"+obj.articles[i].number+" #source").append("Original source: \<a href=\""+obj.articles[i].originalsource+"\"\>Link\</a\>");
 	           	$("#infobox"+obj.articles[i].number+" #journal").text("Journal: "+obj.articles[i].journal);	
-	           	$("#articlescheckbox").append("<div class=\"form-check\"><input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkarticle"+obj.articles[i].number+"\"onclick='load(\""+obj.articles[i].url+"\")'><label class=\"form-check-label\" for=\"\">"+obj.articles[i].title+"</label></div>");		
+	           	$("#articlescheckbox").append("<div class=\"form-check\"><input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkarticle"+obj.articles[i].number+"\"onclick='load(\""+obj.articles[i].url+"\")' checked><label class=\"form-check-label\" for=\"\">"+obj.articles[i].title+"</label></div>");		
 
 
           }

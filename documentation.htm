@@ -73,33 +73,33 @@
         <h4 data-toc-skip>The layout</h4>
         <p>Most of the costructivism works were aimed at creating artworks and posters that somehow spread the message
           of the soviet propaganda. For this reason, some abstracting and reworking were required in order to adapt this
-          style in the context of a typographical style for articles. The first thing that should capture the reader
-          eyes is the main title: printed with an bold and large font, taking most of the main cover page should really
+          style in the context of a typographical style for articles. Overall, the main feature of this typographical style is a hard, rigid structure: no rounded borders were allowed, the whole visual has to be stricly rectangular with very significan black borders.</p>
+          <p>The first thing that should capture the reader
+          attention is the main title: printed with an bold and large font, taking most of the main cover page should really
           give the feeling of a shout-out statement. For this reason, we have large font size for the title (rigorously
           in uppercase letters), while the ratio between the font size of the title and the font size of the main text
           is not less than an half (i.e. 0,5em). In order to reproduce the feeling of a poster, the whole text of the
-          main body has been rendered in small caps. </p>
-        <p>Secondary, no fancy images are allowed in the cover page! This is the industrial revolution after all. The
+          main body has been rendered in small caps. For what it concerns the font family, I used two complementary fonts that were developed by the same person (<a href="https://www.fontspace.com/neogrey-creative">Neogrey Creative</a>). Both Konstruktor and Red October aim at recreating the spirit of the soviet Russia, somehow mimicking the Cyrillic alphabet but still maintaining readability for western languages.</p>
+        <p>Secondary, no fancy images are allowed in the cover page! This is the soviet revolution after all. The
           fancy and capitalistic images that usually cover the non-socialistic magazines have been replaced with a
           stylised artwork that represents the industrial work. This is not only an aesthetical element, but it is also
-          a very symbolic element: art is not more than something that can be industrially created. The rest of the
-          images (along with their captions) were slightly rotated (3° of inclination) to have a more “printed” feeling.
+          a very symbolic element: art is not more than something that can be industrially created. Regarding symbolism, authors have been displaying along hammers that represent the hard work that each comrade puts in their writing, highlighting the factory-feeling of every form of art. 
         </p>
         <p>In order to recreate the feeling of a soviet poster, sharp and bold black lines have been drawn to “frame”
           the whole content and to divide the main sections of the article i.e. to separate the cover and the article
           body and to subdivide the hierarchy of the text (h3, h4, h5 and h6). The main title is cantered with a
-          significant padding both to the right and to the left, while the text has an asymmetric padding more
-          consistent to the right than to the left (see sources). Additional focused was put for blockquotes boxes,
+          significant padding both to the right and to the left, while the text has an slighly asymmetric padding more
+          consistent to the right than to the left (cf. sources for some visual example). Additional focuse was put for blockquotes boxes,
           which are again slightly rotated to the left and for lists, which uses a small triangle to indicate an
-          unordered list. No order is allowed! An eventually ordered list would be automatically rendered as an
-          unordered one because it would not fit the rationale of the time. </p>
+          unordered list (no numerical order is allowed!). An eventually ordered list would be automatically rendered as an
+          unordered one because it would not fit the rationale of the time. Links have been displayed in slighly heavier font with a contrasting colour (i.e. cream). </p>
         <h4 data-toc-skip>The colours</h4>
-        <p>Three main colours were used: red (#ce2909), black (#212528) and white (#f1f5dc). Red is probably the most
+        <p>Three main colours were used for the articles: red (#ce2909), black (#212528) and white (#f1f5dc). Red is probably the most
           important one, both for its huge impact on the screen and for its obvious political meaning. I have decided to
           play with the double contrast of white on red and black on red. This should recreate the feeling of the
-          posters of that time (cf. sources). </p>
+          posters of that time (cf. sources). Moreover, the rest of the page has been painted with a opacque green that is perfect to render all the differnt parts of the layout.</p>
         <div class="row">
-          <div class="col-4">
+          <div class="col-3">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Red</h5>
@@ -108,7 +108,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-3">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Black</h5>
@@ -118,17 +118,25 @@
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-3">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">White</h5>
+                <h5 class="card-title">Cream</h5>
                 <h6 class="card-subtitle mb-2 text-muted">#f1f5dc</h6>
                 <div class="palette" id="sovietwhite"></div>
               </div>
             </div>
           </div>
+              <div class="col-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Green</h5>
+                <h6 class="card-subtitle mb-2 text-muted">#344c47</h6>
+                <div class="palette" id="sovietgreen"></div>
+              </div>
+            </div>
+          </div>
         </div>
-
         <h4 data-toc-skip>Sources</h4>
 
         <!-- Images used to open the lightbox -->
@@ -236,11 +244,10 @@
         <p>In the context that was briefly laid out above, the layout of a web page should follow some minimalistic but
           fundamental rules. First of all, the text should be put at the very centre of the page in order to allow total
           readability of a user that is browsing thought a device in what is now refer to as “portrait mode”. This means
-          an aspect ratio of 18/9 or 19.5/9 that exploit the vertical dimension in order to scroll the content; for sake
-          of simplicity I choose an aspect ratio of 18 / 9 through the properti aspect-ratio: <\ratio>\;. For this
-            reason the text is put with a padding of [inserire padding]. Secondary, each line is separated by a wide
-            blank space i.e. a line height of [inserire line height]. This creates a very minimalist and clear visual
-            that enhances readability.</p>
+          an aspect ratio of 18/9 or 19.5/9 that exploit the vertical dimension in order to scroll the content. For this
+            reason the text is put with a padding of 5px on the top, 25px on the left, 5px on the bottom and 25px on the right. Secondary, each line is separated by a wide
+            blank space i.e. a line height of 2. This creates a very minimalist and clear visual
+            that enhances readability. All the columns occupy only the 80% of the whole space; this has been achieved by setting both a right and left margin of 10%. To achieve a modern visual almost all the elements have rounded borders, similarly to the currents trends (cf. for instance Android 12 previews) and slight shadows that make them more credible. </p>
         <p>There is also a sharp distinction between the cover page, which includes title, subtitle, description and a
           cover image, and the actual body of the text. The first letter of the article is showcased by increase its
           size, a trick that is commonly used in most of current journals and which I believe will stick around for a
@@ -248,14 +255,15 @@
           minimalistic gradient background that gives a fresh-looking style to the page, but all the focus in on the
           text. For this reason, the choice of a good font that is clear, elegant and at the same time easy to ready, is
           crucial. My choice was on Raleway, for its being already used in many important magazines and for its
-          minimalistic aspect. </p>
+          minimalistic aspect and Roboto, for similar reasons. </p>
+          <p>There are also some important features that are not stricly related to the visual aspect but to the web technologies of the future. First of all, a banner informs the user that he/she is using an old device to browse the content, which precludes some important feature as animated advertising (implying this is a bad thing, N.d.A.) and the possibility of listeting automatically to the whole text bly clicking on the icon positioned in the cover. The user is also allowed to buy the NFT version of the issue simply by inserting their univocal Wallet ID; but I suspect that none of us currently have one.</p>
+          <p> Finally, the most important feature is the night/mode switch. By clicking on the moon icon the user can switch between two different version of the typographical style: one for the daylight and one for the nighttime. They are identical for what it concerns layout displaying, but they drastically change regarding colours. the nighttime view has a dark background and a white colour for the text, which drastically improve readability and helps user's eyes to rest. The nighttime view is starting to spread in many devices, but it is still uncommon to see that functionality on an actual web page (usually it is set as a device setting). I believe that being able to rapidaly switch between the two modes will be a popular trend in the near future.</p>
         <h4 data-toc-skip>The colours</h4>
         <p>For what it concerns the colour choice, I followed the line of simplicity: the text is plain black while the
           background is plain white. For the cover page a gradient looked like the best choice in order to preseverve a
           minimalistic aspect but also to give an aesthetically pleasant look. As it was mentioned above, the idea is to
           enhance as much as possible readability without distracting the reader. The only proper decoration that was
-          developed it is related to anchors. They are displayed without underling or any other decorations, but when
-          inactive they are [inserire colore link], remind the colour of the cover page. When hoovered the anchors
+          developed it is related to anchors. They are displayed without underling or any other decorations, but when hoovered the anchors
           display a linear gradient change on the horizontal axes, giving the feeling of something “getting started”.
         </p>
         <div class="row">
@@ -299,7 +307,7 @@
         </div>
 
         <div class="row">
-          <div class="col-6">
+          <div class="col-4">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">First gradient</h5>
@@ -308,7 +316,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-4">
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Second gradient</h5>
@@ -317,13 +325,28 @@
               </div>
             </div>
           </div>
+          <div class="col-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Third gradient (night)</h5>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <div class="palette" id="thirdgradient"></div>
+              </div>
+            </div>
+          </div>
+
           <h3 id="1300">1300 - The Illuminated manuscript era</h3>
           <h4 data-toc-skip>Background</h4>
-          <p>The Middle Age, often mistakenly thought of as a dark, uncultured age, saw the diffusion of a peculiar way of disseminating culture: the handwritten copying of texts. During this time, inside the lively context of convents and universities, copyists were busy preserving the cultural heritage of ancient civilisations (many texts from greek and roman philosophers survived to these days thanks to them) and passing down important religious texts. </p>
-          <p>Alongside the mission of preserving and transmitting culture, the period gave birth to the art of illuminated manuscripts: handwritten books that have been decorated (illuminated) with gold, silver, or brilliant colours. Illuminations may include small illustrations (called miniatures), initials, borders, or other decorative elements. They were used to indicate divisions in a text, to tell stories, and to add beauty and visually memorable elements to texts. Manuscript illumination reached its high point in medieval Europe, when illuminators, working within workshops called scriptoria, produced illuminated psalters, Bibles, liturgical texts, illustrated saints’ lives, and other works. </p>
+          <p>The Middle Age, often mistakenly thought of as a dark, uncultured age, saw the diffusion of a peculiar way of disseminating culture: the handwritten copying of texts. During this time, inside the lively context of convents and universities, copyists were busy preserving the cultural heritage of ancient civilisations (many texts from Greek and Roman philosophers survived to these days thanks to these people) and passing down important religious texts. </p>
+          <p>Alongside the mission of preserving and transmitting culture, the period saw the birth of the art of illuminated manuscripts: handwritten books that have been decorated (illuminated) with gold, silver, or brilliant colours. Illuminations may include small illustrations (called miniatures), initials, borders, or other decorative elements. They were used to indicate divisions in a text, to tell stories, and to add beauty and visually memorable elements to texts. Manuscript illumination reached its high point in medieval Europe, when illuminators, working within workshops called scriptoria, produced illuminated psalters, Bibles, liturgical texts, illustrated saints’ lives, and other works. </p>
+          <p>The page layout is not strictly defined by any decisive rule, although some frequent characteristics can be spotted. It is possible to find text divided into 2 justified columns, unjustified text on just one column, and all the variants in between. Occasionally, the text is interrupted by an image, most often the picture occupies the whole width of the page, but again, it is possible to find embedded images that are surrounded by the text. It is nonetheless possible to define some communalities, the first being the decorations to the first letters (first letter of the page, of the paragraph, just of the title). The use of colours is another most decisive communality among the various codices: while the text is almost always of neutral colours (black, brownish), the titles, subtitles, decorated letters and frames are always of bright, deep, vibrant colours. Also, illuminations are sometimes used to divide the text, to visually signal the end and the beginning of a certain block of text. Finally, most of the manuscripts taken into consideration made use of parchment as their material support. A very few illuminated fragments survive on papyrus, which is less durable than parchment. The parchment used for illuminated manuscripts is a high-quality parchment, called vellum. </p>
           <h4 data-toc-skip>The layout</h4>
-          <p>The page layout is not strictly defined by any decisive rule. It is possible to find text divided into 2 justified columns, unjustified text on just one column, and all the variants in between. Occasionally, the text is interrupted by an image, most often the picture occupies the whole width of the page, but again, it is possible to find embedded images that are surrounded by the text. It is nonetheless possible to define some communalities, the first being the decorations to the first letters (first letter of the page, of the paragraph, just of the title). The use of colours is another most decisive communality among the various codices: while the text is almost always of neutral colours (black, brownish), the titles, subtitles, decorated letters and frames are always of bright, deep colours. Also, illuminations are often used to divide the text, to visually signal the end and the beginning of a certain block of text. Finally, most of the manuscripts taken into consideration made use of parchment as their material support. A very few illuminated fragments survive on papyrus, which is less durable than parchment. The parchment used for illuminated manuscripts is a high-quality parchment, called vellum. </p>
+          <p>Taking into consideration the abyss that separates the two media type, the webpage layout has been thought to resemble an illuminated manuscript as closely as possible. </p>
+          <p>A parchment-looking background has been chosen to recreate the manuscripts material support. This background needed nonetheless to be adaptable to the features of a webpage: while old parchment often presents stains and wrecked borders, our chosen background should not exceed in those features in order to grant readability and repeatability (the image is often repeated two to three times to fit in the screen, so very noticeable stains would have hindered the seamless perception of the page). </p>
+          <p>For what concerns the text, the article was divided into two columns, while the text from the front page remained on one column. This is due to the aforementioned variation in text layout and pagination observed in medieval manuscripts. The choice of separating the articles’ texts in two columns is also advantageous for avoiding over-repeating the background image, and thus creating a more eye-pleasing view. Paragraph’s first letters and titles use a distinguishable font variation, in order to visually respect the decorations on letters typical of the period. Also, the use of colours (specifically a deep red and a vivacious blue) have been used for titles and subtitles. These colours have been directly picked from some instances of real manuscripts via a very handy browser extension called Color-Picker, which allows to define the exact RBG values of a specific isolated pixel in an image. </p>
+          <p>Now, for what concerns the insertion of some more “advanced” illuminations, we opted for an image, directly taken from instances of real illuminations, that has been inserted alongside the articles, but outside their actual box. Both on the front page and on the articles page, we inserted two images on the side (left side for the articles, both sided for the main page) of the text-containing boxes. The illuminations chosen contain two distinct aspects of the medieval illumination art: animals and floral plots, alongside the common feature of being extremely original and very colourful. </p>
           <h4>The colours</h4>
+          <p>The colours are a fundamental part of a medieval illuminated manuscript. Trying to be as mindful of that as possible, we nonetheless isolated here the three predominant colours used to render the textual part of the webpage, also including the parchment tone we researched for the background image. For the illuminations, please refer to the pictured of manuscripts reported below.</p>
           <div class="row">
             <div class="col-4">
               <div class="card">
@@ -356,6 +379,7 @@
           </div>
   
           <h4 data-toc-skip>Sources</h4>
+          <p>In this section, it is possible to identify the different layout and styles of the period and also to appreciate the wide use of colours, alongside the variety of themes used in the miniatures.</p>
           <div class="row gallery">
             <div class="column">
               <img src="Assets/imgs/mediev_1.jpg" onclick="openModal('myModal2');currentSlide(8)" class="hover-shadow" >
