@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 
 html{
-  font-size: 2vh;
+  font-size: 1vh;
 }
 * {
   font-family: 'Newsreader', serif;
@@ -60,38 +60,45 @@ html{
 
 
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-top: 1vh;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 h5 {
-  font-size: 1.6rem;
+  font-size: 2.5rem;
 }
 h6 {
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 p {
     text-align: justify;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
+a {
+  font-size: 2rem;
+}
+
+ul {
+  font-size: 1.8rem;
+}
 #stylesglasses{
   margin-right: 3vh;
 }
@@ -110,6 +117,11 @@ nav .container-fluid a[href~="index.html"]{
 .navbar{
       background-color: #f2f2f2 !important;
 }
+
+.nav-item {
+  font-size: 2.1rem;
+}
+
 .container-header {
   border-bottom: 4px solid;  
 }
@@ -170,6 +182,13 @@ nav .container-fluid a[href~="index.html"]{
   padding-top: 2%;
 }
 
+#IssuesBox .card-title {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 1%;
+  padding-top: 2%;
+}
+
 .container .colonne_variabili::-webkit-scrollbar {
   display: none;
 }
@@ -190,7 +209,7 @@ nav .container-fluid a[href~="index.html"]{
 
 #issuedetails > .card >.card-header h5 {
  height: 8vh;
- font-size: 1.1em;
+ font-size: 3rem;
 
 }
 .metadatibox > .card >.card-header {
@@ -198,7 +217,7 @@ nav .container-fluid a[href~="index.html"]{
 }
 
 .metadatibox > .card >.card-header h5 {
- font-size: 1em;
+ font-size: 3rem;
 }
 
 
@@ -211,6 +230,7 @@ nav .container-fluid a[href~="index.html"]{
 
 .metadatibox > .card .card-title {
   text-align: center;
+
 }
 
 #issuedetails > .card > .card-body::-webkit-scrollbar {
@@ -507,3 +527,6 @@ footer {
 #toc{
   border-bottom: 0;
 }
+
+.btn-secondary {
+    font-size: 2rem;

@@ -24,6 +24,9 @@
     font-style: normal;
 }
 
+html{
+  font-size: 1vh;
+}
 
 body {
     font-family: 'konstruktorregular';
