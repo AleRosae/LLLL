@@ -146,6 +146,7 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 .card p {
     font-size: 0.9rem;
     line-height: 1.5;
+    padding: 5px 0 5px 0;
 }
 .card > .card-header {
     color: inherit;
@@ -159,7 +160,16 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
     box-shadow: 0 0 0 .25rem rgba(53,126,162,.25);
 }
 
-
+.container-fluid .card-title {
+    font-size: 2rem;
+    text-align: center;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    text-transform: capitalize;
+    /* margin-top: 5%; */
+    /* margin-bottom: 0; */
+    padding:0 0 0 0 ;
+}
 .form-check-input:checked {
     background-color: #ceb0e4;
     border-color: #bbb;

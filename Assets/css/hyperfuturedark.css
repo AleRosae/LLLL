@@ -143,9 +143,21 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 
 }
 
+.container-fluid .card-title {
+    font-size: 2rem;
+    text-align: center;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    text-transform: capitalize;
+    /* margin-top: 5%; */
+    /* margin-bottom: 0; */
+    padding:0 0 0 0 ;
+}
+
 .card p {
     font-size: 0.9rem;
     line-height: 1.5;
+    padding: 5px 0 5px 0;
 }
 .card > .card-header {
     color: inherit;
