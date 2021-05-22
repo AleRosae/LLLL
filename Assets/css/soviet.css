@@ -56,9 +56,13 @@ body {
     padding: 0 0 0 0;
 }
 
+
+.nav-item {
+  font-size: 3rem;
+}
 .container-fluid h1 {
     font-family: 'red_october_stencilregular';
-    font-size: 4em;
+    font-size: 8rem;
     color: #f1f5dc;
     font-weight: 700;
     line-height: 1;
@@ -81,7 +85,7 @@ body {
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 3em;
+    font-size: 5rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -96,7 +100,7 @@ body {
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 2.5em;
+    font-size: 4rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -112,7 +116,7 @@ body {
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 2.3em;
+    font-size: 3.5rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -127,7 +131,7 @@ body {
     line-height: 0.8;
     padding-top: 1.5px;
     padding-bottom: 4px;
-    font-size: 2em;
+    font-size: 3rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -142,7 +146,7 @@ body {
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 1.5em;
+    font-size: 2.5rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -153,7 +157,7 @@ body {
 
 .container-fluid p {
     font-weight: 300;
-    font-size: 1.4em;
+    font-size: 2.5rem;
     line-height: 1;
     text-align: justify;
     font-variant: small-caps;
@@ -163,6 +167,7 @@ body {
 footer {
         background-color: #f1f5dc;
         color: rgb(33 37 40);
+        font-size: 2rem;
 }
 
 footer .col-3 {
@@ -196,6 +201,15 @@ footer .col-3 {
     background-color: #212528;
 }
 
+
+.infobox h5{
+    font-size: 3rem;
+}
+
+#issuedetails h5{
+    font-size: 3rem;
+}
+
 .form-check-input:focus {
     border-color: #212528;
     outline: 0;
@@ -223,6 +237,12 @@ footer .col-3 {
 
 }
 
+ul {
+  font-size: 2rem !important;
+}
+.card p {
+    font-size: 2rem;
+}
 .card a {
     color: #ce2909;
     font-weight: 500;
@@ -287,6 +307,10 @@ margin-top: -10px;
     text-transform: uppercase;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     padding: 0 0 0 0;
+}
+.
+.dropdown-item {
+    font-size: 2rem;
 }
 
 .CoverInfo .author::before{

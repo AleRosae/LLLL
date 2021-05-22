@@ -1,3 +1,6 @@
+html{
+  font-size: 1vh;
+}
 
 #stylesglasses{
   margin-right: 3vh;
@@ -8,7 +11,7 @@ nav {
 }
 
 nav > .container-fluid {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 nav .container-fluid a[href~="index.html"]{
   font-weight: 1000;
@@ -91,13 +94,11 @@ nav .container-fluid a[href~="index.html"]{
 
 #issuedetails > .card >.card-header {
  height: 8vh;
- font-size: 1em;
 
 }
 
 #issuedetails > .card >.card-header h5 {
  height: 8vh;
- font-size: 1.1em;
 
 }
 .metadatibox > .card >.card-header {
@@ -105,7 +106,6 @@ nav .container-fluid a[href~="index.html"]{
 }
 
 .metadatibox > .card >.card-header h5 {
- font-size: 1em;
 }
 
 
