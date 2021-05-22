@@ -2,13 +2,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap');
 
 
 body {
     font-family: 'Raleway', sans-serif;
     background-color: #E3F0FF;
 
+}
+
+html{
+  font-size: 1vw;
+}
+
+.container-fluid > .row > .col-8 {
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69); 
+box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
+}
+
+.nav-item {
+  font-size: 1.2rem;
+}
+ul {
+    font-size: 1rem;
+}
+
+.container-fluid h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    color: white;
+    font-weight: 800;
+    line-height: 1;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 40px 10px 40px 10px;
+    letter-spacing: 2px;
+    font-style: bold;
+    background-image: radial-gradient(circle, #ceb0e4, #c5c0ee, #c2cef1, #c8dbf1, #d5e5f0);
+    border-radius: 8px;
+     }
+
+.container-fluid h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #000000f0;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    border-radius: 4px;
+    padding: 1% 10% 1% 10%;
+    margin-bottom: 10px;
+}
+.container-fluid h3 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.container-fluid h4 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.container-fluid  h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+.container-fluid h6 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+   }
+
+.container-fluid > .row > .col-8 {
+    background-color: #ffffff;
+    border: solid 1px #212528;
+    border-radius: 8px;
+}
+
+.container-fluid p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    font-size: 1rem;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: justify;
+    padding: 5px 25px 5px 25px;
+
+}
+
+#Articles {
+    box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 }
 
 .card {
@@ -18,9 +138,27 @@ body {
     font-weight: 300;
     color: #000000;
     border-color: #bbb;
+    -webkit-box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69); 
+box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 
 }
 
+.container-fluid .card-title {
+    font-size: 2rem;
+    text-align: center;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    text-transform: capitalize;
+    /* margin-top: 5%; */
+    /* margin-bottom: 0; */
+    padding:0 0 0 0 ;
+}
+
+.card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding: 5px 0 5px 0;
+}
 .card > .card-header {
     color: inherit;
     background-color: #f3f3f3;
@@ -47,6 +185,45 @@ body {
   display: none;
 }
 
+footer {
+    margin-top: 1em;
+    background-color: white;
+}
+
+footer .col-3 {
+    text-align: justify;
+
+}
+
+footer h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    text-align: left;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
+
+footer p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2;
+    font-size: 1em;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: justify;
+    padding: 5px 25px 5px 25px;
+}
+
+
+footer .p-3{
+    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+    color: white;
+}
 
 .card a {
   color: #9c8ded;
@@ -60,6 +237,11 @@ body {
   transition: background-position 275ms ease;
   text-decoration: none;
      } 
+.card button {
+    color: #fff;
+    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+    border-color: #ffffff;
+}
 
 .card a:hover {
   background-position: 0 100%;
@@ -103,6 +285,7 @@ body {
 }
 
 .CoverTitle h1 {
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     color: white;
     font-weight: 800;
@@ -120,10 +303,11 @@ body {
     background-image: url("imgs/speaker.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1em;
+    background-size: 2em;
 }
 
 .CoverInfo h2 {
+    font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-style: italic;
     color: #000000f0;
@@ -162,8 +346,10 @@ body {
 }
 
 .ArticleBody h3 {
-    font-weight: 700;
-    font-size: 1.8em;
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.7em;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -174,18 +360,8 @@ body {
 }
 
 .ArticleBody h4 {
-    font-weight: 600;
-    font-size: 1,6em;
-    text-align: left;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-transform: capitalize;
-    margin-top: 5%;
-    margin-bottom: 0;
-    padding: 5px 25px 5px 25px;
-}
-
-.ArticleBody h5 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1,4em;
     text-align: left;
@@ -197,10 +373,25 @@ body {
     padding: 5px 25px 5px 25px;
 }
 
+.ArticleBody h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1,2em;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-bottom: 0;
+    padding: 5px 25px 5px 25px;
+}
+
 .ArticleBody h6 {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.3em;
     margin-left: 10%;
     margin-right: 10%;
     text-transform: capitalize;
@@ -225,8 +416,15 @@ body {
 }
 
 .ArticleBody blockquote::before {
-  content: "\""
+    content: "\"";
+    font-family: 'Catamaran', sans-serif;
+    font-size: 4em;
+    height: 1em;
+    overflow: hidden;
+    display: inline-block;
 }
+
+
 
 
 .ArticleBody a {
@@ -323,6 +521,10 @@ body {
   cursor: pointer;
 }
 
+.modal {
+    color:#bbb;
+}
+
 .modal-footer > .btn-primary {
     color: #fff;
     background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
@@ -330,9 +532,10 @@ body {
 }
 
 .modal-header > h5 {
+    color:#000000;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
@@ -343,15 +546,17 @@ body {
 }
 
 .modal-body > p {
+    color:#000000;
     font-weight: 400;
-    line-height: 1,5;
-    font-size: 1em;
+    line-height: 2;
+    font-size: 1.2em;
     padding: 5px 10px 5px 10px;
     text-align: justify;
     margin-left: 5%;
     margin-right: 5%;
 }
  .modal-body > .mb-3 > label {
+    color:#000000;
     font-weight: 400;
     line-height: 1,5;
     font-size: 1em;
@@ -360,6 +565,39 @@ body {
     margin-left: 5%;
     margin-right: 5%;
  }
+
+ #IssuesBox a {
+        -webkit-text-fill-color: #f9fafb;
+ }
+
+ table {
+    font-size: 1em;
+    border: solid 1px black;
+    text-align: justify;
+    table-layout: fixed;
+    word-break: break-word;
+}
+
+tr {
+    vertical-align: middle;
+}
+
+th {
+    width: 100%;
+    font-size: 1em;
+    border:solid 1px black;
+}
+
+td {
+    width: 100%;
+    font-size: 0.6em;
+    border:solid 1px black;
+}
+table caption {
+    font-size: 0.6em;
+    text-align: justify;
+}
+
 /* Only real difference from normal hteme */
 .ArticleBody {
 background: rgb(52,54,78);
@@ -370,6 +608,8 @@ background: linear-gradient(0deg, rgba(52,54,78,1) 0%, rgba(33,30,46,1) 21%);
 
 #nightview {
   color: white;
+  font-size: 3.5rem;
+
 }
 
 .colonne_variabili {
@@ -403,4 +643,8 @@ body {
   background-color: #c3c9f0;
   color: #000000;
 
+}
+
+.navbar{
+background-color: #888888 !important;
 }

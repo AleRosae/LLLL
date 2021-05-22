@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 
 html{
-  font-size: 2vh;
+  font-size: 1vw;
 }
+
 * {
   font-family: 'Newsreader', serif;
 }
@@ -11,13 +12,16 @@ html{
   text-align: center
 }
 .card p {
-  padding-left: 8px;
-  padding-right: 8px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    font-size: 0.9rem;
 }
 
 
 .CoverTitle h1 {
-    font-size: 3em;
+    font-size: 2rem;
     text-align: center;
     font-style: bold;
      }
@@ -71,7 +75,7 @@ h2 {
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-top: 1vh;
 }
 
@@ -79,10 +83,10 @@ h4 {
   font-size: 2rem;
 }
 h5 {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 h6 {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 
 p {
@@ -92,6 +96,11 @@ p {
     padding-bottom: 5px;
 }
 
+
+
+ul {
+  font-size: 1rem;
+}
 #stylesglasses{
   margin-right: 3vh;
 }
@@ -110,6 +119,11 @@ nav .container-fluid a[href~="index.html"]{
 .navbar{
       background-color: #f2f2f2 !important;
 }
+
+.nav-item {
+  font-size: 1.5rem;
+}
+
 .container-header {
   border-bottom: 4px solid;  
 }
@@ -170,6 +184,13 @@ nav .container-fluid a[href~="index.html"]{
   padding-top: 2%;
 }
 
+#IssuesBox .card-title {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
 .container .colonne_variabili::-webkit-scrollbar {
   display: none;
 }
@@ -190,7 +211,7 @@ nav .container-fluid a[href~="index.html"]{
 
 #issuedetails > .card >.card-header h5 {
  height: 8vh;
- font-size: 1.1em;
+ font-size: 1.3rem;
 
 }
 .metadatibox > .card >.card-header {
@@ -198,7 +219,7 @@ nav .container-fluid a[href~="index.html"]{
 }
 
 .metadatibox > .card >.card-header h5 {
- font-size: 1em;
+ font-size: 1.3rem;
 }
 
 
@@ -211,6 +232,7 @@ nav .container-fluid a[href~="index.html"]{
 
 .metadatibox > .card .card-title {
   text-align: center;
+
 }
 
 #issuedetails > .card > .card-body::-webkit-scrollbar {
@@ -286,7 +308,7 @@ nav[data-toggle=toc] .nav>li>a {
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
 }
 
@@ -492,7 +514,9 @@ background-color: #ce2909;
 footer {
   border-top: 1px solid;
 }
-
+footer p {
+    font-size: 0.8rem;
+}
 
 .col-8 {
   border-right: 2px solid;
@@ -506,4 +530,23 @@ footer {
 
 #toc{
   border-bottom: 0;
+}
+
+.btn-secondary {
+    font-size: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+  }
+
+.btn-secondary  > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media only screen and (max-width: 992px) {
+  #stylesglasses {
+    display: -webkit-inline-box;
+  }
 }

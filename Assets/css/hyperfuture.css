@@ -11,6 +11,10 @@ body {
 
 }
 
+html{
+  font-size: 1vw;
+}
+
 .container-fluid > .row > .col-8 {
     padding-right: 0;
     padding-left: 0;
@@ -18,9 +22,16 @@ body {
 box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 }
 
+.nav-item {
+  font-size: 1.2rem;
+}
+ul {
+    font-size: 1rem;
+}
+
 .container-fluid h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 4rem;
     color: white;
     font-weight: 800;
     line-height: 1;
@@ -35,7 +46,7 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 
 .container-fluid h2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-size: 2.5rem;
     font-style: italic;
     color: #000000f0;
     font-weight: 600;
@@ -49,7 +60,7 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
     line-height: 1;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 1.5em;
+    font-size: 2.2rem;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -63,7 +74,7 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
     line-height: 1;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 1.4em;
+    font-size: 2rem;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -76,7 +87,7 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 .container-fluid  h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 1.4em;
+    font-size: 2rem;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -91,7 +102,7 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
     font-family: 'Roboto', sans-serif;
     text-align: left;
     font-weight: 500;
-    font-size: 1.3em;
+    font-size: 1.5rem;
     margin-left: 10%;
     margin-right: 10%;
     text-transform: capitalize;
@@ -108,7 +119,7 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 .container-fluid p {
     font-family: 'Raleway', sans-serif;
     line-height: 2;
-    font-size: 1em;
+    font-size: 1rem;
     margin-right: 10%;
     margin-left: 10%;
     text-align: justify;
@@ -132,6 +143,11 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 
 }
 
+.card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    padding: 5px 0 5px 0;
+}
 .card > .card-header {
     color: inherit;
     background-color: #f3f3f3;
@@ -144,7 +160,16 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
     box-shadow: 0 0 0 .25rem rgba(53,126,162,.25);
 }
 
-
+.container-fluid .card-title {
+    font-size: 2rem;
+    text-align: center;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    text-transform: capitalize;
+    /* margin-top: 5%; */
+    /* margin-bottom: 0; */
+    padding:0 0 0 0 ;
+}
 .form-check-input:checked {
     background-color: #ceb0e4;
     border-color: #bbb;
@@ -485,9 +510,7 @@ footer .p-3{
 }
 
 #nightview {
-    font-size: 3rem;
-    z-index: 1;
-    padding-right: 40vh;
+font-size: 3.5rem;
 }
 
   #nightview:hover {
@@ -508,7 +531,7 @@ footer .p-3{
     color:#000000;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.5rem;
     text-align: left;
     margin-left: 5%;
     margin-right: 5%;
@@ -522,7 +545,7 @@ footer .p-3{
     color:#000000;
     font-weight: 400;
     line-height: 2;
-    font-size: 1.2em;
+    font-size: 1rem;
     padding: 5px 10px 5px 10px;
     text-align: justify;
     margin-left: 5%;

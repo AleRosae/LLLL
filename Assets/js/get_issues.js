@@ -23,7 +23,7 @@
                     $("#CardBody"+obj.issues[i].issue).append("<h5 class=\"card-title\">"+obj.issues[i].topic+"</h5>");                                          
                     $("#CardBody"+obj.issues[i].issue).append("<p class=\"card-text\">"+obj.issues[i].description+"</p>");   
                     $("#CardBody"+obj.issues[i].issue).append("<p class=\"card-text\">Edited by: "+obj.issues[i].editor+"</p>");   
-                    $("#CardBody"+obj.issues[i].issue).append("<a href=\""+obj.issues[i].pageLink+"\"><button class=\"btn btn-secondary\">Check the issue </button></a>");
+                    $("#CardBody"+obj.issues[i].issue).append("<button class=\"btn btn-secondary\"><a href=\""+obj.issues[i].pageLink+"\">Check the issue </a></button>");
               }
             }
 }
