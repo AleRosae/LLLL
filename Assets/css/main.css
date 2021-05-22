@@ -96,9 +96,7 @@ p {
     padding-bottom: 5px;
 }
 
-a {
-  font-size: 1rem;
-}
+
 
 ul {
   font-size: 1rem;
@@ -545,4 +543,10 @@ footer p {
 .btn-secondary  > a {
   text-decoration: none;
   color: inherit;
+}
+
+@media only screen and (max-width: 992px) {
+  #stylesglasses {
+    display: -webkit-inline-box;
+  }
 }

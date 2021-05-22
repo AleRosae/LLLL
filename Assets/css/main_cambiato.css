@@ -414,3 +414,9 @@ footer {
 #toc{
   border-bottom: 0;
 }
+
+@media only screen and (max-width: 992px) {
+  #stylesglasses {
+    display: -webkit-inline-box;
+  }
+}
