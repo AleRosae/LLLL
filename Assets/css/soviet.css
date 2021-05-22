@@ -25,7 +25,7 @@
 }
 
 html{
-  font-size: 1vh;
+  font-size: 1vw;
 }
 
 body {
@@ -58,11 +58,11 @@ body {
 
 
 .nav-item {
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 .container-fluid h1 {
     font-family: 'red_october_stencilregular';
-    font-size: 8rem;
+    font-size: 5rem;
     color: #f1f5dc;
     font-weight: 700;
     line-height: 1;
@@ -85,7 +85,7 @@ body {
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 5rem;
+    font-size: 3rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -100,7 +100,7 @@ body {
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 4rem;
+    font-size: 3rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -116,7 +116,7 @@ body {
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -131,7 +131,7 @@ body {
     line-height: 0.8;
     padding-top: 1.5px;
     padding-bottom: 4px;
-    font-size: 3rem;
+    font-size: 2rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -146,7 +146,7 @@ body {
     line-height: 0.8;
     padding-top: 3px;
     padding-bottom: 4px;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     border-color: #f1f5dc;
     border-top: solid 8px;
     border-bottom: solid 8px;
@@ -157,7 +157,7 @@ body {
 
 .container-fluid p {
     font-weight: 300;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     line-height: 1;
     text-align: justify;
     font-variant: small-caps;
@@ -167,7 +167,9 @@ body {
 footer {
         background-color: #f1f5dc;
         color: rgb(33 37 40);
-        font-size: 2rem;
+}
+footer p {
+    font-size: 1rem;
 }
 
 footer .col-3 {
@@ -203,11 +205,12 @@ footer .col-3 {
 
 
 .infobox h5{
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 #issuedetails h5{
-    font-size: 3rem;
+    font-size: 1.5rem;
+    vertical-align: center;
 }
 
 .form-check-input:focus {
@@ -238,10 +241,10 @@ footer .col-3 {
 }
 
 ul {
-  font-size: 2rem !important;
+  font-size: 1.1rem !important;
 }
 .card p {
-    font-size: 2rem;
+    font-size: 1.1rem;
 }
 .card a {
     color: #ce2909;
