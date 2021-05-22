@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Newsreader&display=swap');
 
 html{
-  font-size: 1vh;
+  font-size: 1vw;
 }
 
 * {
@@ -14,11 +14,12 @@ html{
 .card p {
   padding-left: 8px;
   padding-right: 8px;
+  font-size: 0.8rem;
 }
 
 
 .CoverTitle h1 {
-    font-size: 3em;
+    font-size: 2rem;
     text-align: center;
     font-style: bold;
      }
@@ -61,44 +62,44 @@ html{
 
 
 h1 {
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
 }
 
 h3 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   margin-top: 1vh;
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 h5 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 h6 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 p {
     text-align: justify;
-    font-size: 2rem;
+    font-size: 1rem;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 a {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 ul {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 #stylesglasses{
   margin-right: 3vh;
@@ -120,7 +121,7 @@ nav .container-fluid a[href~="index.html"]{
 }
 
 .nav-item {
-  font-size: 2.1rem;
+  font-size: 1.5rem;
 }
 
 .container-header {
@@ -210,7 +211,7 @@ nav .container-fluid a[href~="index.html"]{
 
 #issuedetails > .card >.card-header h5 {
  height: 8vh;
- font-size: 3rem;
+ font-size: 1.3rem;
 
 }
 .metadatibox > .card >.card-header {
@@ -218,7 +219,7 @@ nav .container-fluid a[href~="index.html"]{
 }
 
 .metadatibox > .card >.card-header h5 {
- font-size: 3rem;
+ font-size: 1.3rem;
 }
 
 
@@ -513,7 +514,9 @@ background-color: #ce2909;
 footer {
   border-top: 1px solid;
 }
-
+footer p {
+    font-size: 0.8rem;
+}
 
 .col-8 {
   border-right: 2px solid;
@@ -530,4 +533,4 @@ footer {
 }
 
 .btn-secondary {
-    font-size: 2rem;
+    font-size: 1rem;
