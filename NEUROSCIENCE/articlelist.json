@@ -4,29 +4,33 @@
 		"title":"Can Privacy coexist with technology that reads and changes brain activity?", 
         "url":"Article1_Science_news.html",
         "box":"article1_box",
-        "Journal":"https://www.sciencenews.org/",
+        "journal":"Science News",
         "author":"Laura Sanders",
-        "author description":"Laura Sanders reports on neuroscience for Science News. She earned her Ph.D. in molecular biology from the University of Southern California in Los Angeles."
+        "authordescription":"Laura Sanders reports on neuroscience for Science News. She earned her Ph.D. in molecular biology from the University of Southern California in Los Angeles.",
+        "originalsource":"https://www.sciencenews.org/article/technology-brain-activity-read-change-thoughts-privacy-ethics", 
+        "date":"February 11, 2021"
 	},
     {
         "number":"2",
         "title":"What happens if our mind lives for ever on the internet?", 
         "url":"Article2_guardian.html",
         "box":"article2_box",
-        "Journal":"https://www.theguardian.com/international",
+        "journal":"The Guardian",
         "author":"Michael Graziano",
-        "author description":"Michael SA Graziano is a professor of psychology and neuroscience at Princeton University"
-
+        "authordescription":"Michael SA Graziano is a professor of psychology and neuroscience at Princeton University", 
+        "originalsource":"https://www.theguardian.com/technology/2019/oct/20/mind-uploading-brain-live-for-ever-internet-virtual-reality", 
+        "date": "October 20, 2019"
     },
     {
         "number":"3",
         "title":"Deep Neural Networks are helping decipher how brains work", 
         "url":"Article3_Wired.html",
         "box":"article3_box",
-        "Journal":"https://www.quantamagazine.org/deep-neural-networks-help-to-explain-living-brains-20201028/",
+        "journal":"Quanta Magazine",
         "author":"Anil Ananthaswamy",
-        "author description":"Anil Ananthaswamy is a journalist and author. He is a 2019-20 MIT Knight Science Journalism fellow."
-
+        "authordescription":"Anil Ananthaswamy is a journalist and author. He is a 2019-20 MIT Knight Science Journalism fellow.",
+        "originalsource":"https://www.quantamagazine.org/deep-neural-networks-help-to-explain-living-brains-20201028/",
+        "date":"October 28, 2020"
     }
     ], 
     "issue":[
@@ -34,7 +38,7 @@
         "topic":"Neuroscience and Technology", 
         "description":"Is neuroscience on the verge of a break-through thanks to new technologies ?",
         "editor": "Susanna Pinotti",
-        "keywords":["Brain", "Artificial Intelligence", " Future", " Conciousness uploading", " Mind", " Privacy", " Behaviour"]
+        "keywords":["Neurosciences", " Brain", " Artificial Intelligence", " Future", " Conciousness uploading", " Mind", " Privacy", " Behaviour", " Ethics", " Big Tech"]
     }
     ]
     
