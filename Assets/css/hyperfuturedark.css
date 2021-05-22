@@ -596,6 +596,8 @@ background: linear-gradient(0deg, rgba(52,54,78,1) 0%, rgba(33,30,46,1) 21%);
 
 #nightview {
   color: white;
+  font-size: 3.5rem;
+
 }
 
 .colonne_variabili {
@@ -629,4 +631,8 @@ body {
   background-color: #c3c9f0;
   color: #000000;
 
+}
+
+.navbar{
+background-color: #888888 !important;
 }

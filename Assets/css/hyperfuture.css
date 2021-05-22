@@ -500,9 +500,7 @@ footer .p-3{
 }
 
 #nightview {
-    font-size: 3rem;
-    z-index: 1;
-    padding-right: 40vh;
+font-size: 3.5rem;
 }
 
   #nightview:hover {

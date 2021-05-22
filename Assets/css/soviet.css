@@ -60,6 +60,8 @@ body {
 .nav-item {
   font-size: 1.5rem;
 }
+
+
 .container-fluid h1 {
     font-family: 'red_october_stencilregular';
     font-size: 5rem;
@@ -595,4 +597,9 @@ table caption {
     color: #f1f5dc;
     font-size: 0.4em;
     text-align: center;
+}
+
+.btn-secondary {
+    background-color: #212529;
+
 }
