@@ -15,60 +15,80 @@
 
 </head>
 <header id="header">
-					<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-						<div class="container-fluid">
-						  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="navbar-toggler-icon"></span>
-						  </button>
-						  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-							<ul class="navbar-nav mr-auto">
-							  <li class="nav-item">
-								<a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-							  </li>
-							  <li class="nav-item dropdown">
-								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">The issues</a>
-								<ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownmenuissues">
-								</ul>
-							  </li>
-								 <li class="nav-item">
-								<a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modaldisclaimer">Disclaimer</a>
-							  </li>
-							  <li class="nav-item">
-								<a class="nav-link" href="documentation.htm" tabindex="-1" aria-disabled="true">Documentation</a>
-							  </li>
-				  </ul>
-				  </div>
-				  </div>
-				  <div class="contained ms-auto" id="stylesglasses">
-				  <ul class="navbar-nav ms-auto">
-							  <li class="nav-item"><span id="beasty_medieval" class="styles hvr-bounce-in" title="Get Medieval style"><img class="icone" src="../Assets/imgs/medieval_glasses.svg"></span></li>
-								 <il><span id="victorian" class="styles hvr-bounce-in" title="Get Victoria style"><img class="icone" src="../Assets/imgs/Victorian_glasses.svg"></span></il>
-							  <li class="nav-item"><span id="soviet" class="styles  hvr-bounce-in" title="Get Soviet style"><img class="icone" src="../Assets/imgs/soviet_glasses.png"></span></li>
-							  <li class="nav-item"><span id="groovy70s" class="styles hvr-bounce-in" title="Get 70s style"><img class="icone" src="../Assets/imgs/70s_glasses.svg"></span></li>
-							  <il><span id="trashy90" class="styles hvr-bounce-in" title="Get 90s style"><img class="icone" src="../Assets/imgs/90s_glasses.svg"></span></il>
-							  <li class="nav-item"><span id="future" class="styles hvr-bounce-in" data-bs-toggle="modal" data-bs-target="#modalfuture" title="Get Future style"><img class="icone" src="../Assets/imgs/future_glasses.svg"></span></li>
-							  <li class="nav-item"><span id="reset" class="styles hvr-icon-spin" title="Reset styling"><img class="icone hvr-icon" src="../Assets/imgs/refreshing.svg"></span></li>
-							</ul>
-						  </div>
-					  </nav>
-				</header>
-<body>
-	<h1>Dreams</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	  <div class="container-fluid">
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	      <ul class="navbar-nav mr-auto">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+	        </li>
+	        <li class="nav-item dropdown">
+	          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">The issues</a>
+	          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdownmenuissues">
+	          </ul>
+	        </li>
+	       	<li class="nav-item">
+	          <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modaldisclaimer">Disclaimer</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="../documentation.htm" tabindex="-1" aria-disabled="true">Documentation</a>
+	        </li>
+</ul>
+<ul class="navbar-nav ms-auto" id="stylesglasses">
+			<li class="nav-item icone" title="Go to nightview mode"><span id="nightview"></span></li>
+	        <li class="nav-item"><span id="beasty_medieval" class="styles hvr-bounce-in" title="Get Medieval style"><img class="icone" src="../Assets/imgs/medieval_glasses.svg"></span></li>
+	       	<il><span id="victorian" class="styles hvr-bounce-in" title="Get Victoria style"><img class="icone" src="../Assets/imgs/Victorian_glasses.svg"></span></il>
+	        <li class="nav-item"><span id="soviet" class="styles  hvr-bounce-in" title="Get Soviet style"><img class="icone" src="../Assets/imgs/soviet_glasses.png"></span></li>
+			<li class="nav-item"><span id="groovy70s" class="styles hvr-bounce-in" title="Get 70s style"><img class="icone" src="../Assets/imgs/70s_glasses.svg"></span></li>
+			<il><span id="trashy90" class="styles hvr-bounce-in" title="Get 90s style"><img class="icone" src="../Assets/imgs/90s_glasses.svg"></span></il>
+			<li class="nav-item"><span id="future" class="styles hvr-bounce-in" data-bs-toggle="modal" data-bs-target="#modalfuture" title="Get Future style"><img class="icone" src="../Assets/imgs/future_glasses.svg"></span></li>
+			<li class="nav-item"><span id="reset" class="styles hvr-icon-spin" title="Reset styling"><img class="icone hvr-icon" src="../Assets/imgs/refreshing.svg"></span></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	</header>
 
+
+<body>
+	<div class="container-header" style="background-color: #aaaaaa;width: 100%;height: 200px;">
+</div>
 	<div class="meta row">
-		<div class="col-3" id="articlebox">
+		<div class="col-3" id="issuedetails">
 			<div class="card">
-				  <div class="card-header">
-				    NFTs Issue
-				  </div>
-			  <ul class="list-group list-group-flush" id="articlescheckbox">
-			  </ul>
+				<div  class="card-header">
+					    <div class="row align-items-center">
+                        	<div class="col-md-12">
+                           	 	<h5 class="card-title"></h5>
+                        	</div>
+                        </div>
+                    </div>
+				  <div class="card-body">
+					    <div class="card-text">
+				    	<p>Articles in this issue:</p>
+				    	<ul class="list-group list-group-flush" id="articlescheckbox">
+			  			</ul>
+				    	<p id="issue-theme"></p>
+				    	<p id="issue-keywords"></p>
+				    	<p id="issue-editor"></p>
+
+				    </div>
+				</div>
 			</div>
 		</div>	
-		<div class="col-3" id="infobox1">
-			<div class="card" >
+		<div class="col-3 metadatibox" id="infobox1">
+			<div class="card infobox">
+				<div  class="card-header">
+					    <div class="row align-items-center">
+                        	<div class="col-md-12">
+                           	 	<h5 class="card-title"></h5>
+                        	</div>
+                        </div>
+                    </div>
 				  <div class="card-body">
-				    <h5 class="card-title"></h5>
 				    <h6 class="card-subtitle mb-2 text-muted"></h6>
 				    <div class="card-text">
 				    	<p id="author"></p>
@@ -80,10 +100,16 @@
 				  </div>
 				</div>
 		</div>
-		<div class="col-3" id="infobox2">
-			<div class="card">
+		<div class="col-3 metadatibox" id="infobox2">
+			<div class="card infobox">
+				<div  class="card-header">
+					    <div class="row align-items-center">
+                        	<div class="col-md-12">
+                           	 	<h5 class="card-title"></h5>
+                        	</div>
+                        </div>
+                    </div>
 				  <div class="card-body">
-				    <h5 class="card-title"></h5>
 				    <h6 class="card-subtitle mb-2 text-muted"></h6>
 				    <div class="card-text">
 				    	<p id="author"></p>
@@ -95,10 +121,16 @@
 				  </div>
 				</div>
 		</div>	
-			<div class="col-3" id="infobox3">
-		<div class="card" >
+			<div class="col-3 metadatibox" id="infobox3">
+		<div class="card infobox" >
+				<div  class="card-header">
+					    <div class="row align-items-center">
+                        	<div class="col-md-12">
+                           	 	<h5 class="card-title"></h5>
+                        	</div>
+                        </div>
+                    </div>
 			  <div class="card-body">
-			    <h5 class="card-title"></h5>
 			    <h6 class="card-subtitle mb-2 text-muted"></h6>
 				    <div class="card-text">
 				    	<p id="author"></p>
@@ -112,31 +144,25 @@
 			</div>
 	</div>	
 	</div>
-	<div id="stylebox">
-	<ul><il><button id="soviet" class="styles">Get style Soviet</button></il>
-		<il><button id="future" class="styles" data-bs-toggle="modal" data-bs-target="#modalfuture">Get style Future</button></il>
-		<il><button id="victorian" class="styles">Get victorian</button></il>
-		<il><button id="trashy90" class="styles">Get trashy 90s</button></il>
-		<il><button id="reset" class="styles">reset</button></il></ul>
-	</div>
+
 
 <div class="main row">
-    <div class="side col-2">
+    <div class="side col-3">
 		<div class="card">
 		  	<div class="card-header">
 			    Cose
 			  </div>
 			  <ul class="list-group list-group-flush" id="articlescheckbox">
 	  	        <li><div class="form-check">
-				  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+				  <input class="form-check-input callmetadata" type="checkbox" active="0" value="" id="deafultmetadata">
 				  <label class="form-check-label" for="defaultCheck1">
-				    	Default checkbox
+				    	Articles metadata
 				  </label>
 				</div></li>
 				<li><div class="form-check">
-					  <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+					  <input class="form-check-input callmetadata" active="0" type="checkbox" value="" id="company">
 					  <label class="form-check-label" for="defaultCheck2">
-					    Another checkbox
+					    company
 					  </label>
 					</div></li>
 			  </ul>
@@ -147,9 +173,9 @@
 					  </div>
 					  <ul class="list-group list-group-flush" id="articlescheckbox">
 			  	        <li><div class="form-check">
-						  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+						  <input class="form-check-input callmetadata" active="0"type="checkbox" value="" id="pers">
 						  <label class="form-check-label" for="defaultCheck1">
-						    	Default checkbox
+						    	People
 						  </label>
 						</div></li>
 						<li><div class="form-check">
@@ -161,7 +187,7 @@
 					  </ul>
 					</div>
 	</div>
-    <div class="container col-10">
+    <div class="container col-9">
 
 <div class="modal fade" id="modalfuture" tabindex="-1" aria-labelledby="modalfutureLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -172,11 +198,11 @@
       </div>
       <div class="modal-body">
 			<p>It looks like you are visiting this website through a very old device that is no longer fully supported. This may happen in case you are using a desktop computer or an old laptop.</p>
-					<p>Due to you unsupported device many features of this website are not going to be fully functional. This may include:</p><ul><li>Interactive ads</li><li>Compatibily with foldable devices and multiscreen devices</li><li>Instant Social Media sharing</li><li>Augmented and Virtual Reality</li></ul>
+			<p>Due to you unsupported device many features of this website are not going to be fully functional. This may include Interactive ads due to incompatibily with foldable devices and multiscreen devices.</p>
 			<p>The following page can be bought as a Non-Fungible token for about 432 Ethereum. If you are willing to procede, please insert your Digital Wallet in the following form.</p>
 				<div class="mb-3">
             		<label for="recipient-name" class="col-form-label">Put the univocal code of your Digital Wallet:</label>
-            		<input type="text" class="form-control" id="recipient-name">
+            		<input type="text" class="form-control" id="walletid">
          		 </div>
       </div>
       <div class="modal-footer">
@@ -186,8 +212,35 @@
     </div>
   </div>
 </div>
-    	<span id="nightview"></span>
-  <div class="row" id="Articles">
+    	
+      	<div class="row" id="Articles">
+
+          </div>
+    </div>
+</div>
+<div class="modal fade" id="modaldisclaimer" tabindex="-1" aria-labelledby="modaldisclaimerLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modaldisclaimerLabel">Purpose of this website and copyright disclaimer</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+			<p>The purpose of this web site is to explore various types of typographic and layout style for text documents, as an end-of-course project for the "Information Modelingand Web technologies" course of the Master Degree in Digital Humanities and
+				Digital Knowledge of the University of Bologna, held by professor Fabio Vitali.<p>
+			<p>The documents contained in this web site have been selected for their length and complexity from XXX. Their publication here is not intended to be an alternative or replace their original locations:</p>
+			<ul>
+				<li>File 1: http://aouhadosuvosh</li>
+				<li>File 2: http://alekfpahvaoeh</li>
+				<li>etc.</li>
+			</ul>
+			<p>All copyrights and related rights on the content remain with their original owners.</p>
+			<p>All copyright on the typographic and layout choices are 2021 © Alessandro Rosa, Susanna Pinotti, Valentina Cozzi</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+      </div>
+    </div>
   </div>
 </div>
 

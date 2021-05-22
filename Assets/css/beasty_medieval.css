@@ -53,7 +53,7 @@ button{
 
 /*main è dove trovo le issues*/ 
 .main #IssueBox .col-4{
-    background-color: rgb(75, 75, 196);
+    background-color: rgb(218, 161, 40);
 }
 .main h3{
     font-family: "MedievalDeco";
@@ -129,7 +129,7 @@ button{
     background-image: url("imgs/old-paper-background-texture-29.jpg");
     align-items: flex-start;
     flex-wrap: wrap;
-    font-family: "MedievalDeco";
+    font-family: "MedievalSharp", cursive;
     font-weight: 300;
 }
 
