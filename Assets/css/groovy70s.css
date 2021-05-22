@@ -105,6 +105,7 @@ button{
 .container-fluid h6{
     font-family: "Newsense";
     font-weight: bold;
+    word-wrap: break-word;
 }
 
 .container-fluid p{
@@ -125,15 +126,20 @@ button{
 .card > .card-header{
     background-color: inherit;
     font-family: "Newsense";
-    font-weight: bold;
-    font-size: 1.5em;
+    /*font-weight: bold;*/
+    font-size: 1em;
+    word-wrap: break-word;
+}
+
+.metadatibox > .card >.card-header {
+    height: 10vh;
 }
 
 .card > .card-body{
     font-family: "Colombia";
     font-weight: bold;
     font-size: 1em;
-    color: #431e15;
+    color: #d04f2c;
 }
 
 .card a{
@@ -144,7 +150,7 @@ button{
 .form-check-label{
     font-size: 1em;
     font-weight: bold;
-    color: #431e15;
+    color: #d04f2c;
 }
 
 .form-check-input:focus{
