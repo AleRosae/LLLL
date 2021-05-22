@@ -549,4 +549,7 @@ footer p {
   #stylesglasses {
     display: -webkit-inline-box;
   }
+  .icone {
+    height: 35px;
+  }
 }
