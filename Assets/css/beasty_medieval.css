@@ -40,10 +40,9 @@ button{
 
 .container-fluid > .row > .col-2{
     background-image: url("imgs/beasts.jpg");
-    background-position:center;
+    background-position:top;
     background-repeat: repeat;
     padding: 15px;
-    
 }
 
 .col-3{
@@ -54,7 +53,7 @@ button{
 
 /*main è dove trovo le issues*/ 
 .main #IssueBox .col-4{
-    background-color: blue;
+    background-color: rgb(75, 75, 196);
 }
 .main h3{
     font-family: "MedievalDeco";
