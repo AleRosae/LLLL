@@ -396,8 +396,8 @@ margin-top: -10px;
     padding-bottom: 4px;
     font-size: 0.6em;
     border-color: #f1f5dc;
-    border-top: solid 8px;
-    border-bottom: solid 8px;
+    border-top: solid 6px;
+    border-bottom: solid 6px;
     text-transform: uppercase;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -412,8 +412,8 @@ margin-top: -10px;
     padding-bottom: 4px;
     font-size: 0.6em;
     border-color: #f1f5dc;
-    border-top: solid 8px;
-    border-bottom: solid 8px;
+    border-top: solid 4px;
+    border-bottom: solid 4px;
     text-transform: uppercase;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -530,4 +530,39 @@ margin-top: -10px;
 .card-group h5 {
     color: #212528;
     border: 0;
+}
+
+table {
+    font-size: 0.7em;
+    border:double 8px #f1f5dc;
+    text-align: center;
+    table-layout: fixed;
+    word-break: break-word;
+}
+
+tr {
+    border-top: solid 4px #f1f5dc;
+    vertical-align: middle;
+}
+
+th {
+    color: #f1f5dc;
+    width: 100%;
+    background-color: #212528 !important;
+    font-size: 0.8em;
+    font-family: 'konstruktorregular';
+    border-right: solid 2px #f1f5dc;
+}
+
+td {
+    color: #f1f5dc;
+    width: 100%;
+    background-color: #212528 !important;
+    font-size: 0.4em;
+    border-right: solid 2px #f1f5dc;
+}
+table caption {
+    color: #f1f5dc;
+    font-size: 0.4em;
+    text-align: center;
 }

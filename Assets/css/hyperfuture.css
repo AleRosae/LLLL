@@ -116,6 +116,9 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 
 }
 
+#Articles {
+    box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
+}
 
 .card {
     border-radius: 10px;
@@ -273,7 +276,7 @@ footer .p-3{
     background-image: url("imgs/speaker.svg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1em;
+    background-size: 2em;
 }
 
 .CoverInfo h2 {
@@ -333,7 +336,7 @@ footer .p-3{
     line-height: 1;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 1,5em;
+    font-size: 1,4em;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -346,7 +349,7 @@ footer .p-3{
 .ArticleBody h5 {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    font-size: 1,4em;
+    font-size: 1,2em;
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
@@ -539,3 +542,31 @@ footer .p-3{
  #IssuesBox a {
         -webkit-text-fill-color: #f9fafb;
  }
+
+ table {
+    font-size: 1em;
+    border: solid 1px black;
+    text-align: justify;
+    table-layout: fixed;
+    word-break: break-word;
+}
+
+tr {
+    vertical-align: middle;
+}
+
+th {
+    width: 100%;
+    font-size: 1em;
+    border:solid 1px black;
+}
+
+td {
+    width: 100%;
+    font-size: 0.6em;
+    border:solid 1px black;
+}
+table caption {
+    font-size: 0.6em;
+    text-align: justify;
+}
