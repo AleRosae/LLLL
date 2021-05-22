@@ -205,11 +205,11 @@ footer .col-3 {
 
 
 .infobox h5{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 #issuedetails h5{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     vertical-align: center;
 }
 
@@ -241,16 +241,16 @@ footer .col-3 {
 }
 
 ul {
-  font-size: 1.1rem !important;
+  font-size: 1rem !important;
 }
 .card p {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .card a {
     color: #ce2909;
     font-weight: 500;
     line-height: 1;
-    font-size: 1em;
+    font-size: 1rem;
     text-transform: uppercase;
     text-decoration: none;
      } 

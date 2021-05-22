@@ -22,6 +22,13 @@ html{
 box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 }
 
+.nav-item {
+  font-size: 1.2rem;
+}
+ul {
+    font-size: 1rem;
+}
+
 .container-fluid h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 4rem;
@@ -112,7 +119,7 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 .container-fluid p {
     font-family: 'Raleway', sans-serif;
     line-height: 2;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-right: 10%;
     margin-left: 10%;
     text-align: justify;
@@ -136,6 +143,10 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
 
 }
 
+.card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
 .card > .card-header {
     color: inherit;
     background-color: #f3f3f3;
