@@ -109,6 +109,10 @@ button{
 }
 
 /*card nella pagina della issue*/
+.metadatibox > .card >.card-header {
+    height: 14vh;
+}
+
 .card{
     background-image: url("imgs/old-paper-background-texture-29.jpg") ;
     border: solid 5px rgba(119, 74, 5, 0.534); 
@@ -292,4 +296,11 @@ footer .col-3{
     font-size: 0.8em;
     text-align: center;
     font-style: italic;
+}
+
+table {
+    font-family: "MedievalSharp", cursive;
+    width: 30%;
+    text-align: justify;
+    word-wrap: break-word;
 }
