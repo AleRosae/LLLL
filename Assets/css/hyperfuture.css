@@ -545,11 +545,11 @@ font-size: 3.5rem;
     color:#000000;
     font-weight: 400;
     line-height: 2;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: 5px 10px 5px 10px;
     text-align: justify;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
  .modal-body > .mb-3 > label {
     color:#000000;
