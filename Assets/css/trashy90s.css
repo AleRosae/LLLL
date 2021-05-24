@@ -58,7 +58,14 @@
 
 }
 
-
+body{
+    color: rgb(77, 56, 56);
+    background-image:  url("imgs/voguenaiomi.jpg"); 
+    background-color: transparent;
+    background-repeat:repeat;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+}
 
 /* container */
 .container {
