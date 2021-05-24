@@ -44,7 +44,7 @@
     font-style: normal;
 
 }
-
+/* INDEX */
 body{
     color: rgb(77, 56, 56);
     background-image:  url("imgs/adv4.jpg"); 
@@ -54,6 +54,7 @@ body{
     font-weight: 300;
 }
 
+/* ARTICOLI */
 /* container */
 .container {
     background-image: url("imgs/xixpaper.jpg");
