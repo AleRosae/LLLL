@@ -16,7 +16,6 @@
 
             function createIssues(obj) {
                 for (i in obj.issues) {
-                    $("#dropdownmenuissues").append("<li><a class='dropdown-item' href=\"/" + obj.issues[i].pageLink + "\">" + obj.issues[i].topic+"</a></li>");
                     $("#IssuesBox").append("<div class=\"card\" id=\"card"+obj.issues[i].issue+"\"></div>");
                     $("#card"+obj.issues[i].issue).append("<img src=\""+obj.issues[i].img+"\" class=\"card-img-top\" alt=\"...\">");   
                     $("#card"+obj.issues[i].issue).append("<div class=\"card-body\" id=\"CardBody"+obj.issues[i].issue+"\"></div>");

@@ -10,17 +10,51 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'libre_bodonibold';
+    src: url('other_fonts/librebodoni-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'libre_bodonibold_italic';
+    src: url('other_fonts/librebodoni-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'libre_bodoniitalic';
+    src: url('other_fonts/librebodoni-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
+
+
+@font-face {
+    font-family: 'libre_bodoniregular';
+    src: url('other_fonts/librebodoni-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* INDEX */
 body{
     color: rgb(77, 56, 56);
-    background-image:  url("imgs/londonfog.jpg");
+    background-image:  url("imgs/adv4.jpg"); 
     background-color: transparent;
     background-repeat:repeat;
     font-family: 'Bodoni Moda', serif;
     font-weight: 300;
 }
 
+/* ARTICOLI */
 /* container */
 .container {
     background-image: url("imgs/xixpaper.jpg");
@@ -143,19 +177,19 @@ body{
     }
 
 .container p {
-	font-family: 'Bodoni Moda', serif;
+	font-family: 'Bodoni Moda', serif; 
 	color: #000000;
     text-align: justify;
-    font-weight: 150;
+    font-weight: 200;
     line-height: 1;
     font-size: 1;  
     }  
 
 .container blockquote {
-	font-family: 'Bodoni Moda', serif;  
+	font-family: 'Bodoni Moda', serif; 
 	color: #000000;
     text-align: justify;
-    font-weight: 150;
+    font-weight: 200;
     line-height: 1;
     font-size: 0.3em;  
     }  
@@ -163,7 +197,7 @@ body{
 .container a {
 	font-family: 'Bodoni Moda', serif;  
 	color: #000000;
-    font-weight: 500;
+    font-weight: 200;
     line-height: 1;
     font-size: 1em;
 	text-decoration: none;
@@ -173,7 +207,16 @@ body{
     font-family: 'Bodoni Moda', serif;  
 	color: #000000;
     text-align: justify;
-    font-weight: 150;
+    font-weight: 200;
+    line-height: 1;
+    font-size: 0.3em;  
+    } 
+
+.container li {
+    font-family: 'Bodoni Moda', serif;  
+    color: #000000;
+    text-align: justify;
+    font-weight: 200;
     line-height: 1;
     font-size: 0.3em;  
     } 
