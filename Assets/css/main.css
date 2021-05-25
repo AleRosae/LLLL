@@ -604,6 +604,7 @@ footer p {
 
     .icon.alt {
           text-shadow: 1px 1px 1px #ccc;
+          font-size: 1.5rem;
     }
       .icon.alt.github {
         color: #dcad8b;
