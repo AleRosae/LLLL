@@ -97,6 +97,21 @@ $(document).ready(function () {
 });
 
 
+/*questa cosa non funziona ci sto lavorando (diocane) */
 
+$(function() {
 
+	$('span.about', document.body).each(function() {
+	
+		var $about = $(this);
+		var text = $about.text();
+		var wikiLink = '<a href="http://it.wikipedia.org/wiki/' + text + '"></a>';
+		
+		$abbr.wrap(wikiLink);
+		
+	
+	
+	});
+
+}); 
 
