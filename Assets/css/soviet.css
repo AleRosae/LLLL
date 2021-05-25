@@ -33,6 +33,11 @@ body {
     background-color: #344c47;
 
 }
+
+.container-fluid .row .col-9 {
+    border-right: solid 4px #f1f5dc;
+
+}
 .container-fluid > .row > .col-8 {
     background-color: #ce2909;
     border: solid 4px #212528;

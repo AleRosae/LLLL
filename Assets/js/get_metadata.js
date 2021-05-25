@@ -1,23 +1,19 @@
 $(document).ready(function () {
-    $(".callmetadata").click(function () {
-        var meta = this.id;
-        if($("#"+meta).attr("active")=="0"){
-            $("#"+meta).attr("active", "1");
-            $(".infobox .card-text").empty();
-
-            if (meta == "deafultmetadata") {
-               $.ajax({
-              method:"GET",
-              url : 'articlelist.json', 
-              dataType : 'json', 
-              cache : false, 
-              success : function(data) {
-                addArticles(data);
-                },
-              error: function(){
-                alert("error:no metadata available")
-              }
-              });
+            
+       function resetmetadata(){
+        $.ajax({
+          method:"GET",
+          url : 'articlelist.json', 
+          dataType : 'json', 
+          cache : false, 
+          success : function(data) {
+            addArticles(data);
+            },
+          error: function(){
+            alert("error:no metadata available")
+          }
+          });
+    }
 
         function addArticles(obj) {
             for (i in obj.articles) { 
@@ -28,13 +24,13 @@ $(document).ready(function () {
                 $("#infobox"+obj.articles[i].number+" #date").text("Date of publication: "+obj.articles[i].date);
                 $("#infobox"+obj.articles[i].number+" #source").append("Original source: \<a href=\""+obj.articles[i].originalsource+"\"\>Link\</a\>");
                 $("#infobox"+obj.articles[i].number+" #journal").text("Journal: "+obj.articles[i].journal); 
-
-
-          }
-        
-   }
+                }
             }
-            else {
+    $(".callmetadata").click(function () {
+        var meta = this.id;
+        if($("#"+meta).attr("active")=="0"){
+            $("#"+meta).attr("active", "1");
+            $(".infobox .card-text").empty();
 
                 var lista_nomi1 = [];
                 var lista_nomi2 = [];
@@ -71,13 +67,12 @@ $(document).ready(function () {
                 for (i in lista_nomi3) {
                     $("#elencoNomi3").append("<li>" + lista_nomi3[i] + "</li>");
                 }
-            }
+            
     }
     else {
         $("#"+meta).attr("active", "0");
-        if (meta != "deafultmetadata") {
         $(".infobox .card-text").empty();
-    }
+        resetmetadata();
     }   
     });
 });

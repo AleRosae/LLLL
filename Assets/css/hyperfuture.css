@@ -618,3 +618,13 @@ span.special
   voice-volume: soft;
   pause-after: strong;
 }
+
+.icon.alt {
+    color: none;
+    overflow: none;
+    background-image: none;
+    background-clip: none;
+    -webkit-background-clip: none;
+    -webkit-text-fill-color: initial;
+    text-decoration: none;
+}
