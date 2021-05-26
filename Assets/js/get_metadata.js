@@ -75,16 +75,17 @@ $(document).ready(function () {
                 
                 $("#infobox1 .card-text").append("<ul id=\"elencoNomi1\"></ul>");
                 for (i in uniq_1) {
-                    $("#elencoNomi1").append("<li>" + uniq_1[i] + "</li>");
+                    $("#elencoNomi1").append("<li>" + uniq_1[i] + "</li>"+ '<a href="http://it.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
                 }
                 $("#infobox2 .card-text").append("<ul id=\"elencoNomi2\"></ul>");
                 for (i in uniq_2) {
-                    $("#elencoNomi2").append("<li>" + uniq_2[i] + "</li>");
+                    $("#elencoNomi2").append("<li>" + uniq_2[i] + "</li>" + '<a href="http://it.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
                 }
 
                 $("#infobox3 .card-text").append("<ul id=\"elencoNomi3\"></ul>");
                 for (i in uniq_3) {
-                    $("#elencoNomi3").append("<li>" + uniq_3[i] + "</li>");
+                    $("#elencoNomi3").append("<li>" + uniq_3[i] + "</li>" + '<a href="http://it.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>' );
+                    
                 }
             
     }
@@ -94,41 +95,23 @@ $(document).ready(function () {
         resetmetadata();
     }   
     });
-});
+    
+  }); 
 
+/* COSA PER EVIDENZIARE PAROLE NEL TESTO 
 
-/*questa cosa non funziona ci sto lavorando (diocane) */
-
-$(function() {
-
-	$('.about', document.body).each(function() {
-	
-		var $about = $(this);
-		var text = $about.text();
-		var wikiLink = '<a href="http://it.wikipedia.org/wiki/' + text + '"></a>';
-		
-		$abbr.wrap(wikiLink);
-		
-	
-	
-	});
-
-}); 
-
-/* COSA PER EVIDENZIARE PAROLE NEL TESTO */
-
-/* $("#txt").keyup(function() {
+ $("#Articles").keyup(function() {
   var txt=$(this).val();
   var keyword="test";
   if (txt.indexOf(keyword) > -1){
-    $("#page").html(txt.replace(/test/g,'<span class="highlight">' + keyword + '</span>'));
+    $("#Articles").html(txt.replace(/test/g,'<span class="highlight">' + keyword + '</span>'));
   }
   else {
-    $("#page").html(txt);
+    $("#Articles").html(txt);
   }
 });
 
-body {
+/*body {
   margin:0;
   padding: 0;
   font-family: Inter, sans-serif !important;
@@ -148,5 +131,5 @@ textarea {
 <div id="page"></div>
 
 /anykeyword/g --> TROVARE E SOSTITUIRE TUTTE LE OCCORRENZE DI QUALUNQUE COSA TROVI TRA LE BARRE
-
 */
+
