@@ -675,3 +675,9 @@ footer p {
     max-height: 350px;
     line-height: 2;
 }
+
+
+/*classe per evidenziare keywords nel testo*/
+.highlight {
+  color:red !important;
+}
