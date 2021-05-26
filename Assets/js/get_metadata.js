@@ -75,7 +75,11 @@ $(document).ready(function () {
                 
                 $("#infobox1 .card-text").append("<ul id=\"elencoNomi1\"></ul>");
                 for (i in uniq_1) {
-                    $("#elencoNomi1").append("<li>" + uniq_1[i] + "</li>"+ '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
+                    $("#elencoNomi1").append("<li>" + uniq_1[i] + "</li>"+ '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>' + '<button type="button" class="bottone">' + "In the text" + '</button>');
+                   /* $(".bottone").click(function(){
+                      var about = $('li').text();
+                      $("body #articles").match(about | RegExp);
+                    });*/
                 }
                 $("#infobox2 .card-text").append("<ul id=\"elencoNomi2\"></ul>");
                 for (i in uniq_2) {
@@ -85,9 +89,12 @@ $(document).ready(function () {
                 $("#infobox3 .card-text").append("<ul id=\"elencoNomi3\"></ul>");
                 for (i in uniq_3) {
                     $("#elencoNomi3").append("<li>" + uniq_3[i] + "</li>" + '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>' );
-                    
+
                 }
-            
+                /*$(".bottone").click(function(){
+                  var about = $('.about').text();
+                  $("body #articles").match(about);
+                });*/
     }
     else {
         $("#"+meta).attr("active", "0");
@@ -95,7 +102,11 @@ $(document).ready(function () {
         resetmetadata();
     }   
     });
+
     
+    
+  
+      
   }); 
 
 /*function searchForWords(){
@@ -148,4 +159,5 @@ textarea {
 
 /anykeyword/g --> TROVARE E SOSTITUIRE TUTTE LE OCCORRENZE DI QUALUNQUE COSA TROVI TRA LE BARRE
 */
+
 
