@@ -75,16 +75,16 @@ $(document).ready(function () {
                 
                 $("#infobox1 .card-text").append("<ul id=\"elencoNomi1\"></ul>");
                 for (i in uniq_1) {
-                    $("#elencoNomi1").append("<li>" + uniq_1[i] + "</li>"+ '<a href="http://it.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
+                    $("#elencoNomi1").append("<li>" + uniq_1[i] + "</li>"+ '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
                 }
                 $("#infobox2 .card-text").append("<ul id=\"elencoNomi2\"></ul>");
                 for (i in uniq_2) {
-                    $("#elencoNomi2").append("<li>" + uniq_2[i] + "</li>" + '<a href="http://it.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
+                    $("#elencoNomi2").append("<li>" + uniq_2[i] + "</li>" + '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
                 }
 
                 $("#infobox3 .card-text").append("<ul id=\"elencoNomi3\"></ul>");
                 for (i in uniq_3) {
-                    $("#elencoNomi3").append("<li>" + uniq_3[i] + "</li>" + '<a href="http://it.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>' );
+                    $("#elencoNomi3").append("<li>" + uniq_3[i] + "</li>" + '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>' );
                     
                 }
             
@@ -97,6 +97,22 @@ $(document).ready(function () {
     });
     
   }); 
+
+/*function searchForWords(){
+  for (i in uniq_1){
+    $("#Articles").keyup(function(){
+      var txt=$(this).val();
+      var keyword = uniq_1[i];
+      if (txt.indexof(keyword) > -1){
+        $("#Articles").html(txt.replace(/uniq_1[i]/g, '<span class="highlight">' + keyword + '</span>'));
+      }
+      else{
+        $('#Articles').html(txt);
+      }
+    });
+  }
+}
+
 
 /* COSA PER EVIDENZIARE PAROLE NEL TESTO 
 
