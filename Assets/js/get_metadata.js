@@ -101,7 +101,7 @@ $(document).ready(function () {
 
 $(function() {
 
-	$('span.about', document.body).each(function() {
+	$('.about', document.body).each(function() {
 	
 		var $about = $(this);
 		var text = $about.text();
@@ -115,3 +115,38 @@ $(function() {
 
 }); 
 
+/* COSA PER EVIDENZIARE PAROLE NEL TESTO */
+
+/* $("#txt").keyup(function() {
+  var txt=$(this).val();
+  var keyword="test";
+  if (txt.indexOf(keyword) > -1){
+    $("#page").html(txt.replace(/test/g,'<span class="highlight">' + keyword + '</span>'));
+  }
+  else {
+    $("#page").html(txt);
+  }
+});
+
+body {
+  margin:0;
+  padding: 0;
+  font-family: Inter, sans-serif !important;
+}
+textarea {
+  padding: 12x;
+  font-family: Inter, sans-serif;
+  font-size: 2em;
+  height: 1.4em;
+}
+.highlight {
+  color:red !important;
+}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<textarea name=""id="txt"cols="30"rows="10"></textarea>
+<div id="page"></div>
+
+/anykeyword/g --> TROVARE E SOSTITUIRE TUTTE LE OCCORRENZE DI QUALUNQUE COSA TROVI TRA LE BARRE
+
+*/
