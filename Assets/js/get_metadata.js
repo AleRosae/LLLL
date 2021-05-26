@@ -98,6 +98,21 @@ $(document).ready(function () {
     
   }); 
 
+/*function searchForWords(){
+  for (i in uniq_1){
+    $("#Articles").keyup(function(){
+      var txt=$(this).val();
+      var keyword = uniq_1[i];
+      if (txt.indexof(keyword) > -1){
+        $("#Articles").html(txt.replace(/uniq_1[i]/g, '<span class="highlight">' + keyword + '</span>'));
+      }
+      else{
+        $('#Articles').html(txt);
+      }
+    });
+  }
+}
+
 
 /* COSA PER EVIDENZIARE PAROLE NEL TESTO 
 
