@@ -33,6 +33,11 @@ body {
     background-color: #344c47;
 
 }
+
+.container-fluid .row .col-9 {
+    border-right: solid 4px #f1f5dc;
+
+}
 .container-fluid > .row > .col-8 {
     background-color: #ce2909;
     border: solid 4px #212528;
@@ -488,7 +493,7 @@ margin-top: -10px;
     font-size: 0.5em;
     text-align: justify;
     font-variant: small-caps;
-    padding: 0px 2px 0px 8px;
+    padding: 0px 6px 0px 6px;
 }
 
 .ArticleBody blockquote{
