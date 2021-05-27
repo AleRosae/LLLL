@@ -8,7 +8,7 @@
         "author":"Anil Dash",
         "authordescription":"Anil Dash is the CEO of Glitch",
         "originalsource": "https://www.theatlantic.com/ideas/archive/2021/04/nfts-werent-supposed-end-like/618488/",
-        "date":"April 2, 2021"
+        "date_article":"April 2, 2021"
 	},
     {
         "number":"2",
@@ -19,7 +19,7 @@
         "author":"Will Leitch",
         "authordescription":"is a writer and the founding editor of the Gawker Media former sports blog Deadspin.",
         "originalsource": "https://www.wealthsimple.com/en-us/magazine/nft",
-        "date":"March 17, 2021"
+        "date_article":"March 17, 2021"
 
     },
     {
@@ -31,7 +31,7 @@
         "author":"Paul Roberts",
         "authordescription":"Paul Roberts is a journalist in Seattle who writes about technology, business and politics.",
         "originalsource":"https://www.politico.com/magazine/story/2018/03/09/bitcoin-mining-energy-prices-smalltown-feature-217230/",
-        "date":"March/April 2018"
+        "date_article":"March/April 2018"
 
     }
     ],
