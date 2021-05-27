@@ -678,6 +678,4 @@ footer p {
 
 
 /*classe per evidenziare keywords nel testo*/
-.highlight {
-  color:red !important;
-}
+.highlight { background-color: yellow }
