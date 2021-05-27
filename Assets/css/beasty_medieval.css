@@ -308,3 +308,7 @@ table {
     text-align: justify;
     word-wrap: break-word;
 }
+
+.highlight{
+    background-color: khaki;
+}
