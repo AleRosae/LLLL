@@ -74,27 +74,41 @@ $(document).ready(function () {
                 
                 
                 $("#infobox1 .card-text").append("<ul id=\"elencoNomi1\"></ul>");
+                var rowNum= 0;
                 for (i in uniq_1) {
-                    $("#elencoNomi1").append("<li>" + uniq_1[i] + "</li>"+ '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>' + '<button type="button" class="bottone">' + "In the text" + '</button>');
-                   /* $(".bottone").click(function(){
-                      var about = $('li').text();
-                      $("body #articles").match(about | RegExp);
-                    });*/
+                    $("#elencoNomi1").append("<li >" + "<span id='element-"+rowNum+"' class='highlight'>"+ uniq_1[i] + "</span>" + "</li>"+ '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>' );
+                    rowNum++; 
+                }
+                
+              
+                var clickCount = true; 
+                if(clickCount = true){
+
+                  $("#elencoNomi1 span").click(function(){
+
+                  var thingy = $(this).html();
+                  var txt = thingy.toString();
+                  $(".ArticleBody").highlight(txt);
+                  clickCount = false;
+                  
+                  });
+                }
+                else{
+                  $('#highlight-plugin').removeHighlight();
+                  clickCount=true;
                 }
                 $("#infobox2 .card-text").append("<ul id=\"elencoNomi2\"></ul>");
                 for (i in uniq_2) {
-                    $("#elencoNomi2").append("<li>" + uniq_2[i] + "</li>" + '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
+                    $("#elencoNomi2").append("<li>" + uniq_2[i] + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
                 }
 
                 $("#infobox3 .card-text").append("<ul id=\"elencoNomi3\"></ul>");
                 for (i in uniq_3) {
-                    $("#elencoNomi3").append("<li>" + uniq_3[i] + "</li>" + '<a target="_blank" href="http://it.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>' );
+                    $("#elencoNomi3").append("<li>" + uniq_3[i] + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>' );
 
                 }
-                /*$(".bottone").click(function(){
-                  var about = $('.about').text();
-                  $("body #articles").match(about);
-                });*/
+                
+        
     }
     else {
         $("#"+meta).attr("active", "0");
