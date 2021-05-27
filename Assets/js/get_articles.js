@@ -25,7 +25,7 @@
             	$("#infobox"+obj.articles[i].number+" .card-title").text(obj.articles[i].title);
             	$("#infobox"+obj.articles[i].number+" #author").text("Author: "+obj.articles[i].author);
 	           	$("#infobox"+obj.articles[i].number+" #authordescr").text("Author description: "+obj.articles[i].authordescription);
-	           	$("#infobox"+obj.articles[i].number+" #date").text("Date of publication: "+obj.articles[i].date);
+	           	$("#infobox"+obj.articles[i].number+" #date_article").text("Date of publication: "+obj.articles[i].date_article);
 	           	$("#infobox"+obj.articles[i].number+" #source").append("Original source: \<a href=\""+obj.articles[i].originalsource+"\"\>Link\</a\>");
 	           	$("#infobox"+obj.articles[i].number+" #journal").text("Journal: "+obj.articles[i].journal);	
 	           	$("#articlescheckbox").append("<div class=\"form-check\"><input class=\"form-check-input\" type=\"checkbox\" value=\"\" id=\"checkarticle"+obj.articles[i].number+"\"onclick='load(\""+obj.articles[i].url+"\")' checked><label class=\"form-check-label\" for=\"\">"+obj.articles[i].title+"</label></div>");		

@@ -8,7 +8,7 @@
         "author":"Laura Sanders",
         "authordescription":"Laura Sanders reports on neuroscience for Science News. She earned her Ph.D. in molecular biology from the University of Southern California in Los Angeles.",
         "originalsource":"https://www.sciencenews.org/article/technology-brain-activity-read-change-thoughts-privacy-ethics", 
-        "date":"February 11, 2021"
+        "date_article":"February 11, 2021"
 	},
     {
         "number":"2",
@@ -19,7 +19,7 @@
         "author":"Michael Graziano",
         "authordescription":"Michael SA Graziano is a professor of psychology and neuroscience at Princeton University", 
         "originalsource":"https://www.theguardian.com/technology/2019/oct/20/mind-uploading-brain-live-for-ever-internet-virtual-reality", 
-        "date": "October 20, 2019"
+        "date_article": "October 20, 2019"
     },
     {
         "number":"3",
@@ -30,7 +30,7 @@
         "author":"Anil Ananthaswamy",
         "authordescription":"Anil Ananthaswamy is a journalist and author. He is a 2019-20 MIT Knight Science Journalism fellow.",
         "originalsource":"https://www.quantamagazine.org/deep-neural-networks-help-to-explain-living-brains-20201028/",
-        "date":"October 28, 2020"
+        "date_article":"October 28, 2020"
     }
     ], 
     "issue":[
