@@ -51,6 +51,10 @@ button{
     background-repeat: repeat;
 }
 
+#mainpage{
+    background-image: inherit;
+}
+
 /*main è dove trovo le issues*/ 
 .main #IssueBox .col-4{
     background-color: rgb(218, 161, 40);
