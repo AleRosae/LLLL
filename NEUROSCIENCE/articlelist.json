@@ -2,7 +2,7 @@
     {
     	"number":"1",
 		"title":"Can Privacy coexist with technology that reads and changes brain activity?", 
-        "url":"Article1_Science_news.html",
+        "url":"article1.html",
         "box":"article1_box",
         "journal":"Science News",
         "author":"Laura Sanders",
@@ -13,7 +13,7 @@
     {
         "number":"2",
         "title":"What happens if our mind lives for ever on the internet?", 
-        "url":"Article2_guardian.html",
+        "url":"article2.html",
         "box":"article2_box",
         "journal":"The Guardian",
         "author":"Michael Graziano",
@@ -24,7 +24,7 @@
     {
         "number":"3",
         "title":"Deep Neural Networks are helping decipher how brains work", 
-        "url":"Article3_Wired.html",
+        "url":"article3.html",
         "box":"article3_box",
         "journal":"Quanta Magazine",
         "author":"Anil Ananthaswamy",
