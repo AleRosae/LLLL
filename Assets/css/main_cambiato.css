@@ -2,6 +2,10 @@ html{
   font-size: 100%;
 }
 
+.highlight{
+  background-color: yellow;
+}
+
 #stylesglasses{
   margin-right: 3vh;
 }
@@ -507,3 +511,4 @@ footer {
       top: 0;
       width: 2.25em;
     }
+

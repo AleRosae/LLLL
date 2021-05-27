@@ -628,3 +628,7 @@ span.special
     -webkit-text-fill-color: initial;
     text-decoration: none;
 }
+
+.highlight{
+    background-color: yellow;
+}

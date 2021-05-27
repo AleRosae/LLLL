@@ -291,3 +291,7 @@ img {
     font-size: 0.8em;
     text-align: center;
 }
+
+.highlight{
+    background-color: lawngreen;
+}
