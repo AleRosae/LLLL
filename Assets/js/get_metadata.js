@@ -107,12 +107,20 @@ $(document).ready(function () {
         rowNum++;
       }
 
+      
+
       $("#elencoNomi2 span").click(function () {
 
         var thingy = $(this).html();
         var txt = thingy.toString();
+        if (hasWhiteSpace(txt)){
+          var txtn = txt.split(" ");
+          $(".ArticleBody").highlight(txtn(txtn.length-1));
+        }
+        else{
+          $(".ArticleBody").highlight(txt);
+        }
         
-        $(".ArticleBody").highlight(txt);
         
       });
 
@@ -128,7 +136,14 @@ $(document).ready(function () {
 
         var thingy = $(this).html();
         var txt = thingy.toString();
-        $(".ArticleBody").highlight(txt);
+        if(hasWhiteSpace(txt)){
+          var txtn = txt.split(" "); 
+          $(".ArticleBody").highlight(txtn(txtn.length-1)); 
+        }
+        else{
+          $(".ArticleBody").highlight(txt);
+        }
+        
         
       });
 
@@ -146,6 +161,8 @@ $(document).ready(function () {
 
 });
 
+
+//ancillary checking whitespace 
 function hasWhiteSpace(s) {
   return s.indexOf(' ') >= 0;
 }
