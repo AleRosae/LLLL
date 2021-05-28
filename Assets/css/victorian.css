@@ -56,9 +56,6 @@ body{
 
 
 
-
-
-
 /*cose nuove */
 button{
     background-color: rgba(204, 7, 46, 0.726);
@@ -77,14 +74,15 @@ button{
 
 
 .container-fluid > .row > .col-2{
-    background-image: url("imgs/adv1.jpg");
+    background-image: url("imgs/victorian_coca_cola_ad.jpg");
+    background-size: 300px 300px;
     background-position:top;
     background-repeat: repeat;
     padding: 15px;
 }
 
-.col-3{
-    background-image: url("imgs/adv4.jpg");
+.col-3 {
+    background-image: url("imgs/lipton_ad.jpg");
     background-position: center;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -96,13 +94,17 @@ button{
     border-left: solid 1px;
 }
 
+#mainpage{
+    background-image: inherit;
+}
+
 /*main è dove trovo le issues*/ 
 .main #IssueBox .col-4{
     background-color: rgb(218, 161, 40);
 }
 .main h3{
-    font-family: "MedievalDeco";
-    color:rgb(204, 7, 47) ;
+    font-family: 'Bodoni Moda', serif;
+    color:rgb(2, 1, 1) ;
 }
 
 .container-fluid h1{
@@ -199,7 +201,7 @@ footer{
 footer .col-3{
     font-family: 'Bodoni Moda', serif;
     font-weight: 400;
-    background-image: url("xixpaper.jpg");
+    background-image: url("imgs/xixpaper.jpg");
     border: solid 5px rgba(119, 74, 5, 0.534);
 }
 
