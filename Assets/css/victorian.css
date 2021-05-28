@@ -47,12 +47,180 @@
 /* INDEX */
 body{
     color: rgb(77, 56, 56);
-    background-image:  url("imgs/adv4.jpg"); 
+    background-image:  url("imgs/xixpaper.jpg"); 
     background-color: transparent;
     background-repeat:repeat;
     font-family: 'Bodoni Moda', serif;
     font-weight: 300;
 }
+
+
+
+
+
+
+/*cose nuove */
+button{
+    background-color: rgba(204, 7, 46, 0.726);
+    font-family: 'Bodoni Moda', serif;
+    font-weight: bold;
+    border-radius: 10%;
+    border: solid 4px #b9962e;
+}
+
+
+.container-fluid > .row > .col-8{
+    background-image: url("imgs/xixpaper.jpg");
+    background-color: transparent;
+    background-repeat:repeat;
+}
+
+
+.container-fluid > .row > .col-2{
+    background-image: url("imgs/adv1.jpg");
+    background-position:top;
+    background-repeat: repeat;
+    padding: 15px;
+}
+
+.col-3{
+    background-image: url("imgs/adv4.jpg");
+    background-position: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 16px;
+    border-color: #000000;
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    border-right: solid 3px;
+    border-left: solid 1px;
+}
+
+/*main è dove trovo le issues*/ 
+.main #IssueBox .col-4{
+    background-color: rgb(218, 161, 40);
+}
+.main h3{
+    font-family: "MedievalDeco";
+    color:rgb(204, 7, 47) ;
+}
+
+.container-fluid h1{
+    font-family: 'cloister_blacklight';
+    color:rgb(0, 0, 0);
+    font-weight:normal;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    font-size: 5em;
+}
+
+.container-fluid h2{
+    font-family: 'Bodoni Moda', serif;
+    color:rgb(3, 3, 5);
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    padding:2%;
+}
+
+.container-fluid h3{
+    font-family: 'Bodoni Moda', serif;
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+    text-align: center;
+    padding: 3%;
+}
+
+.container-fluid h4{
+    font-family: 'Bodoni Moda', serif;
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+}
+.container-fluid h5{
+    font-family:'Bodoni Moda', serif;
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+}
+.container-fluid h6{
+    font-family: 'Bodoni Moda', serif;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+
+}
+.container-fluid p{
+    font-family: 'Bodoni Moda', serif;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+
+/*card nella pagina della issue*/
+.metadatibox > .card >.card-header {
+    height: 14vh;
+}
+
+.card{
+    background-image: url("imgs/xixpaper.jpg") ;
+    border: solid 4px rgba(0, 0, 0, 0.534); 
+    padding: 3px;
+    padding-top: 5px;
+}
+
+.card a{
+    font-family: 'Bodoni Moda', serif;
+}
+.card > .card-header{
+    background-image: url("imgs/xixpaper.jpg");
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+}
+
+.card > .card-body{
+    background-image: url("imgs/xixpaper.jpg");
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+}
+
+.card > .card-text{
+    font-family: 'Bodoni Moda', serif;
+}
+
+/*footer della pagina iniziale*/
+
+footer{
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #d7c8a4;
+    color: rgb(77, 56, 56);
+}
+
+footer .col-3{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 400;
+    background-image: url("xixpaper.jpg");
+    border: solid 5px rgba(119, 74, 5, 0.534);
+}
+
+
+.p-3{
+    background-color: rgb(77, 56, 56);
+    color:#d7c8a4 ;
+}
+
+.p-3 a{
+    color:#d7c8a4 ;
+}
+
+.form-check-input:checked {
+    background-color: rgb(204, 7, 47);
+}
+
+
+
+
+
 
 /* ARTICOLI */
 /* container */
