@@ -115,7 +115,7 @@ $(document).ready(function () {
         var txt = thingy.toString();
         if (hasWhiteSpace(txt)){
           var txtn = txt.split(" ");
-          $(".ArticleBody").highlight(txtn(txtn.length-1));
+          $(".ArticleBody").highlight(txtn[txtn.length-1]);
         }
         else{
           $(".ArticleBody").highlight(txt);
@@ -138,7 +138,7 @@ $(document).ready(function () {
         var txt = thingy.toString();
         if(hasWhiteSpace(txt)){
           var txtn = txt.split(" "); 
-          $(".ArticleBody").highlight(txtn(txtn.length-1)); 
+          $(".ArticleBody").highlight(txtn[txtn.length-1]); 
         }
         else{
           $(".ArticleBody").highlight(txt);
