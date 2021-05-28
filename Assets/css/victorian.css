@@ -58,11 +58,11 @@ body{
 
 /*cose nuove */
 button{
-    background-color: rgba(204, 7, 46, 0.726);
+    background-color: #E4CA96;
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
     border-radius: 10%;
-    border: solid 4px #b9962e;
+    border: solid 4px #000000;
 }
 
 
@@ -200,7 +200,7 @@ footer{
 
 footer .col-3{
     font-family: 'Bodoni Moda', serif;
-    font-weight: 400;
+    font-weight: 100;
     background-image: url("imgs/xixpaper.jpg");
     border: solid 5px rgba(119, 74, 5, 0.534);
 }
@@ -209,6 +209,7 @@ footer .col-3{
 .p-3{
     background-color: rgb(77, 56, 56);
     color:#d7c8a4 ;
+    font-size: 2em;
 }
 
 .p-3 a{
@@ -216,7 +217,7 @@ footer .col-3{
 }
 
 .form-check-input:checked {
-    background-color: rgb(204, 7, 47);
+    background-color: #E4CA96;
 }
 
 
