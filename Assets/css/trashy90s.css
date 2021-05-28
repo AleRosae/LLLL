@@ -26,8 +26,6 @@
 }
 
 
-
-
 @font-face {
     font-family: 'libre_bodonibold_italic';
     src: url('other_fonts/librebodoni-bolditalic-webfont.woff') format('woff');
@@ -54,20 +52,29 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'Minion Pro';
+    src: url('other_fonts/MinionPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* INDEX */
 body{
     color: rgb(77, 56, 56);
     background-color: #f9f6f0;
     background-repeat:repeat;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 300;
+    font-family: 'Minion Pro'; 
+    font-weight: 400;
 }
 
 
 /*cose nuove */
 button{
     background-color: #E4CA96;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Minion Pro'; 
     font-weight: bold;
     border-radius: 10%;
     border: solid 4px #000000;
@@ -156,7 +163,7 @@ button{
 
 }
 .container-fluid p{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Minion Pro'; 
     color: rgb(0, 0, 0);
     font-weight: 400;
 }
@@ -174,11 +181,11 @@ button{
 }
 
 .card a{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Minion Pro'; 
 }
 .card > .card-header{
     background-color: #f9f6f0;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Minion Pro'; 
     font-weight: 300;
 }
 
@@ -186,12 +193,12 @@ button{
     background-color: #f9f6f0;
     align-items: flex-start;
     flex-wrap: wrap;
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Minion Pro'; 
     font-weight: 300;
 }
 
 .card > .card-text{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Minion Pro'; 
 }
 
 /*footer della pagina iniziale*/
@@ -204,7 +211,7 @@ footer{
 }
 
 footer .col-3{
-    font-family: 'Bodoni Moda', serif;
+    font-family: 'Minion Pro'; 
     font-weight: 100;
     background-color:#f9f6f0 ;
     border: solid 5px rgba(119, 74, 5, 0.534);
@@ -344,7 +351,7 @@ footer .col-3{
 */
 
 .container p {
-	font-family: 'Bodoni Moda', serif; 
+	font-family: 'Minion Pro'; 
 	color: #000000;
     text-align: justify;
     font-weight: normal;
@@ -352,7 +359,7 @@ footer .col-3{
     font-size: 16px  
     }     
 .container blockquote {
-	font-family: 'Bodoni Moda', serif;   
+	font-family: 'Minion Pro';    
 	color: #5F696D; 
     font-weight: 200;
     line-height: 1.2;
@@ -365,7 +372,7 @@ footer .col-3{
     }  
 
 .container a {
-	font-family: 'Bodoni Moda', serif;  
+	font-family: 'Minion Pro'; 
 	color: #000000;
     font-weight: 500;
     line-height: 1;
@@ -374,7 +381,7 @@ footer .col-3{
     } 
 
 .container ul {
-    font-family: 'Bodoni Moda', serif;  
+    font-family: 'Minion Pro';  
 	color: #000000;
     text-align: justify;
     font-weight: 150;
