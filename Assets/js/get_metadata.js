@@ -74,8 +74,8 @@ $(document).ready(function () {
 
 
       $("#infobox1 .card-text").append("<ul id=\"elencoNomi1\"></ul>");
-      var rowNum = 0;
-      for (i in uniq_1) {
+        var rowNum = 0;
+        for (i in uniq_1) {
         $("#elencoNomi1").append("<li >" + "<span id='element-" + rowNum + "' class='highlight'>" + uniq_1[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
         rowNum++;
       }
@@ -83,15 +83,26 @@ $(document).ready(function () {
       $("#elencoNomi1 span").click(function () {
 
         var thingy = $(this).html();
+        console.log(thingy);
         var txt = thingy.toString();
-        $(".ArticleBody").highlight(txt);
+        //ciclo per spezzare la stringa al whitespace (solo i nomi propri hanno uno o più whitespace o sono scritti abbreviati)
+        if (txt.hasWhiteSpace()){ //vedi in fondo alla pagina per ancillary
+          var txtn = txt.split(" ");
+          console.log(txtn);
+          $(".ArticleBody").highlight(txtn[1]); //1 perché è il cognome che viene riportato quando non è scritto il nome completo
+        }
+        else {
+          $(".ArticleBody").highlight(txt);
+        }
+        
         
       });
       
 
       $("#infobox2 .card-text").append("<ul id=\"elencoNomi2\"></ul>");
-      var rowNum = 0;
-      for (i in uniq_2) {
+
+        var rowNum = 0;
+        for (i in uniq_2) {
         $("#elencoNomi2").append("<li >" + "<span id='element-" + rowNum + "' class='highlight'>" + uniq_2[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
         rowNum++;
       }
@@ -100,13 +111,15 @@ $(document).ready(function () {
 
         var thingy = $(this).html();
         var txt = thingy.toString();
+        
         $(".ArticleBody").highlight(txt);
         
       });
 
       $("#infobox3 .card-text").append("<ul id=\"elencoNomi3\"></ul>");
-      var rowNum=0; 
-      for (i in uniq_3) {
+
+        var rowNum=0; 
+        for (i in uniq_3) {
         $("#elencoNomi3").append("<li >" + "<span id='element-" + rowNum + "' class='highlight'>" + uniq_3[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>');
         rowNum++;
       }
@@ -132,4 +145,10 @@ $(document).ready(function () {
 
 
 });
+
+function hasWhiteSpace(s) {
+  return s.indexOf(' ') >= 0;
+}
+
+
 
