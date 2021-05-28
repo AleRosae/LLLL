@@ -86,10 +86,10 @@ $(document).ready(function () {
         console.log(thingy);
         var txt = thingy.toString();
         //ciclo per spezzare la stringa al whitespace (solo i nomi propri hanno uno o più whitespace o sono scritti abbreviati)
-        if (txt.hasWhiteSpace()){ //vedi in fondo alla pagina per ancillary
+        if (hasWhiteSpace(txt)){ //vedi in fondo alla pagina per ancillary
           var txtn = txt.split(" ");
           console.log(txtn);
-          $(".ArticleBody").highlight(txtn[1]); //1 perché è il cognome che viene riportato quando non è scritto il nome completo
+          $(".ArticleBody").highlight(txtn[txtn.length - 1]); //-1 perché è il cognome che viene riportato quando non è scritto il nome completo
         }
         else {
           $(".ArticleBody").highlight(txt);
