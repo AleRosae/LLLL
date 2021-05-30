@@ -108,7 +108,7 @@ button{
 
 /*main è dove trovo le issues*/ 
 .main #IssueBox .col-4{
-    background-color: rgb(218, 161, 40);
+    background-color: rgb(0, 0, 0);
 }
 .main h3{
     font-family: 'Bodoni Moda', serif;
@@ -184,6 +184,12 @@ button{
     padding-top: 5px;
 }
 
+.card button {
+    color: #fff;
+    background-image: black;
+    border-color: black;
+}
+
 .card a{
     font-family: 'Minion Pro'; 
 }
@@ -211,21 +217,21 @@ footer{
     align-items: flex-start;
     flex-wrap: wrap;
     background-color: #d7c8a4;
-    color: rgb(77, 56, 56);
+    color: rgb(0, 0, 0);
 }
 
 footer .col-3{
     font-family: 'Minion Pro'; 
     font-weight: 100;
-    background-color:#f9f6f0 ;
-    border: solid 5px rgba(119, 74, 5, 0.534);
+    background-color:#000000 ;
+    border: solid 5px rgba(202, 42, 21, 0.534);
 }
 
 
 .p-3{
-    background-color: rgb(77, 56, 56);
-    color:#d7c8a4 ;
-    font-size: 2em;
+    background-color: rgb(0, 0, 0);
+    color:#000000 ;
+    font-size: 1em;
 }
 
 .p-3 a{
@@ -233,8 +239,15 @@ footer .col-3{
 }
 
 .form-check-input:checked {
-    background-color: #E4CA96;
+    background-color: #81223F;
 }
+
+
+
+
+
+
+
 
 
 

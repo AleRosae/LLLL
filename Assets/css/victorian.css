@@ -99,7 +99,7 @@ button{
 
 /*main è dove trovo le issues*/ 
 .main #IssueBox .col-4{
-    background-color: rgb(218, 161, 40);
+    background-color: rgb(0, 0, 0);
 }
 .main h3{
     font-family: 'Bodoni Moda', serif;
@@ -193,30 +193,33 @@ button{
 footer{
     align-items: flex-start;
     flex-wrap: wrap;
-    background-color: #d7c8a4;
-    color: rgb(77, 56, 56);
+    background-color: #000000;
+    color: rgb(0, 0, 0);
 }
+
 
 footer .col-3{
     font-family: 'Bodoni Moda', serif;
     font-weight: 100;
+    font-size: 1em;
     background-image: url("imgs/off_white1.jpg");
-    border: solid 5px rgba(119, 74, 5, 0.534);
+    border: solid 5px rgba(0, 0, 0, 0.534);
 }
 
 
 .p-3{
-    background-color: rgb(77, 56, 56);
-    color:#E2E2E2 ;
-    font-size: 2em;
+    background-color: rgb(129, 108, 108);
+    color:#000000 ;
+    font-size: 0,5em;
 }
 
 .p-3 a{
-    color:#E2E2E2 ;
+    color:#000000 ;
 }
 
+
 .form-check-input:checked {
-    background-color: #E2E2E2;
+    background-color: #575555;
 }
 
 
@@ -352,7 +355,7 @@ footer .col-3{
     text-align: justify;
     font-weight: 200;
     line-height: 1;
-    font-size: 1;  
+    font-size: 1em;  
     }  
 
 .container blockquote {
@@ -361,7 +364,7 @@ footer .col-3{
     text-align: justify;
     font-weight: 200;
     line-height: 1;
-    font-size: 0.3em;  
+    font-size: 1em;  
     }  
 
 .container a {
@@ -379,7 +382,7 @@ footer .col-3{
     text-align: justify;
     font-weight: 200;
     line-height: 1;
-    font-size: 0.3em;  
+    font-size: 1em;  
     } 
 
 .container li {
@@ -388,7 +391,7 @@ footer .col-3{
     text-align: justify;
     font-weight: 200;
     line-height: 1;
-    font-size: 0.3em;  
+    font-size: 1em;  
     } 
 
 .ArticleBody{
