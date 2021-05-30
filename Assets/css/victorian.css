@@ -46,8 +46,8 @@
 }
 /* INDEX */
 body{
-    color: rgb(77, 56, 56);
-    background-image:  url("imgs/xixpaper.jpg"); 
+    color: rgb(0, 0, 0);
+    background-image:  url("imgs/grainy.jpg"); 
     background-color: transparent;
     background-repeat:repeat;
     font-family: 'Bodoni Moda', serif;
@@ -58,7 +58,7 @@ body{
 
 /*cose nuove */
 button{
-    background-color: #E4CA96;
+    background-color: #E2E2E2;
     font-family: 'Bodoni Moda', serif;
     font-weight: bold;
     border-radius: 10%;
@@ -67,7 +67,7 @@ button{
 
 
 .container-fluid > .row > .col-8{
-    background-image: url("imgs/xixpaper.jpg");
+    background-image: url("imgs/grainy.jpg");
     background-color: transparent;
     background-repeat:repeat;
 }
@@ -82,7 +82,7 @@ button{
 }
 
 .col-3 {
-    background-image: url("imgs/lipton_ad.jpg");
+    background-image: url("imgs/lipton.png");
     background-position: center;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -162,7 +162,7 @@ button{
 }
 
 .card{
-    background-image: url("imgs/xixpaper.jpg") ;
+    background-image: url("imgs/grainy.jpg") ;
     border: solid 4px rgba(0, 0, 0, 0.534); 
     padding: 3px;
     padding-top: 5px;
@@ -172,13 +172,13 @@ button{
     font-family: 'Bodoni Moda', serif;
 }
 .card > .card-header{
-    background-image: url("imgs/xixpaper.jpg");
+    background-image: url("imgs/grainy.jpg");
     font-family: 'Bodoni Moda', serif;
     font-weight: 300;
 }
 
 .card > .card-body{
-    background-image: url("imgs/xixpaper.jpg");
+    background-image: url("imgs/grainy.jpg");
     align-items: flex-start;
     flex-wrap: wrap;
     font-family: 'Bodoni Moda', serif;
@@ -201,23 +201,23 @@ footer{
 footer .col-3{
     font-family: 'Bodoni Moda', serif;
     font-weight: 100;
-    background-image: url("imgs/xixpaper.jpg");
+    background-image: url("imgs/grainy.jpg");
     border: solid 5px rgba(119, 74, 5, 0.534);
 }
 
 
 .p-3{
     background-color: rgb(77, 56, 56);
-    color:#d7c8a4 ;
+    color:#E2E2E2 ;
     font-size: 2em;
 }
 
 .p-3 a{
-    color:#d7c8a4 ;
+    color:#E2E2E2 ;
 }
 
 .form-check-input:checked {
-    background-color: #E4CA96;
+    background-color: #E2E2E2;
 }
 
 
@@ -228,7 +228,7 @@ footer .col-3{
 /* ARTICOLI */
 /* container */
 .container {
-    background-image: url("imgs/off_white.jpg");
+    background-image: url("imgs/grainy.jpg");
 	background-color: transparent;
     font-size: 100px;
 	max-width: 90%;
@@ -236,8 +236,8 @@ footer .col-3{
 
 /* imgs */
 .container img {
-    -webkit-filter: grayscale(95%) sepia(80%) brightness(60%) opacity(60%);
-    filter: grayscale(95%) sepia(80%) brightness(60%) opacity(60%) ;
+    -webkit-filter: grayscale(95%)  brightness(60%) opacity(60%);
+    filter: grayscale(95%) brightness(60%) opacity(60%) ;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
