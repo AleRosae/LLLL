@@ -54,7 +54,6 @@ body{
     font-weight: 300;
 }
 
-
 /*cose nuove */
 button{
     background-color: #E2E2E2;
@@ -77,7 +76,6 @@ button{
     background-size: 300px 300px;
     background-position:top;
     background-repeat: repeat;
-    padding: 15px;
 }
 
 .col-3 {
@@ -86,7 +84,6 @@ button{
     padding-top: 4px;
     padding-bottom: 4px;
     font-size: 16px;
-    border-color: #000000;
     border-top: solid 3px;
     border-bottom: solid 3px;
     border-right: solid 3px;
@@ -100,11 +97,9 @@ button{
 /*main è dove trovo le issues*/ 
 .main #IssueBox .col-4{
     background-color: rgb(0, 0, 0);
+
 }
-.main h3{
-    font-family: 'Bodoni Moda', serif;
-    color:rgb(2, 1, 1) ;
-}
+
 
 .container-fluid h1{
     font-family: 'cloister_blacklight';
@@ -191,12 +186,13 @@ button{
 /*footer della pagina iniziale*/
 
 footer{
-    align-items: flex-start;
-    flex-wrap: wrap;
-    background-color: #000000;
+    background-color: ;
     color: rgb(0, 0, 0);
 }
 
+footer p {
+    font-size: 1rem !important;
+}
 
 footer .col-3{
     font-family: 'Bodoni Moda', serif;
@@ -210,11 +206,12 @@ footer .col-3{
 .p-3{
     background-color: rgb(129, 108, 108);
     color:#000000 ;
-    font-size: 0,5em;
+    font-size: 1em;
 }
 
 .p-3 a{
     color:#000000 ;
+    font-size: 1em;
 }
 
 
