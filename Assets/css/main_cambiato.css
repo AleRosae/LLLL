@@ -512,3 +512,13 @@ footer {
       width: 2.25em;
     }
 
+.ottico {
+  font-weight:bold;
+  text-transform:uppercase;
+}
+
+.colonnaottica p {
+    text-align: center;
+    max-height: 350px;
+    line-height: 2;
+}

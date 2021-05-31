@@ -411,6 +411,9 @@ footer .p-3{
 .ArticleBody blockquote{
   margin-left: 5%;
   margin-right: 5%;
+  font-style: italic;
+  margin-bottom: 5%;
+
 }
 
 .ArticleBody blockquote::before {
@@ -420,6 +423,7 @@ footer .p-3{
     height: 1em;
     overflow: hidden;
     display: inline-block;
+    font-style: initial;
 }
 
 
