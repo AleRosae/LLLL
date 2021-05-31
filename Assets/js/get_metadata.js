@@ -76,7 +76,7 @@ $(document).ready(function () {
       $("#infobox1 .card-text").append("<ul id=\"elencoNomi1\"></ul>");
         var rowNum = 0;
         for (i in uniq_1) {
-        $("#elencoNomi1").append("<li >" + "<span id='element-" + rowNum + "' class='highlight'>" + uniq_1[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
+        $("#elencoNomi1").append("<li>" + "<span id='element-" + rowNum + "' class='highlight'>" + uniq_1[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
         rowNum++;
       }
 
@@ -89,10 +89,18 @@ $(document).ready(function () {
         if (hasWhiteSpace(txt)){ //vedi in fondo alla pagina per ancillary
           var txtn = txt.split(" ");
           console.log(txtn);
-          $(".ArticleBody").highlight(txtn[txtn.length - 1]); //-1 perché è il cognome che viene riportato quando non è scritto il nome completo
+          $(".ArticleBody").highlight(txtn[txtn.length - 1]); 
+          
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ArticleBody").offset().top
+        }, 100);
+          //-1 perché è il cognome che viene riportato quando non è scritto il nome completo
         }
         else {
           $(".ArticleBody").highlight(txt);
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ArticleBody").offset().top
+        }, 100);
         }
         
         
@@ -116,9 +124,15 @@ $(document).ready(function () {
         if (hasWhiteSpace(txt)){
           var txtn = txt.split(" ");
           $(".ArticleBody").highlight(txtn[txtn.length-1]);
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ArticleBody").offset().top
+        }, 100);
         }
         else{
           $(".ArticleBody").highlight(txt);
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ArticleBody").offset().top
+        }, 100);
         }
         
         
@@ -139,9 +153,15 @@ $(document).ready(function () {
         if(hasWhiteSpace(txt)){
           var txtn = txt.split(" "); 
           $(".ArticleBody").highlight(txtn[txtn.length-1]); 
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ArticleBody").offset().top
+        }, 100);
         }
         else{
           $(".ArticleBody").highlight(txt);
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ArticleBody").offset().top
+        }, 100);
         }
         
         
