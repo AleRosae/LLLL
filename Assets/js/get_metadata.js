@@ -89,12 +89,12 @@ $(document).ready(function () {
         if (hasWhiteSpace(txt)){ //vedi in fondo alla pagina per ancillary
           var txtn = txt.split(" ");
           console.log(txtn);
-          $(".ArticleBody").highlight(txtn[txtn.length - 1]); 
+          $(".ArticleBody").highlight(txtn[txtn.length - 1]); //-1 perché è il cognome che viene riportato quando non è scritto il nome completo
           
           $([document.documentElement, document.body]).animate({
             scrollTop: $("#ArticleBody").offset().top
         }, 100);
-          //-1 perché è il cognome che viene riportato quando non è scritto il nome completo
+          
         }
         else {
           $(".ArticleBody").highlight(txt);
