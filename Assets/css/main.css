@@ -343,12 +343,12 @@ nav[data-toggle=toc] .nav>li>a {
 
 /* The Close Button */
 .close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
+    color: #f8f9fa;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .close:hover,
@@ -418,6 +418,11 @@ img.demo {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+
+.gallery img {
+    cursor: pointer;
 }
 
 img.hover-shadow {
