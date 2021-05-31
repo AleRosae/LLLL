@@ -55,13 +55,18 @@ body{
 }
 
 /*cose nuove */
-button{
-    background-color: #E2E2E2;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: bold;
-    border-radius: 10%;
-    border: solid 4px #000000;
+
+/* VEDERE SE TENERE
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
+.row{
+    --bs-gutter-x: 0;
+}
+  */
 
 
 .container-fluid > .row > .col-8{
@@ -94,11 +99,7 @@ button{
     background-image: inherit;
 }
 
-/*main è dove trovo le issues*/ 
-.main #IssueBox .col-4{
-    background-color: rgb(0, 0, 0);
-
-}
+/*ISSUES*/ 
 
 
 .container-fluid h1{
@@ -157,13 +158,21 @@ button{
 
 .card{
     background-image: url("imgs/off_white1.jpg") ;
-    border: solid 4px rgba(0, 0, 0, 0.534); 
+    border: solid 2px rgba(0, 0, 0, 0.534); 
     padding: 3px;
     padding-top: 5px;
+    border: solid 2px;
+    position:inherit;
 }
 
 .card a{
     font-family: 'Bodoni Moda', serif;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1;
+    font-size: 1rem;
+    text-decoration: none;
+     } 
 }
 .card > .card-header{
     background-image: url("imgs/off_white1.jpg");
@@ -181,6 +190,10 @@ button{
 
 .card > .card-text{
     font-family: 'Bodoni Moda', serif;
+}
+
+.btn-secondary {
+    background-image: url(imgs/off_white1.jpg);
 }
 
 /*footer della pagina iniziale*/
