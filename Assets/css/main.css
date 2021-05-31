@@ -719,3 +719,9 @@ footer p {
 
 /*classe per evidenziare keywords nel testo*/
 .highlight { background-color: yellow }
+
+
+.card-text .highlight {
+    cursor: pointer;
+    background-color: initial;
+}

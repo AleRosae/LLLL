@@ -522,3 +522,9 @@ footer {
     max-height: 350px;
     line-height: 2;
 }
+
+
+.card-text .highlight {
+    cursor: pointer;
+    background-color: initial;
+}
