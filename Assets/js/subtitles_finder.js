@@ -7,7 +7,7 @@ $(document).ready(function(){
             
             var title = $(h3).text();
             
-            $("#result").append('<a href="#'+id+'">'+title+'</a>');
+            $("#doot").append('<a href="#'+id+'">'+title+'</a>');
         });
     });
 });
