@@ -806,3 +806,8 @@ footer p {
   background-color: yellow;
 }
 
+
+.highlight[active="1"] {
+  color: red;
+}
+
