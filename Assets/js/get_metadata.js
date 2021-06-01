@@ -40,7 +40,7 @@ $(document).ready(function () {
         $("#infobox3 .card-text").append("<p><a active='0' id=\"commonssent3\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"sent3\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonssent3\"</ul>");
         $("#infobox3 .card-text").append("<p><a active='0' id=\"scoressent3\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"sent3\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoressent3\"</ul>");
 
-
+        
 
       }
 
