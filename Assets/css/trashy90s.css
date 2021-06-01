@@ -298,7 +298,7 @@ footer .col-3{
 
  /* h3 */  
 .container h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Minion Pro';
     color: #81223F;
     font-weight: bold;
     letter-spacing: 1,5px;
@@ -310,7 +310,7 @@ footer .col-3{
 
 /* h4 */
  .container h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Minion Pro';
     color: #81223F;
     font-weight: 400;
     line-height: 0.8;
