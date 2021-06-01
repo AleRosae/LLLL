@@ -55,7 +55,7 @@ html{
 }
 
 .ArticleBody p {
-    font-size: 1.2em;
+    font-size: 1rem;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -738,7 +738,10 @@ footer p {
 
 
 /*classe per evidenziare keywords nel testo*/
-.highlight { background-color: yellow }
+.highlight { 
+    background-color: #d8ff00;
+    font-size: 110%;
+    }
 
 
 .card-text .highlight {
@@ -803,6 +806,28 @@ footer p {
 }
 
 .highlight[active="0"] {
-  background-color: yellow;
+     background-color: #d8ff00;
+    font-size: 100%;
 }
 
+
+.highlight[active="1"] {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
