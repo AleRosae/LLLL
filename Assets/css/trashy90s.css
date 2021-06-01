@@ -219,6 +219,9 @@ footer{
     background-color: #d7c8a4;
     color: rgb(0, 0, 0);
 }
+footer p {
+    font-size: 1rem !important;
+}
 
 footer .col-3{
     font-family: 'Minion Pro'; 
