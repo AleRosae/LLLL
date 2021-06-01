@@ -123,7 +123,7 @@ $(document).ready(function () {
 
         var rowNum = 0;
         for (i in uniq_2) {
-        $("#elencoNomi2").append("<li >" + "<span active='1' id='element-" + rowNum + "' class='highlight'>" + uniq_2[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
+        $("#elencoNomi2").append("<li >" + "<span active='1' id='element-" + rowNum + "' class='highlight hvr-grow'>" + uniq_2[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
         rowNum++;
       }
 
@@ -172,7 +172,7 @@ $(document).ready(function () {
 
         var rowNum=0; 
         for (i in uniq_3) {
-        $("#elencoNomi3").append("<li >" + "<span active='1' id='element-" + rowNum + "' class='highlight'>" + uniq_3[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>');
+        $("#elencoNomi3").append("<li >" + "<span active='1' id='element-" + rowNum + "' class='highlight hvr-grow'>" + uniq_3[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_3[i] + '"> (Wikipedia) </a>');
         rowNum++;
       }
 

@@ -34,7 +34,7 @@ html{
 
 .CoverInfo ul {
     font-size: 1em;
-    list-style: none;
+    list-style: none !important;
 }
 
 .ArticleBody h3 {
@@ -784,15 +784,15 @@ footer p {
 }
 
 #doot1 .red {
-  color: red;
+  color: #e50000f0;
 }
 
 #doot2 .red {
-  color: red;
+  color: #e50000f0;
 }
 
 #doot3 .red {
-  color: red;
+  color: #e50000f0;
 }
 
 #doot2 li {
