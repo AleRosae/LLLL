@@ -784,6 +784,14 @@ footer p {
   color: red;
 }
 
+#doot2 .red {
+  color: red;
+}
+
+#doot3 .red {
+  color: red;
+}
+
 #doot2 li {
   list-style: decimal-leading-zero !important;
   padding-left: 10px;
