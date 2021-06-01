@@ -297,11 +297,20 @@ footer .p-3{
      }
 
 
-.author {
+.CoverInfo .author {
     background-image: url("imgs/speaker.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 2em;
+    display: block;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.CoverInfo .date {
+    font-size: inherit;
+    display: block;
+    font-family: inherit;
 }
 
 .CoverMain h2 {
