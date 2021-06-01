@@ -528,3 +528,50 @@ footer {
     cursor: pointer;
     background-color: initial;
 }
+
+.highlight { background-color: yellow }
+
+
+#result1{
+  cursor: pointer;
+  background-color: initial;
+}
+
+#doot1 a{
+  text-decoration: none;
+}
+
+#result2{
+  cursor: pointer;
+  background-color: initial;
+}
+
+#doot2 a{
+  text-decoration: none;
+
+}
+
+#result3{
+  cursor: pointer;
+  background-color: initial;
+}
+
+#doot3 a{
+  text-decoration: none;
+
+}
+
+#doot1 li {
+  list-style: decimal-leading-zero!important;
+  padding-left: 10px;
+}
+
+#doot2 li {
+  list-style: decimal-leading-zero !important;
+  padding-left: 10px;
+}
+
+#doot3 li {
+  list-style: decimal-leading-zero !important;
+  padding-left: 10px;
+}
