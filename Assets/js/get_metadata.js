@@ -33,12 +33,12 @@ $(document).ready(function () {
       $(".infobox .card-text").empty();
 
       if (meta == "py"){
-        $("#infobox1 .card-text").append("<p><a active='0' id=\"commonsNFT1\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"NFT1\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT1\"</ul>");
-        $("#infobox1 .card-text").append("<p><a active='0' id=\"scoresNFT1\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"NFT1\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT1\"</ul>");
-        $("#infobox2 .card-text").append("<p><a active='0' id=\"commonsNFT2\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"NFT2\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT2\"</ul>");
-        $("#infobox2 .card-text").append("<p><a active='0' id=\"scoresNFT2\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"NFT2\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT2\"</ul>");
-        $("#infobox3 .card-text").append("<p><a active='0' id=\"commonsNFT3\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"NFT3\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT3\"</ul>");
-        $("#infobox3 .card-text").append("<p><a active='0' id=\"scoresNFT3\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"NFT3\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT3\"</ul>");
+        $("#infobox1 .card-text").append("<p><a active='0' id=\"commonssent1\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"sent1\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonssent1\"</ul>");
+        $("#infobox1 .card-text").append("<p><a active='0' id=\"scoressent1\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"sent1\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoressent1\"</ul>");
+        $("#infobox2 .card-text").append("<p><a active='0' id=\"commonssent2\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"sent2\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonssent2\"</ul>");
+        $("#infobox2 .card-text").append("<p><a active='0' id=\"scoressent2\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"sent2\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoressent2\"</ul>");
+        $("#infobox3 .card-text").append("<p><a active='0' id=\"commonssent3\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"sent3\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonssent3\"</ul>");
+        $("#infobox3 .card-text").append("<p><a active='0' id=\"scoressent3\" class=\"hvr-grow\" href=\"#\" onclick='get_python(\"sent3\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoressent3\"</ul>");
 
 
 

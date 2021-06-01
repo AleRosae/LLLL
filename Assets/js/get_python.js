@@ -1,7 +1,7 @@
 function get_python(file, stringa) {
       $.ajax({
         method: 'GET',
-        url: '../Assets/experimental/'+file+'.json',
+        url: file+'.json',
         dataType:"json",
         success: function(d) {
 
