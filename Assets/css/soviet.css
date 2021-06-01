@@ -332,6 +332,14 @@ margin-top: -10px;
     font-size: 2rem;
 }
 
+.CoverInfo .author {
+    display: block;
+}
+
+.CoverInfo .date {
+    display: block;
+}
+
 .CoverInfo .author::before{
     background-image: url("imgs/hammer_in_hand.svg");
     background-size: 1.4em 1.4em;
