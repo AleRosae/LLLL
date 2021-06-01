@@ -330,25 +330,25 @@ footer .col-3{
     text-align: right;
     }    
 
-    .info ul {
-        font-family: 'Playfair Display', serif;
-        color: #5F696D;
-        text-align: justify;
-        font-weight: 150;
-        line-height: 1;
-        font-size: 1em;  
-        text-align: right;
-        list-style: none;
-        }    
-        .info p {
-            font-family: 'Playfair Display', serif;
-            color: #5F696D;
-            text-align: justify;
-            font-weight: 150;
-            line-height: 1;
-            font-size: 1em;  
-            text-align: right;
-            }    
+.info ul {
+    font-family: 'Playfair Display', serif;
+    color: #5F696D;
+    text-align: justify;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 1em;  
+    text-align: right;
+    list-style: none;
+    }    
+.info p {
+    font-family: 'Playfair Display', serif;
+    color: #5F696D;
+    text-align: justify;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 1em;  
+    text-align: right;
+    }    
           
     
 /* special for author and date of the article */
