@@ -318,7 +318,16 @@ margin-top: -10px;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     padding: 0 0 0 0;
 }
-.
+
+.CoverInfo p {
+    font-size: 0.5em;
+    list-style: none;
+    color: #f1f5dc;
+    text-transform: uppercase;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 0 0 0 0;
+}
+
 .dropdown-item {
     font-size: 2rem;
 }
@@ -364,15 +373,6 @@ margin-top: -10px;
     margin-left:0.5em;
 }
 
-.CoverInfo p {
-    color: #f1f5dc;
-    font-weight: 700;
-    line-height: 1;
-    font-size: 0.35em;
-    text-transform: uppercase;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    display:flex;
-}
 
 
 .CoverTitle h1 {

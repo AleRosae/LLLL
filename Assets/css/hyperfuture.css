@@ -318,13 +318,13 @@ footer .p-3{
 }
 
 .CoverInfo p {
-    font-weight: 500;
-    line-height: 1;
-    font-size: 0.7em;
-    text-transform: lowercase;
-    margin-right: 5%;
-    margin-bottom: 15px;
-    text-align: center;
+    line-height: 2;
+    font-size: 0.6em;
+    padding: 0 10% 0 10%;
+    font-weight: 600;
+    list-style: none;
+    margin: auto;
+    text-transform: capitalize;
 }
 
 .CoverInfo ul {
