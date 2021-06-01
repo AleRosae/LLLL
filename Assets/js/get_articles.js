@@ -39,7 +39,7 @@
             for (i in obj.issue) { 
             	$("#issuedetails .card-header .card-title").text(obj.issue[i].topic+" issue details");
             	$("#issuedetails #issue-theme").text("Theme: "+obj.issue[i].description);
-            	$("#issuedetails #issue-keywords").text("Keywords: "+obj.issue[i].keywords);
+            	$("#issuedetails #issue-keywords").text("Topics: "+obj.issue[i].keywords);
             	$("#issuedetails #issue-editor").text("Editor: "+obj.issue[i].editor);
 
           }
