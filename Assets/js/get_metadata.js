@@ -34,12 +34,12 @@ $(document).ready(function () {
 
       if (meta == "py"){
         console.log(meta)
-        $("#infobox1 .card-text").append("<p><a href=\"#\" onclick='get_python(\"NFT1\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT1\"</ul>");
-        $("#infobox1 .card-text").append("<p><a href=\"#\" onclick='get_python(\"NFT1\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT1\"</ul>");
-        $("#infobox2 .card-text").append("<p><a href=\"#\" onclick='get_python(\"NFT2\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT2\"</ul>");
-        $("#infobox2 .card-text").append("<p><a href=\"#\" onclick='get_python(\"NFT2\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT2\"</ul>");
-        $("#infobox3 .card-text").append("<p><a href=\"#\" onclick='get_python(\"NFT3\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT3\"</ul>");
-        $("#infobox3 .card-text").append("<p><a href=\"#\" onclick='get_python(\"NFT3\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT3\"</ul>");
+        $("#infobox1 .card-text").append("<p><a class=\"highlight hvr-grow\" href=\"#\" onclick='get_python(\"NFT1\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT1\"</ul>");
+        $("#infobox1 .card-text").append("<p><a class=\"highlight hvr-grow\" href=\"#\" onclick='get_python(\"NFT1\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT1\"</ul>");
+        $("#infobox2 .card-text").append("<p><a class=\"highlight hvr-grow\" href=\"#\" onclick='get_python(\"NFT2\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT2\"</ul>");
+        $("#infobox2 .card-text").append("<p><a class=\"highlight hvr-grow\" href=\"#\" onclick='get_python(\"NFT2\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT2\"</ul>");
+        $("#infobox3 .card-text").append("<p><a class=\"highlight hvr-grow\" href=\"#\" onclick='get_python(\"NFT3\", \"commons\")'>Get</a> 10 most common words:</p><ul id=\"topcommonsNFT3\"</ul>");
+        $("#infobox3 .card-text").append("<p><a class=\"highlight hvr-grow\" href=\"#\" onclick='get_python(\"NFT3\", \"scores\")'>Get</a> sentimental scores:</p><ul id=\"topscoresNFT3\"</ul>");
 
 
 
