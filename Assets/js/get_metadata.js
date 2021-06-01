@@ -81,7 +81,10 @@ $(document).ready(function () {
       }
 
       $("#elencoNomi1 span").click(function () {
-        if($("#elencoNomi1 span").attr("active") == "1"){var thingy = $(this).html();
+        
+        if($(this).attr("active") == "1"){
+          $(this).attr("active", "0");
+          var thingy = $(this).html();
           console.log(thingy);
           var txt = thingy.toString();
           
@@ -101,12 +104,13 @@ $(document).ready(function () {
               scrollTop: $("#ArticleBody").offset().top
           }, 100);
           }
-          $("#elencoNomi1 span").attr("active", "0");
+          
+          
           
         }
         else{
-          $(".ArticleBody").removeHighlight();
-          $("elencoNomi1 span").attr("active", "1");
+          $(".ArticleBody").removeHighlight(txt);
+          $(this).attr("active", "1");
           
         }
         
