@@ -76,7 +76,7 @@ $(document).ready(function () {
       $("#infobox1 .card-text").append("<ul id=\"elencoNomi1\"></ul>");
       var rowNum = 0;
       for (i in uniq_1) {
-      $("#elencoNomi1").append("<li>" + "<span active='1' id='element-" + rowNum + "' class='highlight'>" + uniq_1[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
+      $("#elencoNomi1").append("<li>" + "<span active='1' id='element-" + rowNum + "' class='highlight hvr-grow'>" + uniq_1[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
       rowNum++;
       
     }
