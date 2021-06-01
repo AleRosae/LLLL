@@ -356,7 +356,7 @@ footer .col-3{
     color: rgb(0, 0, 0);
     }
 
-.container p {
+.ArticleBody p {
 	font-family: 'Bodoni Moda', serif; 
 	color: #000000;
     text-align: justify;
@@ -382,7 +382,7 @@ footer .col-3{
 	text-decoration: none;
     } 
 
-.container ul {
+.ArticleBody ul {
     font-family: 'Bodoni Moda', serif;  
 	color: #000000;
     text-align: justify;
@@ -391,7 +391,7 @@ footer .col-3{
     font-size: 1em;  
     } 
 
-.container li {
+.ArticleBody li {
     font-family: 'Bodoni Moda', serif;  
     color: #000000;
     text-align: justify;
