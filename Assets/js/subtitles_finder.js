@@ -1,6 +1,5 @@
 
 $(document).ready(function(){
-    
     $("#result1").click(function(){
         if($("#result1").attr("active")== "1"){
         $("#article1_box").find("h2").each(function(index, h2){
@@ -14,8 +13,14 @@ $(document).ready(function(){
             $("#doot1").append('<a href="#'+id+'">'+title+'</a>');
         });
         $("#result1").attr("active", "0");
+        
     }
+        else{
+            $("#doot1").empty();
+            $("#result1").attr("active", "1");
+        }
     });
+
 
     $("#result2").click(function(){
         if($("#result2").attr("active")== "1"){
@@ -31,8 +36,12 @@ $(document).ready(function(){
         });
         $("#result2").attr("active", "0");
     }
+    else{
+        $("#doot2").empty();
+        $("#result2").attr("active", "1");
+    }
     });
-    
+
     $("#result3").click(function(){
         if($("#result3").attr("active")== "1"){
         $("#article3_box").find("h2").each(function(index, h2){
@@ -46,6 +55,10 @@ $(document).ready(function(){
             $("#doot3").append('<a href="#'+id+'">'+title+'</a>');
         });
         $("#result3").attr("active", "0");
+    }
+    else{
+        $("#doot3").empty();
+        $("#result3").attr("active", "1");
     }
     });
 });
