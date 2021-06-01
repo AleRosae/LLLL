@@ -298,7 +298,7 @@ footer .col-3{
 
  /* h3 */  
 .container h3 {
-    font-family: 'Minion Pro';
+    font-family: 'Playfair Display', serif;
     color: #81223F;
     font-weight: bold;
     letter-spacing: 1,5px;
@@ -310,7 +310,7 @@ footer .col-3{
 
 /* h4 */
  .container h4 {
-    font-family: 'Minion Pro';
+    font-family: 'Playfair Display', serif;
     color: #81223F;
     font-weight: 400;
     line-height: 0.8;
@@ -320,7 +320,7 @@ footer .col-3{
     } 
 
   /* h6 */
- .container h6 {
+.info h6 {
     font-family: 'Playfair Display', serif;
 	color: #5F696D;
     text-align: justify;
@@ -330,7 +330,26 @@ footer .col-3{
     text-align: right;
     }    
 
-
+.info ul {
+    font-family: 'Playfair Display', serif;
+    color: #5F696D;
+    text-align: justify;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 1em;  
+    text-align: right;
+    list-style: none;
+    }    
+.info p {
+    font-family: 'Playfair Display', serif;
+    color: #5F696D;
+    text-align: justify;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 1em;  
+    text-align: right;
+    }    
+          
     
 /* special for author and date of the article */
 .info {
