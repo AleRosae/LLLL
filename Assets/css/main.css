@@ -780,6 +780,10 @@ footer p {
   padding-left: 10px;
 }
 
+#doot1 .red {
+  color: red;
+}
+
 #doot2 li {
   list-style: decimal-leading-zero !important;
   padding-left: 10px;
@@ -793,3 +797,4 @@ footer p {
 .highlight[active="0"] {
   background-color: yellow;
 }
+
