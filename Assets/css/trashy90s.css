@@ -320,7 +320,36 @@ footer .col-3{
     } 
 
   /* h6 */
+.info h6 {
+    font-family: 'Playfair Display', serif;
+	color: #5F696D;
+    text-align: justify;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 1em;  
+    text-align: right;
+    }    
+
+.info ul {
+    font-family: 'Playfair Display', serif;
+    color: #5F696D;
+    text-align: justify;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 1em;  
+    text-align: right;
+    list-style: none;
+    }    
     
+.info p {
+    font-family: 'Playfair Display', serif;
+    color: #5F696D;
+    text-align: justify;
+    font-weight: 150;
+    line-height: 1;
+    font-size: 1em;  
+    text-align: right;
+    }    
           
     
 /* special for author and date of the article */
@@ -348,7 +377,7 @@ footer .col-3{
     margin-right: 12px;
 }
 
-.container p {
+.ArticleBody p {
 	font-family: 'Minion Pro'; 
 	color: #000000;
     text-align: justify;
@@ -373,7 +402,7 @@ footer .col-3{
 	text-decoration: none;
     } 
 
-.container ul {
+.ArticleBody ul {
     font-family: 'Minion Pro';  
 	color: #000000;
     text-align: justify;
@@ -381,36 +410,7 @@ footer .col-3{
     line-height: 1;
     font-size: 16px;  
     } 
-    .ArticleBody h6 {
-        font-family: 'Playfair Display', serif;
-        color: #5F696D;
-        text-align: justify;
-        font-weight: 150;
-        line-height: 1;
-        font-size: 1em;  
-        text-align: right;
-        }    
-    
-    .ArticleBody ul {
-        font-family: 'Playfair Display', serif;
-        color: #5F696D;
-        text-align: justify;
-        font-weight: 150;
-        line-height: 1;
-        font-size: 1em;  
-        text-align: right;
-        list-style: none;
-        }    
-        
-    .ArticleBody p {
-        font-family: 'Playfair Display', serif;
-        color: #5F696D;
-        text-align: justify;
-        font-weight: 150;
-        line-height: 1;
-        font-size: 1em;  
-        text-align: right;
-        }
+
 .ArticleBody{
     columns: 3;
     margin-top: 2em;
