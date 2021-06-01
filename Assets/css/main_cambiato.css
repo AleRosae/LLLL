@@ -575,3 +575,8 @@ footer {
   list-style: decimal-leading-zero !important;
   padding-left: 10px;
 }
+
+
+.highlight[active="0"] {
+  background-color: yellow;
+}
