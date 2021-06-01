@@ -74,49 +74,48 @@ $(document).ready(function () {
 
 
       $("#infobox1 .card-text").append("<ul id=\"elencoNomi1\"></ul>");
-        var rowNum = 0;
-        for (i in uniq_1) {
-        $("#elencoNomi1").append("<li>" + "<span active='1' id='element-" + rowNum + "' class='highlight'>" + uniq_1[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
-        rowNum++;
-      }
+      var rowNum = 0;
+      for (i in uniq_1) {
+      $("#elencoNomi1").append("<li>" + "<span active='1' id='element-" + rowNum + "' class='highlight'>" + uniq_1[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_1[i] + '"> (Wikipedia) </a>');
+      rowNum++;
+    }
 
-      $("#elencoNomi1 span").click(function () {
-        
-        if($(this).attr("active") == "1"){
-          $(this).attr("active", "0");
-          var thingy = $(this).html();
-          console.log(thingy);
-          var txt = thingy.toString();
-          
-          if (hasWhiteSpace(txt)){ 
-            var txtn = txt.split(" ");
-            console.log(txtn);
-            $(".ArticleBody").highlight(txtn[txtn.length - 1]); 
-            
-            $([document.documentElement, document.body]).animate({
-              scrollTop: $("#ArticleBody").offset().top
-          }, 100);
-            
-          }
-          else {
-            $(".ArticleBody").highlight(txt);
-            $([document.documentElement, document.body]).animate({
-              scrollTop: $("#ArticleBody").offset().top
-          }, 100);
-          }
-          
-          
-          
-        }
-        else{
-          $(".ArticleBody").removeHighlight(txt);
-          $(this).attr("active", "1");
-          
-        }
-        
-        
-      });
+    $("#elencoNomi1 span").click(function () {
       
+      if($(this).attr("active") == "1"){
+        $(this).attr("active", "0");
+        var thingy = $(this).html();
+        console.log(thingy);
+        var txt = thingy.toString();
+        
+        if (hasWhiteSpace(txt)){ 
+          var txtn = txt.split(" ");
+          console.log(txtn);
+          $(".ArticleBody").highlight(txtn[txtn.length -1]); 
+          
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ArticleBody").offset().top
+        }, 100);
+          
+        }
+        else {
+          $(".ArticleBody").highlight(txt);
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $("#ArticleBody").offset().top
+        }, 100);
+        }
+        
+        
+        
+      }
+      else{
+        $(".ArticleBody").removeHighlight();
+        $(this).attr("active", "1");
+        
+      }
+      
+      
+    });
 
       $("#infobox2 .card-text").append("<ul id=\"elencoNomi2\"></ul>");
 
