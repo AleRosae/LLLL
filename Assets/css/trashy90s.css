@@ -63,7 +63,7 @@
 
 /* INDEX */
 body{
-    color: rgb(77, 56, 56);
+    color: rgb(0, 0, 0);
     background-color: #f9f6f0;
     background-repeat:repeat;
     font-family: 'Minion Pro'; 
@@ -73,7 +73,7 @@ body{
 
 /*cose nuove */
 button{
-    background-color: #E4CA96;
+    background-color: #f9f6f0;
     font-family: 'Minion Pro'; 
     font-weight: bold;
     border-radius: 10%;
@@ -192,6 +192,7 @@ button{
 
 .card a{
     font-family: 'Minion Pro'; 
+    color:#f9f6f0;
 }
 .card > .card-header{
     background-color: #f9f6f0;
@@ -209,6 +210,10 @@ button{
 
 .card > .card-text{
     font-family: 'Minion Pro'; 
+}
+
+.btn-secondary {
+    background-color: #81223F;
 }
 
 /*footer della pagina iniziale*/
