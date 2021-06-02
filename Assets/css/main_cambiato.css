@@ -678,6 +678,8 @@ footer {
 
 #sidebar .sidebar-header {
     text-align: center;
+        padding-top:10px;
+
 }
 
 #sidebar ul.components {
