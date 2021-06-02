@@ -179,9 +179,25 @@ box-shadow: -10px 10px 15px -9px rgba(0,0,0,0.69);
     border-radius: 0.25;
 }
 
-.container::-webkit-scrollbar {
-  display: none;
+.colonne_variabili::-webkit-scrollbar {
+  width: 10px;
 }
+
+.colonne_variabili::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+.colonne_variabili::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, #0089ba, #008db0, #008fa1, #008f8e, #008f7a);
+}
+
+.colonne_variabili::-webkit-scrollbar-thumb:hover {
+background-image: linear-gradient(to bottom, #0089ba, #008db0, #008fa1, #008f8e, #008f7a);
+}
+
+
 
 footer {
     margin-top: 1em;
@@ -221,6 +237,10 @@ footer p {
 footer .p-3{
     background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
     color: white;
+}
+
+footer .text-dark {
+    color: white!important;
 }
 
 .card a {
