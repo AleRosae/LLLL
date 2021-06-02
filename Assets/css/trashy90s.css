@@ -174,7 +174,15 @@ button{
 
 /*card nella pagina della issue*/
 .metadatibox > .card >.card-header {
-    height: 14vh;
+    height: 16vh;
+}
+
+.metadatibox > .card >.card-header h5{ 
+    font-family: 'sardonyxregular';
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 2em;   
+    text-transform: lowercase;
 }
 
 .card{
