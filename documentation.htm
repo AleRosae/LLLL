@@ -49,7 +49,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Purpose of this website and copyright disclaimer</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -86,10 +86,19 @@
       </div>
       <div class="col-9">
 
-        <h2>The framework</h2>
-        <p>This website allows users to read issues containing three different articles and performing some interesting operations on their metadata. The two main scopes of the site are the following: 1) displaying articles of a certain issue with different styles and layouts each heavily influenced by real typographic movements, and 2)performing cross analysis of textual metadata. </p>
-        <p>In order to achieve these two results, Ajax has been implemented. I have created a main Ajax structure using jQuery that automatically and dynamically creates paths for the available issues. Inside each issue the user can decide to read independently each article. Dependent on the number of articles displayed (with a maximum of three per issue), the main container changes size accordingly (always allowing for independent scrolling). The Ajax here is used to retrieve information about each article from a .json file which contains plenty of information. </p>
+        <h2>The LLLL framework</h2>
+        <p>The purpose of this website is to display three articles belonging to the same theme/main topic. The two main scopes of the site are the following: 1) displaying articles of a certain issue with different styles and layouts each heavily influenced by real typographic movements, and 2) performing cross analysis of textual metadata. The general idea behind the site is to filter the articles according to our needs and desires, in the same way we usually exploit optical glasses.</p>
+        <h3>The articles and  the typographical styles</h3>
+    
+        <p>In order to achieve these two results, Ajax has been implemented. We created a main Ajax structure using jQuery that automatically and dynamically creates paths for the available issues, placing them in the homepage in which the user can start the navigation. Inside each issue the user can decide to read and to scroll independently each article. Depending on the number of articles displayed at the same time(with a maximum of three per issue), the main container changes size accordingly (always allowing for independent scrolling). This has been achieved by using Twitter Bootstrap classes to create a rows-columns layout; for instance, the articles are contained in different columns, namely col-4 if there are three, col-6 if there are two and a single col-12 if there is only one. </p>
+        <p>A proper script has been created for dynamically switch between six (with an additional bonus) typographical stiles (see next section) without ever reloading the page. All the .css files are loaded in the page but by default they are deactivated. When the user click on an icon representing a typographical style, the script automatically deactivate the main .css and activate the related typographical .css.</p>
+
+        <h3>The metadata</h3>
         <p>Metadata are also display automatically with jQuery. In the same .json file there are various metadata that we believe are interesting for the readers, and the script is able to retrieve them and put them in their relative position. Then it is also possible to retrieve and display metadata information regarding the actual text of the articles. By clicking on different checkbox on the left sidebar, users can retrieve information from the text, for instance asking the system who has been mentioned in the article. For doing so, a mix of JavaScript and HTML markup has been implemented. The whole application has been created in such a way that it is possible to add issues and/or articles in a fast and dynamic way, simply by chaging the json files and putting the related html files. </p>
+        <h3>Experimental analysis</h3>
+        <p>Additional, some specific form of textual analysis for the articles was developed. This account to a single Python script that is able to automatically strip a webpage of all its markup and to perform some very basic sentimental analysis on it. In order to do so, the nltk library was mostly used to tokenize the text and to retrieve the most common words in the text. Finally, the script is able to give to each article a sentimental score divide in three categories: a positive one, a neutral one and a negative one. If you are brave enough, you can browse the Python code on this <a href="https://colab.research.google.com/drive/1RrErgp2bYnPmTMWeHuKAZDgX_0XvjBoK?usp=sharing" target="blank">Colab</a> file.</p>
+        <p>For sake of simplicity, and since we do not have priori knowledge of server-based application, the script was run locally and the results stored in .json files which are loaded similarly to the articles metadata.</p>
+
         <h2>The themes</h2>
           <h3 id="1300">1300 - The Illuminated manuscript era</h3>
           <h4 data-toc-skip>Background</h4>
@@ -846,22 +855,6 @@
             <li>https://99designs.it/blog/trends/web-design-trends/</li>
           </ul>
 
-          <h2>The team</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac malesuada nunc, non consectetur
-            elit. Maecenas vitae orci eget urna elementum maximus quis et tellus. Nulla auctor urna ut velit dictum
-            porttitor. Nam mattis hendrerit justo. Nulla ut sodales ipsum, vel venenatis arcu. Pellentesque vel ligula
-            eget massa ultricies vulputate eget vel lacus. Nunc felis ligula, tempus quis enim eu, feugiat porta lacus.
-            Praesent gravida urna sit amet ante cursus vulputate.
-            Praesent tempus volutpat ante at facilisis. Donec eu lorem non sem sollicitudin congue. Cras suscipit
-            scelerisque tortor, sed fermentum augue rhoncus sit amet. Duis sagittis mattis eros, at pellentesque leo
-            elementum nec. Nam tellus diam, rutrum sed blandit eget, egestas sit amet sapien. Duis sollicitudin in
-            mauris vel aliquet. Ut auctor massa eu nibh pretium faucibus. Morbi et nibh eleifend, maximus erat non,
-            ultrices mauris.
-            Quisque scelerisque mi quis nibh molestie, vel vestibulum nulla vulputate. Nam pharetra rhoncus tellus, eget
-            consectetur nisl pretium id. Duis ac est eu nisl dapibus elementum. Proin commodo magna ac vehicula
-            ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc
-            molestie pulvinar ex sed gravida. Vivamus pharetra pretium lorem sit amet placerat. Fusce sagittis eget
-            augue vitae gravida.</p>
         </div>
       </div>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
