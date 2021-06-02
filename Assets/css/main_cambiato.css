@@ -107,13 +107,14 @@ nav .container-fluid a[href~="index.html"]{
   margin-bottom: 5vh;
 }
 
+.card {
+    margin-bottom: 10px;
+}
 #issuedetails > .card > .card-body {
-  height: 25vh;
-  overflow-y: scroll;
+
 }
 
 #issuedetails > .card >.card-header {
- height: 8vh;
 
 }
 
@@ -625,13 +626,15 @@ footer {
     position: fixed;
     top: 9vh;
     left: -25vw;
-    height: 100vh;
+    height: 90vh;
     z-index: 999;
     background: #7386D5;
     color: black;
     transition: all 0.3s;
     overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #sidebar.active {
@@ -643,7 +646,7 @@ footer {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    background: #543013;
+    background: rgb(255 255 255 / 85%);
     position: absolute;
     top: 10px;
     right: 10px;
@@ -712,6 +715,9 @@ a[data-toggle="collapse"] {
     border-radius: 0;
     margin-bottom: 40px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+            padding-top: 25px;
+    padding-bottom: 50px;
+}
 }
 
 
@@ -721,4 +727,19 @@ a[data-toggle="collapse"] {
     height: 1px;
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
+}
+
+.mCSB_scrollTools {
+    /*position: absolute;
+    
+    height: auto;
+    left: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";*/
+    background: #808080!important;
+    width: 12px;
 }
