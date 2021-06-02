@@ -1,8 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
-
 
 @font-face {
     font-family: 'sardonyxregular';
@@ -17,41 +15,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'libre_bodonibold';
-    src: url('other_fonts/librebodoni-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'libre_bodonibold_italic';
-    src: url('other_fonts/librebodoni-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'libre_bodoniitalic';
-    src: url('other_fonts/librebodoni-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'libre_bodoniregular';
-    src: url('other_fonts/librebodoni-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 @font-face {
     font-family: 'Minion Pro';
     src: url('other_fonts/MinionPro-Regular.woff') format('woff');
