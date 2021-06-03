@@ -51,7 +51,7 @@ button{
 
 
 .container-fluid > .row > .col-2{
-    background-image: url("imgs/chanel.jpg");
+    background-image: url("imgs/chanel.jpg"); opacity: 80%;
     opacity: 0,5;
     background-size: 300px 300px;
     background-position:top;
@@ -184,7 +184,12 @@ button{
 }
 
 .btn-secondary {
-    background-color: #81223F;
+    background-color: #ad8c96;
+}
+
+.colonnaottica p {
+    color:#000000 ;
+    font-family: 'sardonyxregular';
 }
 
 /*footer della pagina iniziale*/
