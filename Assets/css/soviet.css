@@ -655,3 +655,15 @@ table caption {
 .highlight{
     background-color: yellow;
 }
+
+#sidebar {
+    background-color: #344c47;
+}
+#dismiss {
+    background-color: #344c47;
+}
+
+#dismiss:hover {
+    background: #ce2927;
+    color: #7386D5;
+}

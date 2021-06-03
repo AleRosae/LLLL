@@ -674,3 +674,7 @@ span.special
 .highlight{
     background-color: yellow;
 }
+
+#dismiss:hover {
+    color: #ceb0e4;
+}
