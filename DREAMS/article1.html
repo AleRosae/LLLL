@@ -101,6 +101,17 @@
 					<td><span class="key" about="sleep">sleep</span></td>
 				</tr>
 			</table>
+			<br>
+        <a id="scrollLink" href="#top1">GO TO THE TOP</a>
+        <br>
 			</div>
 	</body>
+
+	<script>
+		$("a[href='#top1']").click(function() {
+		 $("#article1_box").animate({ scrollTop: 0 }, "slow");
+		 $("html, body").animate({ scrollTop: 0 }, "slow");
+		 return false;
+	  });
+	</script>
 </html>

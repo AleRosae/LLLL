@@ -86,6 +86,17 @@
 		<p>And, who knows, in the process we might unleash our own, hitherto unknown, creativity.</p>
 		<p><i>If you would like to comment on this story or anything else you have seen on <span class="co" about="BBC">BBC</span> Culture, head over to our <a href="https://www.facebook.com/BBCCulture/"><span class="company" about="Facebook">Facebook</span></a> page or message us on <a href="https://twitter.com/bbc_culture"><span class="company" about="Twitter">Twitter</span></a>.</i></p>
 		<p><i>And if you liked this story, <a href="http://pages.emails.bbc.com/subscribe/">sign up for the weekly bbc.com features</a> newsletter, called The Essential List. A handpicked selection of stories from BBC Future, Culture, Worklife and Travel, delivered to your inbox every Friday.</i></p>
+		<br>
+		<a id="scrollLink" href="#top2">GO TO THE TOP</a>
+		<br>
 	</div>
 	</body>
+	<script>
+		$("a[href='#top2']").click(function() {
+		 $("#article2_box").animate({ scrollTop: 0 }, "slow");
+		 $("html, body").animate({ scrollTop: 0 }, "slow");
+		 return false;
+	  });
+	</script>
+
 </html>
