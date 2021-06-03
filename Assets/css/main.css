@@ -30,11 +30,11 @@ html{
     font-style: bold;
      }
 
-.CoverInfo h2 {
+.CoverMain h2 {
     font-size: 1.5em;
 }
 
-.CoverInfo ul {
+.CoverMain ul {
     font-size: 1em;
     list-style: none !important;
 }

@@ -600,15 +600,13 @@ tr {
 }
 
 th {
-    width: 100%;
-    font-size: 1em;
-    border:solid 1px black;
+
+    border:solid 1px white;
 }
 
 td {
-    width: 100%;
-    font-size: 0.6em;
-    border:solid 1px black;
+
+    border:solid 1px white;
 }
 table caption {
     font-size: 0.6em;
