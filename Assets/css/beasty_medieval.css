@@ -192,7 +192,7 @@ footer .col-3{
 }
 
 .container .col-4{
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .container {
@@ -251,26 +251,27 @@ footer .col-3{
     font-family: "MedievalDeco";
     word-wrap: break-word;
     font-weight: 200;
-    color: rgb(77, 56, 56);
+    color: rgb(204, 7, 47);
     text-align: justify;
 }
 
 .ArticleBody{
     columns: 2;
 }
-.ArticleBody div:first-of-type:first-letter{
+/*.ArticleBody div:first-of-type:first-letter{
     font-family: "MedievalDeco";
     font-style: italic;
     font-weight:normal;
     font-size: 3em;
     color: rgb(204, 7, 47);
-}
+}*/
 
 .par:first-of-type::first-letter{
     font-family: "MedievalDeco";
     font-style: italic;
     font-weight: normal;
     font-size: 3em;
+    color:rgb(204, 7, 47) ;
 }
 .container p{
     margin: 0px;
@@ -322,4 +323,23 @@ table {
 
 .colonnaottica p {
     color: rgb(168, 2, 35);
+}
+
+#scrollLink{
+    font-size: 1rem;
+    border: solid 5px gold;
+    border-style:inset;
+    padding: 3%;
+    background-color: inherit;
+    color: rgb(33, 31, 153) ;
+  }
+
+.author{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.date{
+    text-align: center;
 }
