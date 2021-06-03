@@ -249,7 +249,15 @@
         <p class="par" id="20"><span class="pers" about="Michael SA Graziano">Michael SA Graziano</span> is a professor of psychology and
             neuroscience
             at <span class="company" about="Princeton University">Princeton University</span></p>
+
+            <a id="scrollLink" href="#top">CLICK HERE TO SCROLL TO THE TOP</a>
     </div>
 </body>
-
+<script>
+    $("a[href='#top']").click(function() {
+     $("#article2_box").animate({ scrollTop: 0 }, "slow");
+     $("html, body").animate({ scrollTop: 0 }, "slow");
+     return false;
+  });
+</script>
 </html>
