@@ -295,3 +295,8 @@ img {
 .highlight{
     background-color: yellow;
 }
+
+.colonnaottica p {
+    color: rgb(1, 94, 1);
+    font-weight: bolder;
+}
