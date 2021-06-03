@@ -98,7 +98,18 @@
         <h3>Experimental analysis</h3>
         <p>Additional, some specific form of textual analysis for the articles was developed. This account to a single Python script that is able to automatically strip a webpage of all its markup and to perform some very basic sentimental analysis on it. In order to do so, the nltk library was mostly used to tokenize the text and to retrieve the most common words in the text. Finally, the script is able to give to each article a sentimental score divide in three categories: a positive one, a neutral one and a negative one. If you are brave enough, you can browse the Python code on this <a href="https://colab.research.google.com/drive/1RrErgp2bYnPmTMWeHuKAZDgX_0XvjBoK?usp=sharing" target="blank">Colab</a> file.</p>
         <p>For sake of simplicity, and since we do not have priori knowledge of server-based application, the script was run locally and the results stored in .json files which are loaded similarly to the articles metadata.</p>
-
+        <h2>The Articles Markup</h2>
+        <p>The articles are marked up according to the specific requirements of our project work. In a firs phase, we added the basic markup structure (division into paragraphs, sections such as titles, subtitles and more). To this division we added those elements that would serve as the bone structure for the design of the typographic styles. We applied a division, for instance, between the “article head”, composed of the title and subtitle, author, date and eventually a cover image, and the “article body”, where the rest of the article text and subsections can be found. Moreover, we used the attribute class to mark up some elements which would require some particular focus in the design process. For example, the class “drop-cap” was useful in the creation of the 90s style. </p>
+        <p>In a second phase, we added some “semantic” markup, that is fundamental for the implementation of some features such as the metadata function described above. Thanks to the attribute “about”, we were able to extract metadata from the articles. The metadata markup bit is crucially important. We decided to identify five classes of interest: </p>
+        <ol>
+          <li>Companies and Institutions: this class includes universities, research centers, brands, firms, companies and was identified in the markup with the class “company”. </li>
+          <li>People: this class includes every personal name, the markup used is class “pers”.</li>
+          <li>Places, the class value is “pl”. </li>
+          <li>Dates, with the class value “date”. </li>
+          <li>Keywords: these are the words that are deemed the best at representing the theme of the issue and of the article, they were marked with the class “key”</li>
+        </ol>
+        <p>The attribute about, instead, was used to specify the specific entity. So, for example if we find the name “Elon Musk”, we will assign the class “pers”, while the attribute about will have value “Elon Musk”. These two attributes combined allowed a smooth and precise retrieval of metadata. </p>
+        <p>Finally, thanks to the assignment of a unique id to the “h” (h2 and h3 elements) elements, we were able to implement the subtitle finder tool, which allows to retrieve the sectioning of each article and redirect the user to one desired section inside the text. </p>
         <h2>The themes</h2>
           <h3 id="1300">1300 - The Illuminated manuscript era</h3>
           <h4 data-toc-skip>Background</h4>
