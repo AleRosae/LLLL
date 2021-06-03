@@ -1,8 +1,6 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
-
 
 @font-face {
     font-family: 'sardonyxregular';
@@ -18,41 +16,6 @@
 }
 
 @font-face {
-    font-family: 'libre_bodonibold';
-    src: url('other_fonts/librebodoni-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-@font-face {
-    font-family: 'libre_bodonibold_italic';
-    src: url('other_fonts/librebodoni-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'libre_bodoniitalic';
-    src: url('other_fonts/librebodoni-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'libre_bodoniregular';
-    src: url('other_fonts/librebodoni-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
     font-family: 'Minion Pro';
     src: url('other_fonts/MinionPro-Regular.woff') format('woff');
     font-weight: normal;
@@ -63,7 +26,7 @@
 
 /* INDEX */
 body{
-    color: rgb(77, 56, 56);
+    color: rgb(0, 0, 0);
     background-color: #f9f6f0;
     background-repeat:repeat;
     font-family: 'Minion Pro'; 
@@ -73,7 +36,7 @@ body{
 
 /*cose nuove */
 button{
-    background-color: #E4CA96;
+    background-color: #f9f6f0;
     font-family: 'Minion Pro'; 
     font-weight: bold;
     border-radius: 10%;
@@ -174,7 +137,15 @@ button{
 
 /*card nella pagina della issue*/
 .metadatibox > .card >.card-header {
-    height: 14vh;
+    height: 16vh;
+}
+
+.metadatibox > .card >.card-header h5{ 
+    font-family: 'sardonyxregular';
+    color:rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 2em;   
+    text-transform: lowercase;
 }
 
 .card{
@@ -192,6 +163,7 @@ button{
 
 .card a{
     font-family: 'Minion Pro'; 
+    color:#f9f6f0;
 }
 .card > .card-header{
     background-color: #f9f6f0;
@@ -209,6 +181,10 @@ button{
 
 .card > .card-text{
     font-family: 'Minion Pro'; 
+}
+
+.btn-secondary {
+    background-color: #81223F;
 }
 
 /*footer della pagina iniziale*/
@@ -369,15 +345,15 @@ footer .col-3{
 .drop-cap p:first-of-type::first-letter {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 50;
-    font-size: 10em;
+    font-size: 12em;
     color: #DE6449;
     text-transform: lowercase;
     float:left;
-    line-height: 0.4;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 2px;
+    line-height: 0.6;
 }
 
 .ArticleBody p {
