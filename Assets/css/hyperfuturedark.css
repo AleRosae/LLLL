@@ -469,6 +469,14 @@ footer .p-3{
     list-style: none;
 }
 
+.ArticleBody ol {
+    padding: 5px 25px 5px 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 600;
+    list-style: decimal;
+}
+
 .ArticleBody li {
   font-size: 1rem;
   margin-bottom: 15px;
@@ -724,4 +732,12 @@ background-image: linear-gradient(to bottom, #8ed4c0, #78c1b8, #65aeae, #569aa3,
 
 .colonne_variabili::-webkit-scrollbar-thumb:hover {
 background-image: linear-gradient(to bottom, #8ed4c0, #78c1b8, #65aeae, #569aa3, #4b8796);
+}
+
+.table {
+    color: white;
+}
+
+.highlight {
+    color: black;
 }

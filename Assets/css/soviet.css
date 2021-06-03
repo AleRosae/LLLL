@@ -563,6 +563,15 @@ margin-top: -10px;
     font-size: 0.5em;
 }
 
+.ArticleBody ol {
+    color: #212528;
+    font-weight: 150 !important;
+    line-height: 1.5;
+    font-variant: small-caps;
+    font-size: 0.5em;
+}
+
+
 .ArticleBody li {
     list-style: none;
     position: relative;
@@ -571,7 +580,9 @@ margin-top: -10px;
 
 .ArticleBody li:before {
     content: "\25BC \0020";
-    font-size: 10px;
+    font-size: 20px;
+    color: #f1f5dc;
+
 }
 
 .ArticleBody figcaption {
