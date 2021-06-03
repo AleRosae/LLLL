@@ -3,6 +3,8 @@
 
 html{
   font-size: 100%;
+  scroll-padding-top: 90px; 
+
 }
 
 * {
@@ -868,6 +870,7 @@ footer p {
     background: #fff;
     color: #7386D5;
 }
+
 
 .overlay {
     display: none;
