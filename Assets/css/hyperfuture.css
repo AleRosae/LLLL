@@ -678,3 +678,8 @@ span.special
 #dismiss:hover {
     color: #ceb0e4;
 }
+
+#scrollLink {
+        border: solid 2px #008f8c;
+    border-radius: 8px;
+}
