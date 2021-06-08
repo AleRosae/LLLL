@@ -21,7 +21,7 @@ $(document).ready(function () {
       $("#infobox" + obj.articles[i].number + " .card-text").append("<div class=\"card-text\"><p id=\"author\"></p><p id=\"authordescr\"></p><p id=\"date\"></p><p id=\"source\"></p> <p id=\"journal\"></p></div>")
       $("#infobox" + obj.articles[i].number + " #author").text("Author: " + obj.articles[i].author);
       $("#infobox" + obj.articles[i].number + " #authordescr").text("Author description: " + obj.articles[i].authordescription);
-      $("#infobox" + obj.articles[i].number + " #date").text("Date of publication: " + obj.articles[i].date);
+      $("#infobox" + obj.articles[i].number + " #date_article").text("Date of publication: " + obj.articles[i].date_article);
       $("#infobox" + obj.articles[i].number + " #source").append("Original source: \<a href=\"" + obj.articles[i].originalsource + "\"\>Link\</a\>");
       $("#infobox" + obj.articles[i].number + " #journal").text("Journal: " + obj.articles[i].journal);
     }
