@@ -18,7 +18,7 @@ $(document).ready(function () {
   function addArticles(obj) {
     for (i in obj.articles) {
 
-      $("#infobox" + obj.articles[i].number + " .card-text").append("<div class=\"card-text\"><p id=\"author\"></p><p id=\"authordescr\"></p><p id=\"date\"></p><p id=\"source\"></p> <p id=\"journal\"></p></div>")
+      $("#infobox" + obj.articles[i].number + " .card-text").append("<div class=\"card-text\"><p id=\"author\"></p><p id=\"authordescr\"></p><p id=\"date_article\"></p><p id=\"source\"></p> <p id=\"journal\"></p></div>")
       $("#infobox" + obj.articles[i].number + " #author").text("Author: " + obj.articles[i].author);
       $("#infobox" + obj.articles[i].number + " #authordescr").text("Author description: " + obj.articles[i].authordescription);
       $("#infobox" + obj.articles[i].number + " #date_article").text("Date of publication: " + obj.articles[i].date_article);
