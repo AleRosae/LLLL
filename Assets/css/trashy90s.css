@@ -407,3 +407,8 @@ footer .col-3{
 .highlight{
     background-color: yellow;
 }
+
+#scrollLink{
+    font-size: 14px;
+    font: color #5F696D;
+}
