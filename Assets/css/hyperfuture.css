@@ -683,3 +683,32 @@ span.special
         border: solid 2px #008f8c;
     border-radius: 8px;
 }
+
+#modaldisclaimer .modal-content a {
+    color: #9c8ded;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+}
+
+#modaldisclaimer .modal-content a:hover {
+  background-position: 0 100%;
+}
+
+#modaldisclaimer .modal-content ul {
+  list-style: none;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+#modaldisclaimer .modal-content p {
+  padding-left: 20x;
+  padding-right: 20px;
+  font-size: 1rem;
+}

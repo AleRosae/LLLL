@@ -277,7 +277,7 @@ img {
 }
 
 .container li{
-    font-family:'Poppins', sans-serif;;
+    font-family:'Colombia', sans-serif;;
     text-align:justify;
     font-size: small;
     margin: auto;
@@ -316,4 +316,37 @@ table{
     font-size: 2em;
     font-weight: bold;
 
+}
+
+#modaldisclaimer{
+    font-family:"Colombia" ;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #431e15;
+}
+
+#modaldisclaimer .modal-content{
+    background-color: #accaa0;;
+}
+
+#modaldisclaimer .modal-content h5{
+    font-family: "Newsense" ;
+    font-size: 2em;
+    text-align: end;
+    color: #d04f2c;
+    font-weight: bold;
+}
+
+#modaldisclaimer .modal-content a{
+    color:purple ;
+}
+
+#modaldisclaimer .modal-content .btn{
+    font-family: "Colombia";
+    font-weight: bold;
+    color: darkmagenta;
+    border: solid blue green ;
+    border-style: double;
+    border-radius:15px 50px 30px;
+    background-color:rgba(168, 164, 164, 0.836);
 }
