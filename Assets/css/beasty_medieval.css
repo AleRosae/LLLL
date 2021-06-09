@@ -397,7 +397,7 @@ table {
     color: rgba(204, 7, 46, 0.726) ;
 }
 
-.row .gallery img{
+.gallery img{
     filter: none;
     border: none;
 }
