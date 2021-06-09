@@ -49,6 +49,12 @@ body{
     text-align:justify;
 }
 
+.container-fluid > .row > .col-9{
+    background-image: url("imgs/off_white1.jpg");
+    font-family:'Bodoni Moda', serif;
+    font-size: 16px !important;
+    text-align:justify;
+}
 
 .container-fluid > .row > .col-2{
     background-image: url("imgs/victorian_coca_cola_ad.jpg"); opacity: 60%;
