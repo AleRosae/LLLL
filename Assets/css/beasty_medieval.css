@@ -352,6 +352,8 @@ table {
     box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
 
+/*disclaimer */
+
 #modaldisclaimer{
     font-family:"MedievalSharp", cursive;
     font-size: 1.2em;
@@ -381,4 +383,35 @@ table {
     font-weight: bold;
     border-radius: 10%;
     border: solid 4px #b9962e;
+}
+
+/*documentation*/
+
+.col-9 h3{
+    font-family:"MedievalSharp", cursive;
+    font-size: 2em;
+    color: rgb(33, 31, 153); 
+}
+
+.col-9 h2{
+    color: rgba(204, 7, 46, 0.726) ;
+}
+
+.row .gallery img{
+    filter: none;
+    border: none;
+}
+
+.col-sm-3{
+    background-image:url("imgs/side_pic_2.jpg");  
+    background-position:top;
+    background-repeat: repeat;
+}
+
+#toc a{
+    color: white;
+    text-shadow: -1px 0 #FF0000, 0 1px #FF0000, 1px 0 #FF0000, 0 -1px #FF0000;
+    font-weight: 700;
+    z-index: 2;
+
 }
