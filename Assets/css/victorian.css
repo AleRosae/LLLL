@@ -49,12 +49,43 @@ body{
     text-align:justify;
 }
 
-.container-fluid > .row > .col-9{
+.col-9{
     background-image: url("imgs/off_white1.jpg");
     font-family:'Bodoni Moda', serif;
     font-size: 16px !important;
     text-align:justify;
 }
+
+.col-9 h2{
+    font-family:'cloister_blacklight' !important;
+    font-size: 8em;
+}
+
+.col-9 h3{
+ font-family: 'Clarendon';
+}
+
+.col-9 ul{
+    font-family: 'Bodoni Moda', serif;  
+        color: #000000;
+        text-align: justify;
+        font-weight: 200;
+        line-height: 1;
+        font-size: 1em;  
+        list-style: none;
+        } 
+        
+.col-9 li{
+font-family: 'Bodoni Moda', serif;  
+    color: #000000;
+    text-align: justify;
+    font-weight: 200;
+    line-height: 1;
+    font-size: 1em;  
+} 
+
+
+
 
 .container-fluid > .row > .col-2{
     background-image: url("imgs/victorian_coca_cola_ad.jpg"); opacity: 60%;
