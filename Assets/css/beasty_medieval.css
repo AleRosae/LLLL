@@ -351,3 +351,34 @@ table {
     border-bottom-width: 2px;
     box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }
+
+#modaldisclaimer{
+    font-family:"MedievalSharp", cursive;
+    font-size: 1.2em;
+    color: rgb(77, 56, 56);
+}
+
+#modaldisclaimer .modal-content{
+    background-image: url("imgs/old-paper-background-texture-29.jpg");
+}
+#modaldisclaimer .modal-content h5{
+    font-family: "MedievalDeco";
+    text-align: center;
+    color: rgb(204, 7, 47);
+    font-weight: normal;
+    font-size: 1.5em;
+    word-wrap:break-word;
+}
+
+#modaldisclaimer .modal-content a{
+    color: rgb(33, 31, 153);
+    font-weight: bold;
+}
+
+#modaldisclaimer .modal-content .btn{
+    background-color: rgba(204, 7, 46, 0.726);
+    font-family: "MedievalSharp", cursive;
+    font-weight: bold;
+    border-radius: 10%;
+    border: solid 4px #b9962e;
+}
