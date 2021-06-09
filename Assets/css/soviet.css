@@ -672,3 +672,48 @@ table caption {
     font-size: 0.6em !important;
     border: double 3px #f1f5dc;
 }
+
+
+#modaldisclaimer .modal-content {
+    background-color: #ce2927;
+}
+
+
+#modaldisclaimer .modal-header {
+    font-family: 'red_october_stencilregular';
+    font-size: 1em;
+    color: #f1f5dc;
+    font-weight: 700;
+    line-height: 1;
+    background-color: #212528;
+    text-transform: uppercase;
+    text-align: -webkit-center;
+    border-color: #f1f5dc;
+    border-top: double 10px;    
+    border-bottom: double 10px;
+    border-left: double 10px;
+    border-right: double 10px;
+    padding: 8px 20px 8px 20px;
+    word-wrap: break-word;
+}
+#modaldisclaimer .modal-content h5 {
+    font-size: 3rem;
+}
+
+#modaldisclaimer .modal-content p {
+    font-size: 1rem;
+}
+
+#modaldisclaimer .modal-content a {
+    color: #f1f5dc;
+}
+
+#modaldisclaimer .modal-content ul {
+    list-style: none;
+}
+
+#modaldisclaimer .modal-content .btn {
+   background-color: #212529;
+   border-color: #f1f5dc;
+   border-style: double;
+}
