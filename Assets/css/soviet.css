@@ -246,11 +246,11 @@ footer .col-3 {
 
 .colonne_variabili::-webkit-scrollbar-track {
   border-radius: 0;
-  background-color:#212528
+  background-color:#f1f5dc;
 }
  
 .colonne_variabili::-webkit-scrollbar-thumb {
-  background: #f1f5dc; 
+  background: #212528; 
   border-radius: 0;
 }
 
