@@ -137,7 +137,7 @@ $(document).ready(function () {
 
         var rowNum = 0;
         for (i in uniq_2) {
-        $("#elencoNomi2").append("<li >" + "<span active='1' id='element-" + rowNum + "' class='highlight hvr-grow'>" + uniq_2[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
+        $("#elencoNomi2").append("<li>" + "<span active='1' id='element-" + rowNum + "' class='highlight hvr-grow'>" + uniq_2[i] + "</span>" + "</li>" + '<a target="_blank" href="http://en.wikipedia.org/wiki/' + uniq_2[i] + '"> (Wikipedia) </a>');
         rowNum++;
       }
 
@@ -233,6 +233,7 @@ $(document).ready(function () {
       $("#" + meta).attr("active", "0");
       $(".infobox .card-text").empty();
       resetmetadata();
+      $(".ArticleBody").removeHighlight();
     }
   });
 

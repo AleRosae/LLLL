@@ -652,6 +652,11 @@ span.special
     background-color: yellow;
 }
 
+#scrollLink {
+        border: solid 2px #008f8c;
+    border-radius: 8px;
+}
+
 /* Only real difference from normal hteme */
 .ArticleBody {
 background: rgb(52,54,78);

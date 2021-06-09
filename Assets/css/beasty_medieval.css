@@ -258,21 +258,21 @@ footer .col-3{
 .ArticleBody{
     columns: 2;
 }
-/*.ArticleBody div:first-of-type:first-letter{
+.ArticleBody div:first-of-type:first-letter{
     font-family: "MedievalDeco";
     font-style: italic;
     font-weight:normal;
     font-size: 3em;
     color: rgb(204, 7, 47);
-}*/
+}
 
-.par:first-of-type::first-letter{
+/*.par:first-of-type::first-letter{
     font-family: "MedievalDeco";
     font-style: italic;
     font-weight: normal;
     font-size: 3em;
     color:rgb(204, 7, 47) ;
-}
+}*/
 .container p{
     margin: 0px;
     color: rgb(77, 56, 56);
@@ -343,4 +343,11 @@ table {
 
 .date{
     text-align: center;
+}
+
+.table>:not(caption)>*>* {
+    padding: .1rem .0rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 2px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
 }

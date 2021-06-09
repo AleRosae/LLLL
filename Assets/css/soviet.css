@@ -667,3 +667,8 @@ table caption {
     background: #ce2927;
     color: #7386D5;
 }
+
+#scrollLink {
+    font-size: 0.6em !important;
+    border: double 3px #f1f5dc;
+}
