@@ -219,6 +219,29 @@ footer .col-3{
 
 
 
+#modaldisclaimer .modal-content{
+    background-image:url("imgs/off_white1.jpg");
+    font-family: 'Bodoni Moda', serif;
+    font-size: 14px;
+    color:#000000
+
+}
+
+#modaldisclaimer .modal-content h5{
+    font-family: 'Clarendon';
+}
+
+#modaldisclaimer .modal-content button{
+    color: rgb(0, 0, 0);
+    background-image: url("imgs/off_white1.jpg");
+    border-color: rgb(129, 108, 108);
+}
+
+#modaldisclaimer .modal-content a{
+    color: rgb(0, 0, 0);
+}
+
+
 
 
 
