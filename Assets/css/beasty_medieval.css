@@ -402,6 +402,15 @@ table {
     border: none;
 }
 
+.gallery{
+    background-image: url("imgs/old-paper-background-texture-29.jpg");
+    display: block;
+    border-radius: 8px;
+    margin: left 5%;
+    margin: right 10%;;
+    border: 2px solid rgba(185, 111, 41, 0.712);
+}
+
 .col-sm-3{
     background-image:url("imgs/side_pic_2.jpg");  
     background-position:top;
