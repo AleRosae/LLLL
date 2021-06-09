@@ -292,7 +292,7 @@ nav .container-fluid a[href~="index.html"]{
 }
 
 nav[data-toggle="toc"] {
-  top: 10%;
+  top: 15%;
 }
 
 
