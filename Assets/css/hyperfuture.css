@@ -712,3 +712,46 @@ span.special
   padding-right: 20px;
   font-size: 1rem;
 }
+
+.col-9 {
+  background-color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify;
+  line-height: 2;
+}
+
+.col-9 a {
+  color: #9c8ded;
+  overflow: hidden;
+  background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+     } 
+
+.col-9 button {
+    color: #fff;
+    background-image: linear-gradient(to right, #3b244e, #3c3a67, #39517e, #356792, #357ea2);
+    border-color: #ffffff;
+}
+
+.col-9 a:hover {
+  background-position: 0 100%;
+}
+
+
+.col-9 a:visited {
+  color: #b5abe8;
+
+}
+
+.col-9 ul {
+    list-style: none;
+    margin-left: 20px;
+    line-height: 3;
+}

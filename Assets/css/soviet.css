@@ -717,3 +717,70 @@ table caption {
    border-color: #f1f5dc;
    border-style: double;
 }
+
+.col-9 {
+    background-color: #ce2927;
+}
+
+.col-9 a {
+   color: #f1f5dc;
+   text-decoration: none;
+}
+
+.col-9 h2 {
+        font-family: 'red_october_stencilregular';
+    font-size: 4rem;
+    color: #f1f5dc;
+    font-weight: 700;
+    line-height: 1;
+    background-color: #212528;
+    text-transform: uppercase;
+    text-align: -webkit-center;
+    border-color: #f1f5dc;
+    border-top: double 10px;    
+    border-bottom: double 10px;
+    border-left: double 10px;
+    border-right: double 10px;
+    padding: 8px 20px 8px 20px;
+    word-wrap: break-word;
+}
+
+.col-9 h3 {
+        color: #f1f5dc;
+    font-weight: 400;
+    line-height: 0.8;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-size: 3rem;
+    border-color: #f1f5dc;
+    border-top: solid 8px;
+    border-bottom: solid 8px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.col-9 h4 {
+        color: #f1f5dc;
+    font-weight: 400;
+    line-height: 0.8;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    font-size: 2rem;
+    border-color: #f1f5dc;
+    border-top: solid 4px;
+    border-bottom: solid 4px;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-bottom: 25px;
+     }
+
+
+ #toc a {
+    color: #f1f5dc;
+}
+
+#toc {
+    background-color: #212528;
+    border: double 2px #f1f5dc;
+}
