@@ -774,3 +774,13 @@ table caption {
     margin-top: 25px;
     margin-bottom: 25px;
      }
+
+
+ #toc a {
+    color: #f1f5dc;
+}
+
+#toc {
+    background-color: #212528;
+    border: double 2px #f1f5dc;
+}
