@@ -319,6 +319,11 @@ table{
 
 }
 
+#sidebar{
+    background-color: #d9ac36; 
+}
+
+
 /*Disclaimer*/
 
 #modaldisclaimer{
@@ -376,3 +381,14 @@ table{
 .col-9 h4{
     color: green;
 }
+
+.card-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.card-subtitle{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
