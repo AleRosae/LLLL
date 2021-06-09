@@ -32,6 +32,17 @@ button{
     border: solid 4px #b9962e;
 }
 
+.btn-secondary{
+    background-color: rgba(204, 7, 46, 0.726);
+    font-family: "MedievalSharp", cursive;
+    font-weight: bold;
+    border-radius: 10%;
+    border: solid 4px #b9962e;
+}
+
+a{
+    color: rgb(33, 31, 153);
+}
 
 .container-fluid > .row > .col-8{
     background-color: transparent;
