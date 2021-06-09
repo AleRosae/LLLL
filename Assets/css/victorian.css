@@ -46,6 +46,7 @@ body{
     background-image: url("imgs/off_white1.jpg");
     background-color: transparent;
     background-repeat:repeat;
+    text-align:justify;
 }
 
 
@@ -223,6 +224,7 @@ footer .col-3{
     background-image:url("imgs/off_white1.jpg");
     font-family: 'Bodoni Moda', serif;
     font-size: 14px;
+    text-align:justify;
     color:#000000
 
 }

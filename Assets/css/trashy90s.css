@@ -47,6 +47,7 @@ button{
 .container-fluid > .row > .col-8{
     background-color: #f9f6f0;
     background-repeat:repeat;
+    text-align:justify;
 }
 
 
@@ -216,6 +217,7 @@ footer .col-3{
     background-color: rgb(0, 0, 0);
     color:#000000 ;
     font-size: 1em;
+    text-align:justify
 }
 
 .p-3 a{
@@ -226,7 +228,30 @@ footer .col-3{
     background-color: #81223F;
 }
 
+#modaldisclaimer .modal-content{
+    background-image: color #f9f6f0;
+    font-family: 'Minion Pro'; 
+    font-size: 14px;
+    text-align:justify;
+    color:#000000
 
+}
+
+#modaldisclaimer .modal-content h5{
+    font-family: 'ralewaythin'; 
+    color: #81223F;
+    text-transform: uppercase;
+}
+
+#modaldisclaimer .modal-content button{
+    color: rgb(0, 0, 0);
+    background-color:#ad8c96;
+    border-color:#ad8c96;
+}
+
+#modaldisclaimer .modal-content a{
+    color: rgb(0, 0, 0);
+}
 
 
 
