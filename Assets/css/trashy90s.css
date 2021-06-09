@@ -50,31 +50,6 @@ button{
     text-align:justify;
 }
 
-.col-9{
-    background-color:#f9f6f0;
-    font-family:'Minion Pro'; 
-    font-size: 16px;
-    color: #000000;
-    text-align:justify;
-}
-
-.col-9 h2{
-    font-family:'sardonyxregular' !important;
-    font-size: 8em;
-    text-transform: lowercase;
-    color: #000000;
-}
-
-.col-9 h3{
- font-family: 'ralewaythin';
- text-transform: uppercase;
- color: #81223F;
-}
-
-.col-9 h4{
-    font-family: 'Playfair Display', serif;
-    color: #81223F
-}
 
 
 .container-fluid > .row > .col-2{
@@ -462,4 +437,32 @@ footer .col-3{
 #scrollLink{
     font-size: 14px;
     font: color #5F696D;
+}
+
+
+.col-9{
+    background-color:#f9f6f0;
+    font-family:'Minion Pro'; 
+    font-size: 16px;
+    color: #000000;
+    text-align:justify;
+}
+
+.col-9 h2{
+    font-family:'sardonyxregular' !important;
+    font-size: 6em;
+    text-transform: lowercase;
+    color: #000000;
+}
+
+.col-9 h3{
+ font-family: 'ralewaythin';
+ font-size: 20px;
+ text-transform: uppercase;
+ color: #81223F;
+}
+
+.col-9 h4{
+    font-family: 'Playfair Display', serif;
+    color: #81223F
 }
