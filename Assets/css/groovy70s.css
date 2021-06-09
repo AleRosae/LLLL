@@ -279,10 +279,11 @@ img {
 .container li{
     font-family:'Colombia', sans-serif;;
     text-align:justify;
-    font-size: small;
     margin: auto;
     color: #431e15;
     padding: 2mm;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .container figcaption{
@@ -318,6 +319,8 @@ table{
 
 }
 
+/*Disclaimer*/
+
 #modaldisclaimer{
     font-family:"Colombia" ;
     font-size: 1.2em;
@@ -349,4 +352,27 @@ table{
     border-style: double;
     border-radius:15px 50px 30px;
     background-color:rgba(168, 164, 164, 0.836);
+}
+
+/*documentation*/
+
+#toc a{
+    color:#431e15 ;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.col-9 h3{
+    text-align: end;
+    color: green;
+}
+
+.col-9 h2{
+    text-align: end;
+    font-weight: bold;
+    color:#d04f2c ;
+}
+
+.col-9 h4{
+    color: green;
 }
